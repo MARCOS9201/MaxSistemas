@@ -1,0 +1,130 @@
+c:\users\cliente\documents\visual studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe.config
+c:\users\cliente\documents\visual studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe
+c:\users\cliente\documents\visual studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.pdb
+c:\users\cliente\documents\visual studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csprojResolveAssemblyReference.cache
+c:\users\cliente\documents\visual studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaLogin.resources
+c:\users\cliente\documents\visual studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Properties.Resources.resources
+c:\users\cliente\documents\visual studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csproj.GenerateResource.Cache
+c:\users\cliente\documents\visual studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.exe
+c:\users\cliente\documents\visual studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.pdb
+c:\users\cliente\documents\visual studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaPrincipal.resources
+C:\Users\Cliente\Documents\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.FrmCadastroPerfil.resources
+C:\Users\Cliente\Documents\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroAluno.resources
+C:\Users\Cliente\Documents\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroProfessor.resources
+C:\Users\Cliente\Documents\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroMatéria.resources
+C:\Users\Cliente\Documents\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.CadastroFrequência.resources
+C:\Users\Cliente\Documents\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaMatéria.resources
+C:\Users\Cliente\Documents\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaProfessor.resources
+C:\Users\Cliente\Documents\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaAluno.resources
+C:\Users\Cliente\Documents\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmToolsBackup.resources
+C:\Users\Cliente\Documents\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmToolsBackupSRSchool.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe.config
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.exe
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.pdb
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.pdb
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csprojResolveAssemblyReference.cache
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroAluno.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroFrequência.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroMatéria.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroProfessor.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.FrmCadastroPerfil.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaMatéria.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaProfessor.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaAluno.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaLogin.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Properties.Resources.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaPrincipal.resources
+C:\Users\Rosa\Desktop\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csproj.GenerateResource.Cache
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe.config
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.exe
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.pdb
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csprojResolveAssemblyReference.cache
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroAluno.resources
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroFrequência.resources
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroMatéria.resources
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroProfessor.resources
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.FrmCadastroPerfil.resources
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaMatéria.resources
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaProfessor.resources
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaAluno.resources
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaLogin.resources
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Properties.Resources.resources
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaPrincipal.resources
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csproj.GenerateResource.Cache
+C:\Users\Rosa\Desktop\Nova pasta (3)\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.pdb
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe.config
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.exe
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.pdb
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.pdb
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csprojResolveAssemblyReference.cache
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Boletim_Escolar.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroAluno.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroFrequência.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroMatéria.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroProfessor.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.FrmCadastroPerfil.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaMatéria.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaProfessor.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaAluno.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaLogin.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Properties.Resources.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaPrincipal.resources
+C:\Users\Rosa\Documents\Pro inter\Visual Studio 2015\Projects\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csproj.GenerateResource.Cache
+F:\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe.config
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.exe
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.pdb
+F:\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe
+F:\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.pdb
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csprojResolveAssemblyReference.cache
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Boletim_Escolar.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroAluno.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroFrequência.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroMatéria.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroProfessor.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.FrmCadastroPerfil.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaMatéria.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaProfessor.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaAluno.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaLogin.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Properties.Resources.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaPrincipal.resources
+F:\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csproj.GenerateResource.Cache
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe.config
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.exe
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.pdb
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csprojResolveAssemblyReference.cache
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Boletim_Escolar.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroAluno.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroFrequência.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroMatéria.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroProfessor.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.FrmCadastroPerfil.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaMatéria.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaProfessor.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaAluno.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaLogin.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Properties.Resources.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaPrincipal.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csproj.GenerateResource.Cache
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe.config
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.exe
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.pdb
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.pdb
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csprojResolveAssemblyReference.cache
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Boletim_Escolar.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroAluno.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroFrequência.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroMatéria.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroProfessor.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.FrmCadastroPerfil.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaMatéria.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaProfessor.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaAluno.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaLogin.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Properties.Resources.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaPrincipal.resources
+C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csproj.GenerateResource.Cache
