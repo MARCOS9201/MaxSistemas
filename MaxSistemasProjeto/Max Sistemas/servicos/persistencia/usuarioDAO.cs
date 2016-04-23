@@ -1,17 +1,13 @@
 ﻿using Max_Sistemas.regras_de_negocio;
 using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Max_Sistemas.servicos.persistencia
 {
-    class testeDAO{
+    class usuarioDAO{
     MySqlConnection conexaoMySQL = MysqlDAO.getInstancia().getConexao();
-    public void teste(){
+    public void usuario(){
         try 
 	{	    
             MySqlCommand query= new MySqlCommand();
@@ -27,19 +23,17 @@ namespace Max_Sistemas.servicos.persistencia
              MessageBox.Show(u.Nome);
 	}
 
-            
 	}
 	catch (Exception e)
 	{
-        MessageBox.Show(e.Message);
+        MessageBox.Show("Usuário ou senha incorretos");
 		
 	}
         finally{
             conexaoMySQL.Close();
             
         }
-        
-
+      
     }
     }
 }

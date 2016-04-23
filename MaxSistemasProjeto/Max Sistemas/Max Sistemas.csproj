@@ -34,7 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v2.0\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -51,8 +53,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="controller\TratadorMateria.cs" />
-    <Compile Include="controller\TratadorProfessor.cs" />
     <Compile Include="regras_de_negocio\Aluno.cs" />
     <Compile Include="regras_de_negocio\Endereco.cs" />
     <Compile Include="regras_de_negocio\Frequencia.cs" />
@@ -60,11 +60,8 @@
     <Compile Include="regras_de_negocio\Parametrizacao.cs" />
     <Compile Include="regras_de_negocio\Professor.cs" />
     <Compile Include="regras_de_negocio\Usuario.cs" />
-    <Compile Include="servicos\persistencia\EnderecoDAO.cs" />
-    <Compile Include="servicos\persistencia\MateriaDAO.cs" />
     <Compile Include="servicos\persistencia\MysqlDAO.cs" />
-    <Compile Include="servicos\persistencia\ProfessorDAO.cs" />
-    <Compile Include="servicos\persistencia\testeDAO.cs" />
+    <Compile Include="servicos\persistencia\usuarioDAO.cs" />
     <Compile Include="UI\BoletimEscolar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,7 +188,9 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="controller\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

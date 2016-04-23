@@ -26,9 +26,8 @@ namespace Max_Sistemas
         private void btnEntrar_Click(object sender, EventArgs e)
         {
             Hide(); //esconde a tela de menu principal
-            frmTelaPrincipal newForm2 = new frmTelaPrincipal(); //Chama tela de menu principal
-            newForm2.ShowDialog();
-            
+            frmTelaPrincipal teledelogin = new frmTelaPrincipal(); //Chama tela de menu principal
+            teledelogin.ShowDialog();
         }
     }
 }

@@ -27,16 +27,6 @@ namespace Max_Sistemas
             Application.Exit(); //Encerra o menu principal fechando todo o sistema
         }
 
-        private void frmTelaPrincipal_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void calculadoraToolStripMenuItem_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("calc"); //Metodo para chamar a calculadora no menu principal
@@ -85,7 +75,7 @@ namespace Max_Sistemas
 
         private void novoCadastroToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            frmCadastroProfessor ObjfrmTelaPrincipal = new frmCadastroProfessor(0);
+            txtCadProfessorMatriculaCEP ObjfrmTelaPrincipal = new txtCadProfessorMatriculaCEP(0);
             ObjfrmTelaPrincipal.Show();
             Close();
 
@@ -128,14 +118,14 @@ namespace Max_Sistemas
 
         private void editarCadastroToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            frmCadastroProfessor ObjfrmTelaPrincipal = new frmCadastroProfessor(1);
+            txtCadProfessorMatriculaCEP ObjfrmTelaPrincipal = new txtCadProfessorMatriculaCEP(1);
             ObjfrmTelaPrincipal.Show();
             Close();
         }
 
         private void matériaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmPesquisaMatéria objfrmTelaPrincipal = new frmPesquisaMatéria();
+            frmPesquisaMateria objfrmTelaPrincipal = new frmPesquisaMateria();
             objfrmTelaPrincipal.Show();
             Close();
         }
@@ -146,6 +136,25 @@ namespace Max_Sistemas
             objfrmTelaPrincipal.Show();
             Close();
 
+        }
+
+        private void ToolStripCadastroPerfil(object sender, EventArgs e)
+        {
+            FrmCadastroPerfil objfrmTelaPrincipal = new FrmCadastroPerfil();
+            objfrmTelaPrincipal.Show();
+            Hide();
+        }
+
+        private void ToolStripLogoff_Click(object sender, EventArgs e)
+        {
+            frmTelaLogin objfrmTelaPrincipal = new frmTelaLogin();
+            objfrmTelaPrincipal.Show(); ;
+            Close();
+        }
+
+        private void ToolStripSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

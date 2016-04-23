@@ -31,26 +31,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastroMatéria));
             this.tbcCadastroMatéria = new System.Windows.Forms.TabControl();
             this.tbcCadastroMateria = new System.Windows.Forms.TabPage();
-            this.lblCargaHoraria = new System.Windows.Forms.Label();
-            this.picCadastroAluno = new System.Windows.Forms.PictureBox();
-            this.txbNomeMateria = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCancelarCadMat = new System.Windows.Forms.Button();
+            this.lblCadMatCargaHora = new System.Windows.Forms.Label();
+            this.txtCadMatCargaHora = new System.Windows.Forms.TextBox();
+            this.picCadMat = new System.Windows.Forms.PictureBox();
+            this.txtCadMatDataCad = new System.Windows.Forms.TextBox();
+            this.txtCadMatNomeMinistrado = new System.Windows.Forms.TextBox();
+            this.txtCadMatNomeMat = new System.Windows.Forms.TextBox();
+            this.lblCadMatDataCad = new System.Windows.Forms.Label();
+            this.lblCadMatNomeMat = new System.Windows.Forms.Label();
+            this.btnSalvarCadMat = new System.Windows.Forms.Button();
             this.tbcEditarMateria = new System.Windows.Forms.TabPage();
+            this.btnCancelarEdtMat = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnSalvarEdtMat = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -61,12 +55,18 @@
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capturaDeTelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notasAdesivasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmbProfessor = new System.Windows.Forms.ComboBox();
-            this.txbData = new System.Windows.Forms.DateTimePicker();
-            this.txbCargaHoraria = new System.Windows.Forms.MaskedTextBox();
+            this.lblCadMatProfMinistrado = new System.Windows.Forms.Label();
+            this.lblEdtMatCargaHora = new System.Windows.Forms.Label();
+            this.TxtEdtMatCargaHora = new System.Windows.Forms.TextBox();
+            this.TxtEdtMatDataCad = new System.Windows.Forms.TextBox();
+            this.TxtEdtMatNomeMinistrado = new System.Windows.Forms.TextBox();
+            this.txtEdtMatNomeMat = new System.Windows.Forms.TextBox();
+            this.lblEdtMatDataCad = new System.Windows.Forms.Label();
+            this.lblEdtMatProfMinistrado = new System.Windows.Forms.Label();
+            this.lblEdtMatNomeMat = new System.Windows.Forms.Label();
             this.tbcCadastroMatéria.SuspendLayout();
             this.tbcCadastroMateria.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCadastroAluno)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCadMat)).BeginInit();
             this.tbcEditarMateria.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -87,18 +87,17 @@
             // 
             this.tbcCadastroMateria.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbcCadastroMateria.BackgroundImage")));
             this.tbcCadastroMateria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tbcCadastroMateria.Controls.Add(this.txbCargaHoraria);
-            this.tbcCadastroMateria.Controls.Add(this.txbData);
-            this.tbcCadastroMateria.Controls.Add(this.cmbProfessor);
-            this.tbcCadastroMateria.Controls.Add(this.lblCargaHoraria);
-            this.tbcCadastroMateria.Controls.Add(this.picCadastroAluno);
-            this.tbcCadastroMateria.Controls.Add(this.txbNomeMateria);
-            this.tbcCadastroMateria.Controls.Add(this.label3);
-            this.tbcCadastroMateria.Controls.Add(this.label2);
-            this.tbcCadastroMateria.Controls.Add(this.label1);
-            this.tbcCadastroMateria.Controls.Add(this.btnSalvar);
-            this.tbcCadastroMateria.Controls.Add(this.button2);
-            this.tbcCadastroMateria.Controls.Add(this.button1);
+            this.tbcCadastroMateria.Controls.Add(this.btnCancelarCadMat);
+            this.tbcCadastroMateria.Controls.Add(this.lblCadMatCargaHora);
+            this.tbcCadastroMateria.Controls.Add(this.txtCadMatCargaHora);
+            this.tbcCadastroMateria.Controls.Add(this.picCadMat);
+            this.tbcCadastroMateria.Controls.Add(this.txtCadMatDataCad);
+            this.tbcCadastroMateria.Controls.Add(this.txtCadMatNomeMinistrado);
+            this.tbcCadastroMateria.Controls.Add(this.txtCadMatNomeMat);
+            this.tbcCadastroMateria.Controls.Add(this.lblCadMatDataCad);
+            this.tbcCadastroMateria.Controls.Add(this.lblCadMatProfMinistrado);
+            this.tbcCadastroMateria.Controls.Add(this.lblCadMatNomeMat);
+            this.tbcCadastroMateria.Controls.Add(this.btnSalvarCadMat);
             this.tbcCadastroMateria.Location = new System.Drawing.Point(4, 22);
             this.tbcCadastroMateria.Name = "tbcCadastroMateria";
             this.tbcCadastroMateria.Padding = new System.Windows.Forms.Padding(3);
@@ -107,107 +106,115 @@
             this.tbcCadastroMateria.Text = "Cadastro Matéria";
             this.tbcCadastroMateria.UseVisualStyleBackColor = true;
             // 
-            // lblCargaHoraria
+            // btnCancelarCadMat
             // 
-            this.lblCargaHoraria.AutoSize = true;
-            this.lblCargaHoraria.Location = new System.Drawing.Point(195, 172);
-            this.lblCargaHoraria.Name = "lblCargaHoraria";
-            this.lblCargaHoraria.Size = new System.Drawing.Size(75, 13);
-            this.lblCargaHoraria.TabIndex = 46;
-            this.lblCargaHoraria.Text = "Carga Horária:";
+            this.btnCancelarCadMat.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarCadMat.Image")));
+            this.btnCancelarCadMat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelarCadMat.Location = new System.Drawing.Point(6, 138);
+            this.btnCancelarCadMat.Name = "btnCancelarCadMat";
+            this.btnCancelarCadMat.Size = new System.Drawing.Size(99, 82);
+            this.btnCancelarCadMat.TabIndex = 147;
+            this.btnCancelarCadMat.Text = "           Cancelar";
+            this.btnCancelarCadMat.UseVisualStyleBackColor = true;
             // 
-            // picCadastroAluno
+            // lblCadMatCargaHora
             // 
-            this.picCadastroAluno.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picCadastroAluno.BackgroundImage")));
-            this.picCadastroAluno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.picCadastroAluno.Location = new System.Drawing.Point(873, 23);
-            this.picCadastroAluno.Name = "picCadastroAluno";
-            this.picCadastroAluno.Size = new System.Drawing.Size(390, 122);
-            this.picCadastroAluno.TabIndex = 44;
-            this.picCadastroAluno.TabStop = false;
+            this.lblCadMatCargaHora.AutoSize = true;
+            this.lblCadMatCargaHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadMatCargaHora.Location = new System.Drawing.Point(231, 169);
+            this.lblCadMatCargaHora.Name = "lblCadMatCargaHora";
+            this.lblCadMatCargaHora.Size = new System.Drawing.Size(105, 18);
+            this.lblCadMatCargaHora.TabIndex = 46;
+            this.lblCadMatCargaHora.Text = "Carga Horária:";
             // 
-            // txbNomeMateria
+            // txtCadMatCargaHora
             // 
-            this.txbNomeMateria.Location = new System.Drawing.Point(279, 23);
-            this.txbNomeMateria.Name = "txbNomeMateria";
-            this.txbNomeMateria.Size = new System.Drawing.Size(199, 20);
-            this.txbNomeMateria.TabIndex = 41;
+            this.txtCadMatCargaHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadMatCargaHora.Location = new System.Drawing.Point(342, 166);
+            this.txtCadMatCargaHora.Name = "txtCadMatCargaHora";
+            this.txtCadMatCargaHora.Size = new System.Drawing.Size(199, 24);
+            this.txtCadMatCargaHora.TabIndex = 45;
             // 
-            // label3
+            // picCadMat
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(178, 125);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 13);
-            this.label3.TabIndex = 40;
-            this.label3.Text = "Data de cadastro:";
+            this.picCadMat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picCadMat.BackgroundImage")));
+            this.picCadMat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.picCadMat.Location = new System.Drawing.Point(875, 41);
+            this.picCadMat.Name = "picCadMat";
+            this.picCadMat.Size = new System.Drawing.Size(390, 122);
+            this.picCadMat.TabIndex = 44;
+            this.picCadMat.TabStop = false;
             // 
-            // label2
+            // txtCadMatDataCad
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(121, 77);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(149, 13);
-            this.label2.TabIndex = 39;
-            this.label2.Text = "Nome do professor ministrado:";
+            this.txtCadMatDataCad.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadMatDataCad.Location = new System.Drawing.Point(342, 119);
+            this.txtCadMatDataCad.Name = "txtCadMatDataCad";
+            this.txtCadMatDataCad.Size = new System.Drawing.Size(199, 24);
+            this.txtCadMatDataCad.TabIndex = 43;
             // 
-            // label1
+            // txtCadMatNomeMinistrado
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(180, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 13);
-            this.label1.TabIndex = 38;
-            this.label1.Text = "Nome da matéria:";
+            this.txtCadMatNomeMinistrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadMatNomeMinistrado.Location = new System.Drawing.Point(342, 77);
+            this.txtCadMatNomeMinistrado.Name = "txtCadMatNomeMinistrado";
+            this.txtCadMatNomeMinistrado.Size = new System.Drawing.Size(199, 24);
+            this.txtCadMatNomeMinistrado.TabIndex = 42;
             // 
-            // btnSalvar
+            // txtCadMatNomeMat
             // 
-            this.btnSalvar.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvar.Image")));
-            this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvar.Location = new System.Drawing.Point(7, 234);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(99, 82);
-            this.btnSalvar.TabIndex = 37;
-            this.btnSalvar.Text = "        Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = true;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            this.txtCadMatNomeMat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadMatNomeMat.Location = new System.Drawing.Point(342, 26);
+            this.txtCadMatNomeMat.Name = "txtCadMatNomeMat";
+            this.txtCadMatNomeMat.Size = new System.Drawing.Size(199, 24);
+            this.txtCadMatNomeMat.TabIndex = 41;
             // 
-            // button2
+            // lblCadMatDataCad
             // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(6, 125);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 82);
-            this.button2.TabIndex = 36;
-            this.button2.Text = "     Editar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.lblCadMatDataCad.AutoSize = true;
+            this.lblCadMatDataCad.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadMatDataCad.Location = new System.Drawing.Point(210, 125);
+            this.lblCadMatDataCad.Name = "lblCadMatDataCad";
+            this.lblCadMatDataCad.Size = new System.Drawing.Size(125, 18);
+            this.lblCadMatDataCad.TabIndex = 40;
+            this.lblCadMatDataCad.Text = "Data de cadastro:";
             // 
-            // button1
+            // lblCadMatNomeMat
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(6, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 81);
-            this.button1.TabIndex = 35;
-            this.button1.Text = "       Cadastro";
-            this.button1.UseVisualStyleBackColor = true;
+            this.lblCadMatNomeMat.AutoSize = true;
+            this.lblCadMatNomeMat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadMatNomeMat.Location = new System.Drawing.Point(210, 26);
+            this.lblCadMatNomeMat.Name = "lblCadMatNomeMat";
+            this.lblCadMatNomeMat.Size = new System.Drawing.Size(126, 18);
+            this.lblCadMatNomeMat.TabIndex = 38;
+            this.lblCadMatNomeMat.Text = "Nome da matéria:";
+            // 
+            // btnSalvarCadMat
+            // 
+            this.btnSalvarCadMat.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvarCadMat.Image")));
+            this.btnSalvarCadMat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvarCadMat.Location = new System.Drawing.Point(6, 26);
+            this.btnSalvarCadMat.Name = "btnSalvarCadMat";
+            this.btnSalvarCadMat.Size = new System.Drawing.Size(99, 82);
+            this.btnSalvarCadMat.TabIndex = 37;
+            this.btnSalvarCadMat.Text = "        Salvar";
+            this.btnSalvarCadMat.UseVisualStyleBackColor = true;
             // 
             // tbcEditarMateria
             // 
             this.tbcEditarMateria.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbcEditarMateria.BackgroundImage")));
             this.tbcEditarMateria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tbcEditarMateria.Controls.Add(this.lblEdtMatCargaHora);
+            this.tbcEditarMateria.Controls.Add(this.TxtEdtMatCargaHora);
+            this.tbcEditarMateria.Controls.Add(this.TxtEdtMatDataCad);
+            this.tbcEditarMateria.Controls.Add(this.TxtEdtMatNomeMinistrado);
+            this.tbcEditarMateria.Controls.Add(this.txtEdtMatNomeMat);
+            this.tbcEditarMateria.Controls.Add(this.lblEdtMatDataCad);
+            this.tbcEditarMateria.Controls.Add(this.lblEdtMatProfMinistrado);
+            this.tbcEditarMateria.Controls.Add(this.lblEdtMatNomeMat);
+            this.tbcEditarMateria.Controls.Add(this.btnCancelarEdtMat);
             this.tbcEditarMateria.Controls.Add(this.pictureBox1);
-            this.tbcEditarMateria.Controls.Add(this.textBox4);
-            this.tbcEditarMateria.Controls.Add(this.textBox5);
-            this.tbcEditarMateria.Controls.Add(this.textBox6);
-            this.tbcEditarMateria.Controls.Add(this.label4);
-            this.tbcEditarMateria.Controls.Add(this.label5);
-            this.tbcEditarMateria.Controls.Add(this.label6);
-            this.tbcEditarMateria.Controls.Add(this.button4);
-            this.tbcEditarMateria.Controls.Add(this.button5);
-            this.tbcEditarMateria.Controls.Add(this.button6);
+            this.tbcEditarMateria.Controls.Add(this.btnSalvarEdtMat);
             this.tbcEditarMateria.Location = new System.Drawing.Point(4, 22);
             this.tbcEditarMateria.Name = "tbcEditarMateria";
             this.tbcEditarMateria.Padding = new System.Windows.Forms.Padding(3);
@@ -215,6 +222,17 @@
             this.tbcEditarMateria.TabIndex = 1;
             this.tbcEditarMateria.Text = "Editar Matéria";
             this.tbcEditarMateria.UseVisualStyleBackColor = true;
+            // 
+            // btnCancelarEdtMat
+            // 
+            this.btnCancelarEdtMat.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarEdtMat.Image")));
+            this.btnCancelarEdtMat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelarEdtMat.Location = new System.Drawing.Point(6, 140);
+            this.btnCancelarEdtMat.Name = "btnCancelarEdtMat";
+            this.btnCancelarEdtMat.Size = new System.Drawing.Size(99, 82);
+            this.btnCancelarEdtMat.TabIndex = 148;
+            this.btnCancelarEdtMat.Text = "           Cancelar";
+            this.btnCancelarEdtMat.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -226,86 +244,16 @@
             this.pictureBox1.TabIndex = 54;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox4
+            // btnSalvarEdtMat
             // 
-            this.textBox4.Location = new System.Drawing.Point(277, 127);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(199, 20);
-            this.textBox4.TabIndex = 53;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(277, 75);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(199, 20);
-            this.textBox5.TabIndex = 52;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(277, 28);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(199, 20);
-            this.textBox6.TabIndex = 51;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(180, 130);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 13);
-            this.label4.TabIndex = 50;
-            this.label4.Text = "Data de cadastro:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(123, 78);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(149, 13);
-            this.label5.TabIndex = 49;
-            this.label5.Text = "Nome do professor ministrado:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(180, 28);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(90, 13);
-            this.label6.TabIndex = 48;
-            this.label6.Text = "Nome da matéria:";
-            // 
-            // button4
-            // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(7, 239);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(99, 82);
-            this.button4.TabIndex = 47;
-            this.button4.Text = "        Salvar";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(6, 130);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(100, 82);
-            this.button5.TabIndex = 46;
-            this.button5.Text = "     Editar";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(6, 28);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 81);
-            this.button6.TabIndex = 45;
-            this.button6.Text = "       Cadastro";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnSalvarEdtMat.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvarEdtMat.Image")));
+            this.btnSalvarEdtMat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvarEdtMat.Location = new System.Drawing.Point(6, 28);
+            this.btnSalvarEdtMat.Name = "btnSalvarEdtMat";
+            this.btnSalvarEdtMat.Size = new System.Drawing.Size(99, 82);
+            this.btnSalvarEdtMat.TabIndex = 47;
+            this.btnSalvarEdtMat.Text = "        Salvar";
+            this.btnSalvarEdtMat.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -374,48 +322,104 @@
             // 
             this.calculadoraToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("calculadoraToolStripMenuItem.Image")));
             this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.calculadoraToolStripMenuItem.Text = "Calculadora";
             // 
             // capturaDeTelaToolStripMenuItem
             // 
             this.capturaDeTelaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("capturaDeTelaToolStripMenuItem.Image")));
             this.capturaDeTelaToolStripMenuItem.Name = "capturaDeTelaToolStripMenuItem";
-            this.capturaDeTelaToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.capturaDeTelaToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.capturaDeTelaToolStripMenuItem.Text = "Captura de Tela";
             // 
             // notasAdesivasToolStripMenuItem
             // 
             this.notasAdesivasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("notasAdesivasToolStripMenuItem.Image")));
             this.notasAdesivasToolStripMenuItem.Name = "notasAdesivasToolStripMenuItem";
-            this.notasAdesivasToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.notasAdesivasToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.notasAdesivasToolStripMenuItem.Text = "Notas Adesivas";
             // 
-            // cmbProfessor
+            // lblCadMatProfMinistrado
             // 
-            this.cmbProfessor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbProfessor.FormattingEnabled = true;
-            this.cmbProfessor.Location = new System.Drawing.Point(279, 74);
-            this.cmbProfessor.Name = "cmbProfessor";
-            this.cmbProfessor.Size = new System.Drawing.Size(199, 21);
-            this.cmbProfessor.TabIndex = 47;
+            this.lblCadMatProfMinistrado.AutoSize = true;
+            this.lblCadMatProfMinistrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadMatProfMinistrado.Location = new System.Drawing.Point(121, 77);
+            this.lblCadMatProfMinistrado.Name = "lblCadMatProfMinistrado";
+            this.lblCadMatProfMinistrado.Size = new System.Drawing.Size(215, 18);
+            this.lblCadMatProfMinistrado.TabIndex = 39;
+            this.lblCadMatProfMinistrado.Text = "Nome do professor ministrado:";
             // 
-            // txbData
+            // lblEdtMatCargaHora
             // 
-            this.txbData.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.txbData.Location = new System.Drawing.Point(279, 119);
-            this.txbData.Name = "txbData";
-            this.txbData.Size = new System.Drawing.Size(200, 20);
-            this.txbData.TabIndex = 48;
+            this.lblEdtMatCargaHora.AutoSize = true;
+            this.lblEdtMatCargaHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtMatCargaHora.Location = new System.Drawing.Point(231, 171);
+            this.lblEdtMatCargaHora.Name = "lblEdtMatCargaHora";
+            this.lblEdtMatCargaHora.Size = new System.Drawing.Size(105, 18);
+            this.lblEdtMatCargaHora.TabIndex = 156;
+            this.lblEdtMatCargaHora.Text = "Carga Horária:";
             // 
-            // txbCargaHoraria
+            // TxtEdtMatCargaHora
             // 
-            this.txbCargaHoraria.Location = new System.Drawing.Point(280, 169);
-            this.txbCargaHoraria.Mask = "00000";
-            this.txbCargaHoraria.Name = "txbCargaHoraria";
-            this.txbCargaHoraria.Size = new System.Drawing.Size(198, 20);
-            this.txbCargaHoraria.TabIndex = 49;
-            this.txbCargaHoraria.ValidatingType = typeof(int);
+            this.TxtEdtMatCargaHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEdtMatCargaHora.Location = new System.Drawing.Point(342, 168);
+            this.TxtEdtMatCargaHora.Name = "TxtEdtMatCargaHora";
+            this.TxtEdtMatCargaHora.Size = new System.Drawing.Size(199, 24);
+            this.TxtEdtMatCargaHora.TabIndex = 155;
+            // 
+            // TxtEdtMatDataCad
+            // 
+            this.TxtEdtMatDataCad.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEdtMatDataCad.Location = new System.Drawing.Point(342, 121);
+            this.TxtEdtMatDataCad.Name = "TxtEdtMatDataCad";
+            this.TxtEdtMatDataCad.Size = new System.Drawing.Size(199, 24);
+            this.TxtEdtMatDataCad.TabIndex = 154;
+            // 
+            // TxtEdtMatNomeMinistrado
+            // 
+            this.TxtEdtMatNomeMinistrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEdtMatNomeMinistrado.Location = new System.Drawing.Point(342, 79);
+            this.TxtEdtMatNomeMinistrado.Name = "TxtEdtMatNomeMinistrado";
+            this.TxtEdtMatNomeMinistrado.Size = new System.Drawing.Size(199, 24);
+            this.TxtEdtMatNomeMinistrado.TabIndex = 153;
+            // 
+            // txtEdtMatNomeMat
+            // 
+            this.txtEdtMatNomeMat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEdtMatNomeMat.Location = new System.Drawing.Point(342, 28);
+            this.txtEdtMatNomeMat.Name = "txtEdtMatNomeMat";
+            this.txtEdtMatNomeMat.Size = new System.Drawing.Size(199, 24);
+            this.txtEdtMatNomeMat.TabIndex = 152;
+            // 
+            // lblEdtMatDataCad
+            // 
+            this.lblEdtMatDataCad.AutoSize = true;
+            this.lblEdtMatDataCad.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtMatDataCad.Location = new System.Drawing.Point(210, 127);
+            this.lblEdtMatDataCad.Name = "lblEdtMatDataCad";
+            this.lblEdtMatDataCad.Size = new System.Drawing.Size(125, 18);
+            this.lblEdtMatDataCad.TabIndex = 151;
+            this.lblEdtMatDataCad.Text = "Data de cadastro:";
+            // 
+            // lblEdtMatProfMinistrado
+            // 
+            this.lblEdtMatProfMinistrado.AutoSize = true;
+            this.lblEdtMatProfMinistrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtMatProfMinistrado.Location = new System.Drawing.Point(121, 79);
+            this.lblEdtMatProfMinistrado.Name = "lblEdtMatProfMinistrado";
+            this.lblEdtMatProfMinistrado.Size = new System.Drawing.Size(215, 18);
+            this.lblEdtMatProfMinistrado.TabIndex = 150;
+            this.lblEdtMatProfMinistrado.Text = "Nome do professor ministrado:";
+            // 
+            // lblEdtMatNomeMat
+            // 
+            this.lblEdtMatNomeMat.AutoSize = true;
+            this.lblEdtMatNomeMat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtMatNomeMat.Location = new System.Drawing.Point(210, 28);
+            this.lblEdtMatNomeMat.Name = "lblEdtMatNomeMat";
+            this.lblEdtMatNomeMat.Size = new System.Drawing.Size(126, 18);
+            this.lblEdtMatNomeMat.TabIndex = 149;
+            this.lblEdtMatNomeMat.Text = "Nome da matéria:";
             // 
             // frmCadastroMatéria
             // 
@@ -432,7 +436,7 @@
             this.tbcCadastroMatéria.ResumeLayout(false);
             this.tbcCadastroMateria.ResumeLayout(false);
             this.tbcCadastroMateria.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCadastroAluno)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCadMat)).EndInit();
             this.tbcEditarMateria.ResumeLayout(false);
             this.tbcEditarMateria.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -458,28 +462,28 @@
         private System.Windows.Forms.ToolStripMenuItem calculadoraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem capturaDeTelaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem notasAdesivasToolStripMenuItem;
-        private System.Windows.Forms.Button btnSalvar;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txbNomeMateria;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox picCadastroAluno;
+        private System.Windows.Forms.Button btnSalvarCadMat;
+        private System.Windows.Forms.TextBox txtCadMatDataCad;
+        private System.Windows.Forms.TextBox txtCadMatNomeMinistrado;
+        private System.Windows.Forms.TextBox txtCadMatNomeMat;
+        private System.Windows.Forms.Label lblCadMatDataCad;
+        private System.Windows.Forms.Label lblCadMatNomeMat;
+        private System.Windows.Forms.PictureBox picCadMat;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label lblCargaHoraria;
-        private System.Windows.Forms.ComboBox cmbProfessor;
-        private System.Windows.Forms.DateTimePicker txbData;
-        private System.Windows.Forms.MaskedTextBox txbCargaHoraria;
+        private System.Windows.Forms.Label lblCadMatCargaHora;
+        private System.Windows.Forms.TextBox txtCadMatCargaHora;
+        private System.Windows.Forms.Button btnCancelarCadMat;
+        private System.Windows.Forms.Button btnCancelarEdtMat;
+        private System.Windows.Forms.Button btnSalvarEdtMat;
+        private System.Windows.Forms.Label lblCadMatProfMinistrado;
+        private System.Windows.Forms.Label lblEdtMatCargaHora;
+        private System.Windows.Forms.TextBox TxtEdtMatCargaHora;
+        private System.Windows.Forms.TextBox TxtEdtMatDataCad;
+        private System.Windows.Forms.TextBox TxtEdtMatNomeMinistrado;
+        private System.Windows.Forms.TextBox txtEdtMatNomeMat;
+        private System.Windows.Forms.Label lblEdtMatDataCad;
+        private System.Windows.Forms.Label lblEdtMatProfMinistrado;
+        private System.Windows.Forms.Label lblEdtMatNomeMat;
     }
 }

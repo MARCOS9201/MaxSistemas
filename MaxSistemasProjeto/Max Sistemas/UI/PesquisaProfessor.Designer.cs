@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPesquisaProfessor));
-            this.button6 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.BtnPesquisaProfessor = new System.Windows.Forms.Button();
+            this.txtPesquisaMateria = new System.Windows.Forms.TextBox();
+            this.dataGridViewProfessor = new System.Windows.Forms.DataGridView();
             this.Matricula = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Turno = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -39,7 +39,7 @@
             this.Endereço = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TipoEspecialidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MateriaMinistrada = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picPesProfessor = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -51,36 +51,37 @@
             this.capturaDeTelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notasAdesivasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProfessor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPesProfessor)).BeginInit();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button6
+            // BtnPesquisaProfessor
             // 
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(139, 34);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(106, 27);
-            this.button6.TabIndex = 70;
-            this.button6.Text = "       Pesquisa";
-            this.button6.UseVisualStyleBackColor = true;
+            this.BtnPesquisaProfessor.Image = ((System.Drawing.Image)(resources.GetObject("BtnPesquisaProfessor.Image")));
+            this.BtnPesquisaProfessor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnPesquisaProfessor.Location = new System.Drawing.Point(139, 34);
+            this.BtnPesquisaProfessor.Name = "BtnPesquisaProfessor";
+            this.BtnPesquisaProfessor.Size = new System.Drawing.Size(106, 27);
+            this.BtnPesquisaProfessor.TabIndex = 70;
+            this.BtnPesquisaProfessor.Text = "       Pesquisa";
+            this.BtnPesquisaProfessor.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtPesquisaMateria
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(8, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 20);
-            this.textBox1.TabIndex = 69;
+            this.txtPesquisaMateria.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPesquisaMateria.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPesquisaMateria.Location = new System.Drawing.Point(8, 38);
+            this.txtPesquisaMateria.Name = "txtPesquisaMateria";
+            this.txtPesquisaMateria.Size = new System.Drawing.Size(125, 24);
+            this.txtPesquisaMateria.TabIndex = 69;
             // 
-            // dataGridView1
+            // dataGridViewProfessor
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewProfessor.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridViewProfessor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewProfessor.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Matricula,
             this.Nome,
             this.Turno,
@@ -88,11 +89,12 @@
             this.Endereço,
             this.TipoEspecialidade,
             this.MateriaMinistrada});
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.ButtonShadow;
-            this.dataGridView1.Location = new System.Drawing.Point(-3, 64);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1352, 362);
-            this.dataGridView1.TabIndex = 68;
+            this.dataGridViewProfessor.GridColor = System.Drawing.SystemColors.ButtonShadow;
+            this.dataGridViewProfessor.Location = new System.Drawing.Point(7, 64);
+            this.dataGridViewProfessor.Name = "dataGridViewProfessor";
+            this.dataGridViewProfessor.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dataGridViewProfessor.Size = new System.Drawing.Size(1343, 362);
+            this.dataGridViewProfessor.TabIndex = 68;
             // 
             // Matricula
             // 
@@ -134,15 +136,15 @@
             this.MateriaMinistrada.Name = "MateriaMinistrada";
             this.MateriaMinistrada.Width = 200;
             // 
-            // pictureBox1
+            // picPesProfessor
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(551, 432);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(241, 61);
-            this.pictureBox1.TabIndex = 67;
-            this.pictureBox1.TabStop = false;
+            this.picPesProfessor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picPesProfessor.BackgroundImage")));
+            this.picPesProfessor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.picPesProfessor.Location = new System.Drawing.Point(551, 432);
+            this.picPesProfessor.Name = "picPesProfessor";
+            this.picPesProfessor.Size = new System.Drawing.Size(241, 61);
+            this.picPesProfessor.TabIndex = 67;
+            this.picPesProfessor.TabStop = false;
             // 
             // panel1
             // 
@@ -244,16 +246,16 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1362, 733);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.BtnPesquisaProfessor);
+            this.Controls.Add(this.txtPesquisaMateria);
+            this.Controls.Add(this.dataGridViewProfessor);
+            this.Controls.Add(this.picPesProfessor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmPesquisaProfessor";
             this.Text = "Max Sistemas SR School - Pesquisa Professor";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProfessor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPesProfessor)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -265,10 +267,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnPesquisaProfessor;
+        private System.Windows.Forms.TextBox txtPesquisaMateria;
+        private System.Windows.Forms.DataGridView dataGridViewProfessor;
+        private System.Windows.Forms.PictureBox picPesProfessor;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Matricula;

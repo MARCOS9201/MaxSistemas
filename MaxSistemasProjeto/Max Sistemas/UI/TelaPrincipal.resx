@@ -148,7 +148,7 @@
         gJ1aRF81Pf+AqvoCoKogxa+YUHwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="logoffToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ToolStripLogoff.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAe5JREFUWEfF
         VdtRAzEMvBIohQ6gAyjBqQC+mQvwi+8jdJB0QjpIOggdhA5Au5aN70XsOyfsjCZnydLqYTtVKZilNSJr
@@ -162,7 +162,7 @@
         fQnyqqp+AGCBc7j7EuWOAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="sairToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ToolStripSair.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAYpJREFUWEft
         l99NwzAQhzMCIzBCR+gIbIC7QZ/BSH1DOEh0g3YDugFsQEZgg3YDOJ9/JnYau0exwwN80qmNe3++pI0D
@@ -374,7 +374,7 @@
         oAL8N4D0pzKc6eeZAfyRhdMX+GWlE3tBUwAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="PicLogoPrincipal.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAEXCAYAAABbBramAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         xAAADsQBlSsOGwAAAAd0SU1FB98LBgIAK9I/R7kAAIqGSURBVHhe7Z0FYBTH98cvhru7u7u7Q6G4u1Nc

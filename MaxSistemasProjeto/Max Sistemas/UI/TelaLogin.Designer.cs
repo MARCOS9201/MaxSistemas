@@ -34,11 +34,11 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblSejaBemVindo = new System.Windows.Forms.Label();
             this.lblTextoLogin = new System.Windows.Forms.Label();
             this.picTelaLogin = new System.Windows.Forms.PictureBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblVersion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picTelaLogin)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,9 +69,10 @@
             // 
             // txtUsuario
             // 
+            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.Location = new System.Drawing.Point(244, 196);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(183, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(183, 24);
             this.txtUsuario.TabIndex = 2;
             // 
             // lblUsuario
@@ -96,16 +97,16 @@
             this.lblSenha.TabIndex = 5;
             this.lblSenha.Text = "Senha:";
             // 
-            // label1
+            // lblSejaBemVindo
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(160, 47);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 37);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Seja Bem-Vindo ";
+            this.lblSejaBemVindo.AutoSize = true;
+            this.lblSejaBemVindo.BackColor = System.Drawing.Color.Transparent;
+            this.lblSejaBemVindo.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSejaBemVindo.Location = new System.Drawing.Point(160, 47);
+            this.lblSejaBemVindo.Name = "lblSejaBemVindo";
+            this.lblSejaBemVindo.Size = new System.Drawing.Size(256, 37);
+            this.lblSejaBemVindo.TabIndex = 6;
+            this.lblSejaBemVindo.Text = "Seja Bem-Vindo ";
             // 
             // lblTextoLogin
             // 
@@ -129,23 +130,23 @@
             // 
             // txtSenha
             // 
-            this.txtSenha.Font = new System.Drawing.Font("Wingdings", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.txtSenha.Font = new System.Drawing.Font("Wingdings", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.txtSenha.Location = new System.Drawing.Point(244, 268);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = 'l';
-            this.txtSenha.Size = new System.Drawing.Size(183, 20);
+            this.txtSenha.Size = new System.Drawing.Size(183, 24);
             this.txtSenha.TabIndex = 3;
             // 
-            // label2
+            // lblVersion
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(613, 108);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(166, 33);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Versão Alfa 2.0";
+            this.lblVersion.AutoSize = true;
+            this.lblVersion.BackColor = System.Drawing.Color.Transparent;
+            this.lblVersion.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVersion.Location = new System.Drawing.Point(613, 108);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(166, 33);
+            this.lblVersion.TabIndex = 9;
+            this.lblVersion.Text = "Versão Alfa 2.0";
             // 
             // frmTelaLogin
             // 
@@ -154,10 +155,10 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(831, 484);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.picTelaLogin);
             this.Controls.Add(this.lblTextoLogin);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblSejaBemVindo);
             this.Controls.Add(this.lblSenha);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.txtSenha);
@@ -181,11 +182,11 @@
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblSenha;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblSejaBemVindo;
         private System.Windows.Forms.Label lblTextoLogin;
         private System.Windows.Forms.PictureBox picTelaLogin;
         private System.Windows.Forms.TextBox txtSenha;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblVersion;
     }
 }
 

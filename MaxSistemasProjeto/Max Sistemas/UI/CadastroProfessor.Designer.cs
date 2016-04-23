@@ -1,6 +1,6 @@
 ﻿namespace Max_Sistemas
 {
-    partial class frmCadastroProfessor
+    partial class txtCadProfessorMatriculaCEP
     {
         /// <summary>
         /// Required designer variable.
@@ -28,82 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastroProfessor));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(txtCadProfessorMatriculaCEP));
             this.tbcCadastroProfessor = new System.Windows.Forms.TabControl();
             this.tbcCasdastroProfessor = new System.Windows.Forms.TabPage();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.lblAnoLetivo = new System.Windows.Forms.Label();
-            this.cmbSexo = new System.Windows.Forms.ComboBox();
-            this.lblSexo = new System.Windows.Forms.Label();
-            this.picCadastroAluno = new System.Windows.Forms.PictureBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.txtCadProfCep = new System.Windows.Forms.MaskedTextBox();
+            this.txtCadProfComplemento = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.txtCadProfNumero = new System.Windows.Forms.TextBox();
+            this.lblCadProfNumero = new System.Windows.Forms.Label();
+            this.txtCadProfessorLogradouro = new System.Windows.Forms.Label();
+            this.lblCadProfBairro = new System.Windows.Forms.Label();
+            this.txtCadProfBairro = new System.Windows.Forms.TextBox();
+            this.txbCadProfLogradouro = new System.Windows.Forms.TextBox();
+            this.lblCadProfCEP = new System.Windows.Forms.Label();
+            this.txtCadProfessorCep = new System.Windows.Forms.Label();
+            this.cmbCadProfCidade = new System.Windows.Forms.ComboBox();
+            this.cmbCadProfUF = new System.Windows.Forms.ComboBox();
+            this.txtCadProfessorCidade = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label9 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnAdicionarFoto = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.cmbCidade = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblNome = new System.Windows.Forms.Label();
-            this.lblMatricula = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtCadProfAnoLetivo = new System.Windows.Forms.TextBox();
+            this.lblCadProfAnoLetivo = new System.Windows.Forms.Label();
+            this.cmbSexo = new System.Windows.Forms.ComboBox();
+            this.txtCadProfessorSexo = new System.Windows.Forms.Label();
+            this.PicCadAluno = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.lblCadProfFormacao = new System.Windows.Forms.Label();
+            this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.lblCadProfDataInclusao = new System.Windows.Forms.Label();
+            this.cmbProfFormacao = new System.Windows.Forms.ComboBox();
+            this.txtCadProfessorCPF = new System.Windows.Forms.Label();
+            this.txtCadProfessorTelCelular = new System.Windows.Forms.Label();
+            this.txtCadProfessorTelFixo = new System.Windows.Forms.Label();
+            this.txtCadProfessorEmail = new System.Windows.Forms.Label();
+            this.txtCadProfessorIdentidade = new System.Windows.Forms.Label();
+            this.txtCadProfessorNome = new System.Windows.Forms.Label();
+            this.lblCadProfMatricula = new System.Windows.Forms.Label();
+            this.txtCadProfEmail = new System.Windows.Forms.TextBox();
+            this.txtCadProfNome = new System.Windows.Forms.TextBox();
+            this.txtCadProfMatricula = new System.Windows.Forms.TextBox();
             this.tbcEditarCadastroProfessor = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.PicEdtProf = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label14 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.label16 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -114,15 +84,47 @@
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capturaDeTelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notasAdesivasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.txbCep = new System.Windows.Forms.TextBox();
-            this.txbEndereco = new System.Windows.Forms.RichTextBox();
+            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox7 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox9 = new System.Windows.Forms.MaskedTextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblEdtProfComplemento = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lblEdtProfNumero = new System.Windows.Forms.Label();
+            this.lblEdtProfLogradouro = new System.Windows.Forms.Label();
+            this.lblEdtProfBairro = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lblEdtProfCep = new System.Windows.Forms.Label();
+            this.lblEdtProfUF = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.lblEdtProfCidade = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.lblEdtProfAnoLetivo = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.lblEdtProfSexo = new System.Windows.Forms.Label();
+            this.lblEdtProfFormacao = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.lblEdtProfData = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.lblEdtProfCPF = new System.Windows.Forms.Label();
+            this.lblEdtProfTelCel = new System.Windows.Forms.Label();
+            this.lblEdtProfTelFixo = new System.Windows.Forms.Label();
+            this.lblEdtProfEmail = new System.Windows.Forms.Label();
+            this.lblEdtProfIdentidade = new System.Windows.Forms.Label();
+            this.lblEdtProfNome = new System.Windows.Forms.Label();
+            this.lblEdtProfMatricula = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.tbcCadastroProfessor.SuspendLayout();
             this.tbcCasdastroProfessor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCadastroAluno)).BeginInit();
-            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PicCadAluno)).BeginInit();
             this.tbcEditarCadastroProfessor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PicEdtProf)).BeginInit();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -141,43 +143,45 @@
             // 
             this.tbcCasdastroProfessor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbcCasdastroProfessor.BackgroundImage")));
             this.tbcCasdastroProfessor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tbcCasdastroProfessor.Controls.Add(this.txbEndereco);
-            this.tbcCasdastroProfessor.Controls.Add(this.txbCep);
-            this.tbcCasdastroProfessor.Controls.Add(this.textBox15);
-            this.tbcCasdastroProfessor.Controls.Add(this.lblAnoLetivo);
-            this.tbcCasdastroProfessor.Controls.Add(this.cmbSexo);
-            this.tbcCasdastroProfessor.Controls.Add(this.lblSexo);
-            this.tbcCasdastroProfessor.Controls.Add(this.picCadastroAluno);
-            this.tbcCasdastroProfessor.Controls.Add(this.textBox6);
-            this.tbcCasdastroProfessor.Controls.Add(this.button3);
-            this.tbcCasdastroProfessor.Controls.Add(this.button2);
+            this.tbcCasdastroProfessor.Controls.Add(this.maskedTextBox4);
+            this.tbcCasdastroProfessor.Controls.Add(this.maskedTextBox3);
+            this.tbcCasdastroProfessor.Controls.Add(this.maskedTextBox2);
+            this.tbcCasdastroProfessor.Controls.Add(this.maskedTextBox1);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfCep);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfComplemento);
+            this.tbcCasdastroProfessor.Controls.Add(this.label30);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfNumero);
+            this.tbcCasdastroProfessor.Controls.Add(this.lblCadProfNumero);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfessorLogradouro);
+            this.tbcCasdastroProfessor.Controls.Add(this.lblCadProfBairro);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfBairro);
+            this.tbcCasdastroProfessor.Controls.Add(this.txbCadProfLogradouro);
+            this.tbcCasdastroProfessor.Controls.Add(this.lblCadProfCEP);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfessorCep);
+            this.tbcCasdastroProfessor.Controls.Add(this.cmbCadProfCidade);
+            this.tbcCasdastroProfessor.Controls.Add(this.cmbCadProfUF);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfessorCidade);
             this.tbcCasdastroProfessor.Controls.Add(this.button1);
-            this.tbcCasdastroProfessor.Controls.Add(this.label11);
-            this.tbcCasdastroProfessor.Controls.Add(this.comboBox5);
-            this.tbcCasdastroProfessor.Controls.Add(this.label10);
-            this.tbcCasdastroProfessor.Controls.Add(this.comboBox4);
-            this.tbcCasdastroProfessor.Controls.Add(this.dateTimePicker2);
-            this.tbcCasdastroProfessor.Controls.Add(this.label9);
-            this.tbcCasdastroProfessor.Controls.Add(this.groupBox1);
-            this.tbcCasdastroProfessor.Controls.Add(this.label8);
-            this.tbcCasdastroProfessor.Controls.Add(this.comboBox3);
-            this.tbcCasdastroProfessor.Controls.Add(this.label7);
-            this.tbcCasdastroProfessor.Controls.Add(this.textBox7);
-            this.tbcCasdastroProfessor.Controls.Add(this.label6);
-            this.tbcCasdastroProfessor.Controls.Add(this.cmbCidade);
-            this.tbcCasdastroProfessor.Controls.Add(this.comboBox1);
-            this.tbcCasdastroProfessor.Controls.Add(this.label5);
-            this.tbcCasdastroProfessor.Controls.Add(this.label4);
-            this.tbcCasdastroProfessor.Controls.Add(this.label3);
-            this.tbcCasdastroProfessor.Controls.Add(this.label2);
-            this.tbcCasdastroProfessor.Controls.Add(this.label1);
-            this.tbcCasdastroProfessor.Controls.Add(this.lblNome);
-            this.tbcCasdastroProfessor.Controls.Add(this.lblMatricula);
-            this.tbcCasdastroProfessor.Controls.Add(this.textBox8);
-            this.tbcCasdastroProfessor.Controls.Add(this.textBox5);
-            this.tbcCasdastroProfessor.Controls.Add(this.textBox4);
-            this.tbcCasdastroProfessor.Controls.Add(this.textBox3);
-            this.tbcCasdastroProfessor.Controls.Add(this.textBox2);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfAnoLetivo);
+            this.tbcCasdastroProfessor.Controls.Add(this.lblCadProfAnoLetivo);
+            this.tbcCasdastroProfessor.Controls.Add(this.cmbSexo);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfessorSexo);
+            this.tbcCasdastroProfessor.Controls.Add(this.PicCadAluno);
+            this.tbcCasdastroProfessor.Controls.Add(this.button3);
+            this.tbcCasdastroProfessor.Controls.Add(this.lblCadProfFormacao);
+            this.tbcCasdastroProfessor.Controls.Add(this.dateTimePicker);
+            this.tbcCasdastroProfessor.Controls.Add(this.lblCadProfDataInclusao);
+            this.tbcCasdastroProfessor.Controls.Add(this.cmbProfFormacao);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfessorCPF);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfessorTelCelular);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfessorTelFixo);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfessorEmail);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfessorIdentidade);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfessorNome);
+            this.tbcCasdastroProfessor.Controls.Add(this.lblCadProfMatricula);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfEmail);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfNome);
+            this.tbcCasdastroProfessor.Controls.Add(this.txtCadProfMatricula);
             this.tbcCasdastroProfessor.Location = new System.Drawing.Point(4, 22);
             this.tbcCasdastroProfessor.Name = "tbcCasdastroProfessor";
             this.tbcCasdastroProfessor.Padding = new System.Windows.Forms.Padding(3);
@@ -186,272 +190,145 @@
             this.tbcCasdastroProfessor.Text = "Cadastro Professor";
             this.tbcCasdastroProfessor.UseVisualStyleBackColor = true;
             // 
-            // textBox15
+            // maskedTextBox4
             // 
-            this.textBox15.Location = new System.Drawing.Point(987, 201);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(57, 20);
-            this.textBox15.TabIndex = 145;
+            this.maskedTextBox4.Location = new System.Drawing.Point(231, 62);
+            this.maskedTextBox4.Mask = "00,000-000";
+            this.maskedTextBox4.Name = "maskedTextBox4";
+            this.maskedTextBox4.Size = new System.Drawing.Size(117, 20);
+            this.maskedTextBox4.TabIndex = 178;
             // 
-            // lblAnoLetivo
+            // maskedTextBox3
             // 
-            this.lblAnoLetivo.AutoSize = true;
-            this.lblAnoLetivo.BackColor = System.Drawing.Color.Transparent;
-            this.lblAnoLetivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnoLetivo.Location = new System.Drawing.Point(913, 202);
-            this.lblAnoLetivo.Name = "lblAnoLetivo";
-            this.lblAnoLetivo.Size = new System.Drawing.Size(70, 16);
-            this.lblAnoLetivo.TabIndex = 144;
-            this.lblAnoLetivo.Text = "Ano letivo:";
+            this.maskedTextBox3.Location = new System.Drawing.Point(463, 62);
+            this.maskedTextBox3.Mask = "000,000,000-00";
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.Size = new System.Drawing.Size(169, 20);
+            this.maskedTextBox3.TabIndex = 177;
             // 
-            // cmbSexo
+            // maskedTextBox2
             // 
-            this.cmbSexo.FormattingEnabled = true;
-            this.cmbSexo.Items.AddRange(new object[] {
-            "Masculino",
-            "Feminino"});
-            this.cmbSexo.Location = new System.Drawing.Point(723, 68);
-            this.cmbSexo.Name = "cmbSexo";
-            this.cmbSexo.Size = new System.Drawing.Size(184, 21);
-            this.cmbSexo.TabIndex = 143;
+            this.maskedTextBox2.Location = new System.Drawing.Point(463, 102);
+            this.maskedTextBox2.Mask = "(00)000-0000";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(169, 20);
+            this.maskedTextBox2.TabIndex = 176;
             // 
-            // lblSexo
+            // maskedTextBox1
             // 
-            this.lblSexo.AutoSize = true;
-            this.lblSexo.BackColor = System.Drawing.Color.Transparent;
-            this.lblSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSexo.Location = new System.Drawing.Point(662, 70);
-            this.lblSexo.Name = "lblSexo";
-            this.lblSexo.Size = new System.Drawing.Size(39, 16);
-            this.lblSexo.TabIndex = 142;
-            this.lblSexo.Text = "Sexo";
+            this.maskedTextBox1.Location = new System.Drawing.Point(229, 101);
+            this.maskedTextBox1.Mask = "(00)0000-0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(119, 20);
+            this.maskedTextBox1.TabIndex = 175;
             // 
-            // picCadastroAluno
+            // txtCadProfCep
             // 
-            this.picCadastroAluno.BackColor = System.Drawing.Color.Transparent;
-            this.picCadastroAluno.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picCadastroAluno.BackgroundImage")));
-            this.picCadastroAluno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.picCadastroAluno.Location = new System.Drawing.Point(436, 318);
-            this.picCadastroAluno.Name = "picCadastroAluno";
-            this.picCadastroAluno.Size = new System.Drawing.Size(390, 122);
-            this.picCadastroAluno.TabIndex = 141;
-            this.picCadastroAluno.TabStop = false;
+            this.txtCadProfCep.Location = new System.Drawing.Point(230, 140);
+            this.txtCadProfCep.Mask = "00000-000";
+            this.txtCadProfCep.Name = "txtCadProfCep";
+            this.txtCadProfCep.Size = new System.Drawing.Size(118, 20);
+            this.txtCadProfCep.TabIndex = 174;
             // 
-            // textBox6
+            // txtCadProfComplemento
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(463, 105);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(109, 22);
-            this.textBox6.TabIndex = 140;
+            this.txtCadProfComplemento.Location = new System.Drawing.Point(970, 188);
+            this.txtCadProfComplemento.Name = "txtCadProfComplemento";
+            this.txtCadProfComplemento.Size = new System.Drawing.Size(73, 20);
+            this.txtCadProfComplemento.TabIndex = 173;
             // 
-            // button3
+            // label30
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(12, 226);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(99, 82);
-            this.button3.TabIndex = 139;
-            this.button3.Text = "        Salvar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(875, 190);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(95, 16);
+            this.label30.TabIndex = 172;
+            this.label30.Text = "Complemento:";
             // 
-            // button2
+            // txtCadProfNumero
             // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(11, 117);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 82);
-            this.button2.TabIndex = 138;
-            this.button2.Text = "     Editar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.txtCadProfNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfNumero.Location = new System.Drawing.Point(462, 184);
+            this.txtCadProfNumero.Name = "txtCadProfNumero";
+            this.txtCadProfNumero.Size = new System.Drawing.Size(71, 22);
+            this.txtCadProfNumero.TabIndex = 171;
             // 
-            // button1
+            // lblCadProfNumero
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(13, 15);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 81);
-            this.button1.TabIndex = 137;
-            this.button1.Text = "       Cadastro";
-            this.button1.UseVisualStyleBackColor = true;
+            this.lblCadProfNumero.AutoSize = true;
+            this.lblCadProfNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadProfNumero.Location = new System.Drawing.Point(397, 186);
+            this.lblCadProfNumero.Name = "lblCadProfNumero";
+            this.lblCadProfNumero.Size = new System.Drawing.Size(59, 16);
+            this.lblCadProfNumero.TabIndex = 170;
+            this.lblCadProfNumero.Text = "Número:";
             // 
-            // label11
+            // txtCadProfessorLogradouro
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(620, 202);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(99, 16);
-            this.label11.TabIndex = 136;
-            this.label11.Text = "Especialidade:";
+            this.txtCadProfessorLogradouro.AutoSize = true;
+            this.txtCadProfessorLogradouro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfessorLogradouro.Location = new System.Drawing.Point(147, 186);
+            this.txtCadProfessorLogradouro.Name = "txtCadProfessorLogradouro";
+            this.txtCadProfessorLogradouro.Size = new System.Drawing.Size(81, 16);
+            this.txtCadProfessorLogradouro.TabIndex = 169;
+            this.txtCadProfessorLogradouro.Text = "Logradouro:";
             // 
-            // comboBox5
+            // lblCadProfBairro
             // 
-            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "Ensino fundamental ( 5ª a 8 ª)",
-            "Ensino médio ( 1º ao 3º ano)"});
-            this.comboBox5.Location = new System.Drawing.Point(723, 197);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(184, 24);
-            this.comboBox5.TabIndex = 135;
+            this.lblCadProfBairro.AutoSize = true;
+            this.lblCadProfBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadProfBairro.Location = new System.Drawing.Point(669, 189);
+            this.lblCadProfBairro.Name = "lblCadProfBairro";
+            this.lblCadProfBairro.Size = new System.Drawing.Size(47, 16);
+            this.lblCadProfBairro.TabIndex = 168;
+            this.lblCadProfBairro.Text = "Bairro:";
             // 
-            // label10
+            // txtCadProfBairro
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(386, 197);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(73, 16);
-            this.label10.TabIndex = 134;
-            this.label10.Text = "Formação:";
+            this.txtCadProfBairro.Enabled = false;
+            this.txtCadProfBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfBairro.Location = new System.Drawing.Point(722, 186);
+            this.txtCadProfBairro.Name = "txtCadProfBairro";
+            this.txtCadProfBairro.Size = new System.Drawing.Size(147, 22);
+            this.txtCadProfBairro.TabIndex = 167;
             // 
-            // comboBox4
+            // txbCadProfLogradouro
             // 
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "AC",
-            "AL",
-            "AP",
-            "AM",
-            "BA",
-            "CE",
-            "DF",
-            "ES",
-            "GO",
-            "MA",
-            "MT",
-            "MS",
-            "MG",
-            "PA",
-            "PB",
-            "PR",
-            "PE",
-            "PI",
-            "RJ",
-            "RN",
-            "RS",
-            "RO",
-            "RR",
-            "SC",
-            "SP",
-            "SE",
-            "TO"});
-            this.comboBox4.Location = new System.Drawing.Point(462, 147);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(88, 24);
-            this.comboBox4.TabIndex = 133;
+            this.txbCadProfLogradouro.Enabled = false;
+            this.txbCadProfLogradouro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbCadProfLogradouro.Location = new System.Drawing.Point(229, 183);
+            this.txbCadProfLogradouro.Name = "txbCadProfLogradouro";
+            this.txbCadProfLogradouro.Size = new System.Drawing.Size(119, 22);
+            this.txbCadProfLogradouro.TabIndex = 166;
             // 
-            // dateTimePicker2
+            // lblCadProfCEP
             // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(240, 195);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(123, 22);
-            this.dateTimePicker2.TabIndex = 132;
+            this.lblCadProfCEP.AutoSize = true;
+            this.lblCadProfCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadProfCEP.Location = new System.Drawing.Point(186, 141);
+            this.lblCadProfCEP.Name = "lblCadProfCEP";
+            this.lblCadProfCEP.Size = new System.Drawing.Size(38, 16);
+            this.lblCadProfCEP.TabIndex = 165;
+            this.lblCadProfCEP.Text = "CEP:";
             // 
-            // label9
+            // txtCadProfessorCep
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(122, 197);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(112, 16);
-            this.label9.TabIndex = 131;
-            this.label9.Text = "Data de inclusão:";
+            this.txtCadProfessorCep.AutoSize = true;
+            this.txtCadProfessorCep.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfessorCep.Location = new System.Drawing.Point(431, 141);
+            this.txtCadProfessorCep.Name = "txtCadProfessorCep";
+            this.txtCadProfessorCep.Size = new System.Drawing.Size(29, 16);
+            this.txtCadProfessorCep.TabIndex = 164;
+            this.txtCadProfessorCep.Text = "UF:";
             // 
-            // groupBox1
+            // cmbCadProfCidade
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.btnAdicionarFoto);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(1066, 8);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(281, 244);
-            this.groupBox1.TabIndex = 130;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Foto";
-            // 
-            // btnAdicionarFoto
-            // 
-            this.btnAdicionarFoto.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdicionarFoto.Image = ((System.Drawing.Image)(resources.GetObject("btnAdicionarFoto.Image")));
-            this.btnAdicionarFoto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdicionarFoto.Location = new System.Drawing.Point(68, 209);
-            this.btnAdicionarFoto.Name = "btnAdicionarFoto";
-            this.btnAdicionarFoto.Size = new System.Drawing.Size(157, 35);
-            this.btnAdicionarFoto.TabIndex = 24;
-            this.btnAdicionarFoto.Text = "Adicionar";
-            this.btnAdicionarFoto.UseVisualStyleBackColor = false;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(427, 153);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 16);
-            this.label8.TabIndex = 129;
-            this.label8.Text = "UF:";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "1º grau  ",
-            "2º grau",
-            "3º grau"});
-            this.comboBox3.Location = new System.Drawing.Point(462, 194);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 24);
-            this.comboBox3.TabIndex = 128;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(419, 68);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(37, 16);
-            this.label7.TabIndex = 127;
-            this.label7.Text = "CPF:";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(463, 62);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(170, 22);
-            this.textBox7.TabIndex = 126;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(181, 150);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 16);
-            this.label6.TabIndex = 125;
-            this.label6.Text = "Estado:";
-            // 
-            // cmbCidade
-            // 
-            this.cmbCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbCidade.FormattingEnabled = true;
-            this.cmbCidade.Items.AddRange(new object[] {
+            this.cmbCadProfCidade.Enabled = false;
+            this.cmbCadProfCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCadProfCidade.FormattingEnabled = true;
+            this.cmbCadProfCidade.Items.AddRange(new object[] {
             "Alta Floresta D\'Oeste",
             "Alto Alegre dos Parecis",
             "Alto Paraíso",
@@ -2863,16 +2740,17 @@
             "Cataguases",
             "Catas Altas",
             "Catas Altas da Noruega"});
-            this.cmbCidade.Location = new System.Drawing.Point(723, 150);
-            this.cmbCidade.Name = "cmbCidade";
-            this.cmbCidade.Size = new System.Drawing.Size(321, 24);
-            this.cmbCidade.TabIndex = 124;
+            this.cmbCadProfCidade.Location = new System.Drawing.Point(723, 141);
+            this.cmbCadProfCidade.Name = "cmbCadProfCidade";
+            this.cmbCadProfCidade.Size = new System.Drawing.Size(320, 24);
+            this.cmbCadProfCidade.TabIndex = 163;
             // 
-            // comboBox1
+            // cmbCadProfUF
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbCadProfUF.Enabled = false;
+            this.cmbCadProfUF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCadProfUF.FormattingEnabled = true;
+            this.cmbCadProfUF.Items.AddRange(new object[] {
             "Acre",
             "Alagoas",
             "Amapá",
@@ -2900,167 +2778,282 @@
             "São Paulo",
             "Sergipe",
             "Tocantins"});
-            this.comboBox1.Location = new System.Drawing.Point(242, 147);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 123;
+            this.cmbCadProfUF.Location = new System.Drawing.Point(463, 138);
+            this.cmbCadProfUF.Name = "cmbCadProfUF";
+            this.cmbCadProfUF.Size = new System.Drawing.Size(169, 24);
+            this.cmbCadProfUF.TabIndex = 162;
             // 
-            // label5
+            // txtCadProfessorCidade
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(655, 155);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 16);
-            this.label5.TabIndex = 122;
-            this.label5.Text = "Cidade:";
+            this.txtCadProfessorCidade.AutoSize = true;
+            this.txtCadProfessorCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfessorCidade.Location = new System.Drawing.Point(665, 146);
+            this.txtCadProfessorCidade.Name = "txtCadProfessorCidade";
+            this.txtCadProfessorCidade.Size = new System.Drawing.Size(55, 16);
+            this.txtCadProfessorCidade.TabIndex = 161;
+            this.txtCadProfessorCidade.Text = "Cidade:";
             // 
-            // label4
+            // button1
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(354, 108);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 16);
-            this.label4.TabIndex = 121;
-            this.label4.Text = "Telefone Celular:";
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(6, 131);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(99, 82);
+            this.button1.TabIndex = 146;
+            this.button1.Text = "           Cancelar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // txtCadProfAnoLetivo
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(146, 108);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 16);
-            this.label3.TabIndex = 120;
-            this.label3.Text = "Telefone Fixo:";
+            this.txtCadProfAnoLetivo.Location = new System.Drawing.Point(720, 232);
+            this.txtCadProfAnoLetivo.Name = "txtCadProfAnoLetivo";
+            this.txtCadProfAnoLetivo.Size = new System.Drawing.Size(57, 20);
+            this.txtCadProfAnoLetivo.TabIndex = 145;
             // 
-            // label2
+            // lblCadProfAnoLetivo
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(655, 108);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 16);
-            this.label2.TabIndex = 119;
-            this.label2.Text = "Email:";
+            this.lblCadProfAnoLetivo.AutoSize = true;
+            this.lblCadProfAnoLetivo.BackColor = System.Drawing.Color.Transparent;
+            this.lblCadProfAnoLetivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadProfAnoLetivo.Location = new System.Drawing.Point(644, 236);
+            this.lblCadProfAnoLetivo.Name = "lblCadProfAnoLetivo";
+            this.lblCadProfAnoLetivo.Size = new System.Drawing.Size(70, 16);
+            this.lblCadProfAnoLetivo.TabIndex = 144;
+            this.lblCadProfAnoLetivo.Text = "Ano letivo:";
             // 
-            // label1
+            // cmbSexo
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(159, 65);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 16);
-            this.label1.TabIndex = 118;
-            this.label1.Text = "Identidade:";
+            this.cmbSexo.FormattingEnabled = true;
+            this.cmbSexo.Items.AddRange(new object[] {
+            "Masculino",
+            "Feminino"});
+            this.cmbSexo.Location = new System.Drawing.Point(722, 56);
+            this.cmbSexo.Name = "cmbSexo";
+            this.cmbSexo.Size = new System.Drawing.Size(177, 21);
+            this.cmbSexo.TabIndex = 143;
             // 
-            // lblNome
+            // txtCadProfessorSexo
             // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.BackColor = System.Drawing.Color.Transparent;
-            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(412, 21);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(48, 16);
-            this.lblNome.TabIndex = 117;
-            this.lblNome.Text = "Nome:";
+            this.txtCadProfessorSexo.AutoSize = true;
+            this.txtCadProfessorSexo.BackColor = System.Drawing.Color.Transparent;
+            this.txtCadProfessorSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfessorSexo.Location = new System.Drawing.Point(675, 59);
+            this.txtCadProfessorSexo.Name = "txtCadProfessorSexo";
+            this.txtCadProfessorSexo.Size = new System.Drawing.Size(42, 16);
+            this.txtCadProfessorSexo.TabIndex = 142;
+            this.txtCadProfessorSexo.Text = "Sexo:";
             // 
-            // lblMatricula
+            // PicCadAluno
             // 
-            this.lblMatricula.AutoSize = true;
-            this.lblMatricula.BackColor = System.Drawing.Color.Transparent;
-            this.lblMatricula.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMatricula.Location = new System.Drawing.Point(171, 18);
-            this.lblMatricula.Name = "lblMatricula";
-            this.lblMatricula.Size = new System.Drawing.Size(65, 16);
-            this.lblMatricula.TabIndex = 116;
-            this.lblMatricula.Text = "Matricula:";
+            this.PicCadAluno.BackColor = System.Drawing.Color.Transparent;
+            this.PicCadAluno.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PicCadAluno.BackgroundImage")));
+            this.PicCadAluno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PicCadAluno.Location = new System.Drawing.Point(436, 318);
+            this.PicCadAluno.Name = "PicCadAluno";
+            this.PicCadAluno.Size = new System.Drawing.Size(390, 122);
+            this.PicCadAluno.TabIndex = 141;
+            this.PicCadAluno.TabStop = false;
             // 
-            // textBox8
+            // button3
             // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(242, 105);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(109, 22);
-            this.textBox8.TabIndex = 115;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(6, 18);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(99, 82);
+            this.button3.TabIndex = 139;
+            this.button3.Text = "        Salvar";
+            this.button3.UseVisualStyleBackColor = true;
             // 
-            // textBox5
+            // lblCadProfFormacao
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(723, 105);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(321, 22);
-            this.textBox5.TabIndex = 114;
+            this.lblCadProfFormacao.AutoSize = true;
+            this.lblCadProfFormacao.BackColor = System.Drawing.Color.Transparent;
+            this.lblCadProfFormacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadProfFormacao.Location = new System.Drawing.Point(380, 236);
+            this.lblCadProfFormacao.Name = "lblCadProfFormacao";
+            this.lblCadProfFormacao.Size = new System.Drawing.Size(73, 16);
+            this.lblCadProfFormacao.TabIndex = 134;
+            this.lblCadProfFormacao.Text = "Formação:";
             // 
-            // textBox4
+            // dateTimePicker
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(242, 65);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(109, 22);
-            this.textBox4.TabIndex = 113;
+            this.dateTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker.Location = new System.Drawing.Point(229, 233);
+            this.dateTimePicker.Name = "dateTimePicker";
+            this.dateTimePicker.Size = new System.Drawing.Size(119, 22);
+            this.dateTimePicker.TabIndex = 132;
             // 
-            // textBox3
+            // lblCadProfDataInclusao
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(463, 18);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(572, 22);
-            this.textBox3.TabIndex = 112;
+            this.lblCadProfDataInclusao.AutoSize = true;
+            this.lblCadProfDataInclusao.BackColor = System.Drawing.Color.Transparent;
+            this.lblCadProfDataInclusao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadProfDataInclusao.Location = new System.Drawing.Point(109, 236);
+            this.lblCadProfDataInclusao.Name = "lblCadProfDataInclusao";
+            this.lblCadProfDataInclusao.Size = new System.Drawing.Size(112, 16);
+            this.lblCadProfDataInclusao.TabIndex = 131;
+            this.lblCadProfDataInclusao.Text = "Data de inclusão:";
             // 
-            // textBox2
+            // cmbProfFormacao
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(242, 15);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 111;
+            this.cmbProfFormacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbProfFormacao.FormattingEnabled = true;
+            this.cmbProfFormacao.Items.AddRange(new object[] {
+            "1º grau  ",
+            "2º grau",
+            "3º grau"});
+            this.cmbProfFormacao.Location = new System.Drawing.Point(454, 233);
+            this.cmbProfFormacao.Name = "cmbProfFormacao";
+            this.cmbProfFormacao.Size = new System.Drawing.Size(171, 24);
+            this.cmbProfFormacao.TabIndex = 128;
+            // 
+            // txtCadProfessorCPF
+            // 
+            this.txtCadProfessorCPF.AutoSize = true;
+            this.txtCadProfessorCPF.BackColor = System.Drawing.Color.Transparent;
+            this.txtCadProfessorCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfessorCPF.Location = new System.Drawing.Point(419, 62);
+            this.txtCadProfessorCPF.Name = "txtCadProfessorCPF";
+            this.txtCadProfessorCPF.Size = new System.Drawing.Size(37, 16);
+            this.txtCadProfessorCPF.TabIndex = 127;
+            this.txtCadProfessorCPF.Text = "CPF:";
+            // 
+            // txtCadProfessorTelCelular
+            // 
+            this.txtCadProfessorTelCelular.AutoSize = true;
+            this.txtCadProfessorTelCelular.BackColor = System.Drawing.Color.Transparent;
+            this.txtCadProfessorTelCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfessorTelCelular.Location = new System.Drawing.Point(354, 102);
+            this.txtCadProfessorTelCelular.Name = "txtCadProfessorTelCelular";
+            this.txtCadProfessorTelCelular.Size = new System.Drawing.Size(110, 16);
+            this.txtCadProfessorTelCelular.TabIndex = 121;
+            this.txtCadProfessorTelCelular.Text = "Telefone Celular:";
+            // 
+            // txtCadProfessorTelFixo
+            // 
+            this.txtCadProfessorTelFixo.AutoSize = true;
+            this.txtCadProfessorTelFixo.BackColor = System.Drawing.Color.Transparent;
+            this.txtCadProfessorTelFixo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfessorTelFixo.Location = new System.Drawing.Point(135, 102);
+            this.txtCadProfessorTelFixo.Name = "txtCadProfessorTelFixo";
+            this.txtCadProfessorTelFixo.Size = new System.Drawing.Size(93, 16);
+            this.txtCadProfessorTelFixo.TabIndex = 120;
+            this.txtCadProfessorTelFixo.Text = "Telefone Fixo:";
+            // 
+            // txtCadProfessorEmail
+            // 
+            this.txtCadProfessorEmail.AutoSize = true;
+            this.txtCadProfessorEmail.BackColor = System.Drawing.Color.Transparent;
+            this.txtCadProfessorEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfessorEmail.Location = new System.Drawing.Point(675, 105);
+            this.txtCadProfessorEmail.Name = "txtCadProfessorEmail";
+            this.txtCadProfessorEmail.Size = new System.Drawing.Size(45, 16);
+            this.txtCadProfessorEmail.TabIndex = 119;
+            this.txtCadProfessorEmail.Text = "Email:";
+            // 
+            // txtCadProfessorIdentidade
+            // 
+            this.txtCadProfessorIdentidade.AutoSize = true;
+            this.txtCadProfessorIdentidade.BackColor = System.Drawing.Color.Transparent;
+            this.txtCadProfessorIdentidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfessorIdentidade.Location = new System.Drawing.Point(149, 62);
+            this.txtCadProfessorIdentidade.Name = "txtCadProfessorIdentidade";
+            this.txtCadProfessorIdentidade.Size = new System.Drawing.Size(75, 16);
+            this.txtCadProfessorIdentidade.TabIndex = 118;
+            this.txtCadProfessorIdentidade.Text = "Identidade:";
+            // 
+            // txtCadProfessorNome
+            // 
+            this.txtCadProfessorNome.AutoSize = true;
+            this.txtCadProfessorNome.BackColor = System.Drawing.Color.Transparent;
+            this.txtCadProfessorNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfessorNome.Location = new System.Drawing.Point(412, 21);
+            this.txtCadProfessorNome.Name = "txtCadProfessorNome";
+            this.txtCadProfessorNome.Size = new System.Drawing.Size(48, 16);
+            this.txtCadProfessorNome.TabIndex = 117;
+            this.txtCadProfessorNome.Text = "Nome:";
+            // 
+            // lblCadProfMatricula
+            // 
+            this.lblCadProfMatricula.AutoSize = true;
+            this.lblCadProfMatricula.BackColor = System.Drawing.Color.Transparent;
+            this.lblCadProfMatricula.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadProfMatricula.Location = new System.Drawing.Point(156, 21);
+            this.lblCadProfMatricula.Name = "lblCadProfMatricula";
+            this.lblCadProfMatricula.Size = new System.Drawing.Size(65, 16);
+            this.lblCadProfMatricula.TabIndex = 116;
+            this.lblCadProfMatricula.Text = "Matricula:";
+            // 
+            // txtCadProfEmail
+            // 
+            this.txtCadProfEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfEmail.Location = new System.Drawing.Point(722, 102);
+            this.txtCadProfEmail.Name = "txtCadProfEmail";
+            this.txtCadProfEmail.Size = new System.Drawing.Size(321, 22);
+            this.txtCadProfEmail.TabIndex = 114;
+            // 
+            // txtCadProfNome
+            // 
+            this.txtCadProfNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfNome.Location = new System.Drawing.Point(463, 18);
+            this.txtCadProfNome.Name = "txtCadProfNome";
+            this.txtCadProfNome.Size = new System.Drawing.Size(572, 22);
+            this.txtCadProfNome.TabIndex = 112;
+            // 
+            // txtCadProfMatricula
+            // 
+            this.txtCadProfMatricula.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadProfMatricula.Location = new System.Drawing.Point(230, 18);
+            this.txtCadProfMatricula.Name = "txtCadProfMatricula";
+            this.txtCadProfMatricula.Size = new System.Drawing.Size(118, 22);
+            this.txtCadProfMatricula.TabIndex = 111;
             // 
             // tbcEditarCadastroProfessor
             // 
             this.tbcEditarCadastroProfessor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbcEditarCadastroProfessor.BackgroundImage")));
             this.tbcEditarCadastroProfessor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tbcEditarCadastroProfessor.Controls.Add(this.maskedTextBox5);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.maskedTextBox6);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.maskedTextBox7);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.maskedTextBox8);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.maskedTextBox9);
             this.tbcEditarCadastroProfessor.Controls.Add(this.textBox1);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label12);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfComplemento);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox2);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfNumero);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfLogradouro);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfBairro);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox3);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox4);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfCep);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfUF);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.comboBox1);
             this.tbcEditarCadastroProfessor.Controls.Add(this.comboBox2);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label13);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.pictureBox1);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox9);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfCidade);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox5);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfAnoLetivo);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.comboBox3);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfSexo);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfFormacao);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.dateTimePicker2);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfData);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.comboBox4);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfCPF);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfTelCel);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfTelFixo);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfEmail);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfIdentidade);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfNome);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.lblEdtProfMatricula);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox6);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox7);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox8);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.button2);
+            this.tbcEditarCadastroProfessor.Controls.Add(this.PicEdtProf);
             this.tbcEditarCadastroProfessor.Controls.Add(this.button4);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.button5);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.button6);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label14);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.comboBox6);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label15);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.comboBox7);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.dateTimePicker3);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label16);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.groupBox2);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label17);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.comboBox8);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label18);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox10);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label19);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.comboBox9);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.comboBox10);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label20);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label21);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label22);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label23);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label24);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label25);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.label26);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox11);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox12);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox13);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox14);
-            this.tbcEditarCadastroProfessor.Controls.Add(this.textBox16);
             this.tbcEditarCadastroProfessor.Location = new System.Drawing.Point(4, 22);
             this.tbcEditarCadastroProfessor.Name = "tbcEditarCadastroProfessor";
             this.tbcEditarCadastroProfessor.Padding = new System.Windows.Forms.Padding(3);
@@ -3069,2841 +3062,38 @@
             this.tbcEditarCadastroProfessor.Text = "Editar Cadastro Professor";
             this.tbcEditarCadastroProfessor.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // button2
             // 
-            this.textBox1.Location = new System.Drawing.Point(986, 209);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(57, 20);
-            this.textBox1.TabIndex = 180;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(6, 139);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(99, 82);
+            this.button2.TabIndex = 181;
+            this.button2.Text = "           Cancelar";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // label12
+            // PicEdtProf
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(912, 210);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(70, 16);
-            this.label12.TabIndex = 179;
-            this.label12.Text = "Ano letivo:";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Masculino",
-            "Feminino"});
-            this.comboBox2.Location = new System.Drawing.Point(722, 76);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(184, 21);
-            this.comboBox2.TabIndex = 178;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(661, 78);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(39, 16);
-            this.label13.TabIndex = 177;
-            this.label13.Text = "Sexo";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(435, 326);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(390, 122);
-            this.pictureBox1.TabIndex = 176;
-            this.pictureBox1.TabStop = false;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(462, 113);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(109, 22);
-            this.textBox9.TabIndex = 175;
+            this.PicEdtProf.BackColor = System.Drawing.Color.Transparent;
+            this.PicEdtProf.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PicEdtProf.BackgroundImage")));
+            this.PicEdtProf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PicEdtProf.Location = new System.Drawing.Point(435, 326);
+            this.PicEdtProf.Name = "PicEdtProf";
+            this.PicEdtProf.Size = new System.Drawing.Size(390, 122);
+            this.PicEdtProf.TabIndex = 176;
+            this.PicEdtProf.TabStop = false;
             // 
             // button4
             // 
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(11, 234);
+            this.button4.Location = new System.Drawing.Point(6, 24);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(99, 82);
             this.button4.TabIndex = 174;
             this.button4.Text = "        Salvar";
             this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(10, 125);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(100, 82);
-            this.button5.TabIndex = 173;
-            this.button5.Text = "     Editar";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(12, 23);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 81);
-            this.button6.TabIndex = 172;
-            this.button6.Text = "       Cadastro";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(619, 210);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(99, 16);
-            this.label14.TabIndex = 171;
-            this.label14.Text = "Especialidade:";
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "Ensino fundamental ( 5ª a 8 ª)",
-            "Ensino médio ( 1º ao 3º ano)"});
-            this.comboBox6.Location = new System.Drawing.Point(722, 205);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(184, 24);
-            this.comboBox6.TabIndex = 170;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(385, 205);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(73, 16);
-            this.label15.TabIndex = 169;
-            this.label15.Text = "Formação:";
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "AC",
-            "AL",
-            "AP",
-            "AM",
-            "BA",
-            "CE",
-            "DF",
-            "ES",
-            "GO",
-            "MA",
-            "MT",
-            "MS",
-            "MG",
-            "PA",
-            "PB",
-            "PR",
-            "PE",
-            "PI",
-            "RJ",
-            "RN",
-            "RS",
-            "RO",
-            "RR",
-            "SC",
-            "SP",
-            "SE",
-            "TO"});
-            this.comboBox7.Location = new System.Drawing.Point(461, 155);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(88, 24);
-            this.comboBox7.TabIndex = 168;
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker3.Location = new System.Drawing.Point(239, 203);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(123, 22);
-            this.dateTimePicker3.TabIndex = 167;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(121, 205);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(112, 16);
-            this.label16.TabIndex = 166;
-            this.label16.Text = "Data de inclusão:";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.button7);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(1065, 16);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(281, 244);
-            this.groupBox2.TabIndex = 165;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Foto";
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.Transparent;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(68, 209);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(157, 35);
-            this.button7.TabIndex = 24;
-            this.button7.Text = "Adicionar";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(426, 161);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(29, 16);
-            this.label17.TabIndex = 164;
-            this.label17.Text = "UF:";
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "1º grau  ",
-            "2º grau",
-            "3º grau"});
-            this.comboBox8.Location = new System.Drawing.Point(461, 202);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(121, 24);
-            this.comboBox8.TabIndex = 163;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(418, 76);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(37, 16);
-            this.label18.TabIndex = 162;
-            this.label18.Text = "CPF:";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(462, 70);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(170, 22);
-            this.textBox10.TabIndex = 161;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(180, 158);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(54, 16);
-            this.label19.TabIndex = 160;
-            this.label19.Text = "Estado:";
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
-            "Alta Floresta D\'Oeste",
-            "Alto Alegre dos Parecis",
-            "Alto Paraíso",
-            "Alvorada D\'Oeste",
-            "Ariquemes",
-            "Buritis",
-            "Cabixi",
-            "Cacaulândia",
-            "Cacoal",
-            "Campo Novo de Rondônia",
-            "Candeias do Jamari",
-            "Castanheiras",
-            "Cerejeiras",
-            "Chupinguaia",
-            "Colorado do Oeste",
-            "Corumbiara",
-            "Costa Marques",
-            "Cujubim",
-            "Espigão D\'Oeste",
-            "Governador Jorge Teixeira",
-            "Guajará-Mirim",
-            "Itapuã do Oeste",
-            "Jaru",
-            "Ji-Paraná",
-            "Machadinho D\'Oeste",
-            "Ministro Andreazza",
-            "Mirante da Serra",
-            "Monte Negro",
-            "Nova Brasilândia D\'Oeste",
-            "Nova Mamoré",
-            "Nova União",
-            "Novo Horizonte do Oeste",
-            "Ouro Preto do Oeste",
-            "Parecis",
-            "Pimenta Bueno",
-            "Pimenteiras do Oeste",
-            "Porto Velho",
-            "Presidente Médici",
-            "Primavera de Rondônia",
-            "Rio Crespo",
-            "Rolim de Moura",
-            "Santa Luzia D\'Oeste",
-            "São Felipe D\'Oeste",
-            "São Francisco do Guaporé",
-            "São Miguel do Guaporé",
-            "Seringueiras",
-            "Teixeirópolis",
-            "Theobroma",
-            "Urupá",
-            "Vale do Anari",
-            "Vale do Paraíso",
-            "Vilhena",
-            "Acrelândia",
-            "Assis Brasil",
-            "Brasiléia",
-            "Bujari",
-            "Capixaba",
-            "Cruzeiro do Sul",
-            "Epitaciolândia",
-            "Feijó",
-            "Jordão",
-            "Mâncio Lima",
-            "Manoel Urbano",
-            "Marechal Thaumaturgo",
-            "Plácido de Castro",
-            "Porto Acre",
-            "Porto Walter",
-            "Rio Branco",
-            "Rodrigues Alves",
-            "Santa Rosa do Purus",
-            "Sena Madureira",
-            "Senador Guiomard",
-            "Tarauacá",
-            "Xapuri",
-            "Alvarães",
-            "Amaturá",
-            "Anamã",
-            "Anori",
-            "Apuí",
-            "Atalaia do Norte",
-            "Autazes",
-            "Barcelos",
-            "Barreirinha",
-            "Benjamin Constant",
-            "Beruri",
-            "Boa Vista do Ramos",
-            "Boca do Acre",
-            "Borba",
-            "Caapiranga",
-            "Canutama",
-            "Carauari",
-            "Careiro",
-            "Careiro da Várzea",
-            "Coari",
-            "Codajás",
-            "Eirunepé",
-            "Envira",
-            "Fonte Boa",
-            "Guajará",
-            "Humaitá",
-            "Ipixuna",
-            "Iranduba",
-            "Itacoatiara",
-            "Itamarati",
-            "Itapiranga",
-            "Japurá",
-            "Juruá",
-            "Jutaí",
-            "Lábrea",
-            "Manacapuru",
-            "Manaquiri",
-            "Manaus",
-            "Manicoré",
-            "Maraã",
-            "Maués",
-            "Nhamundá",
-            "Nova Olinda do Norte",
-            "Novo Airão",
-            "Novo Aripuanã",
-            "Parintins",
-            "Pauini",
-            "Presidente Figueiredo",
-            "Rio Preto da Eva",
-            "Santa Isabel do Rio Negro",
-            "Santo Antônio do Içá",
-            "São Gabriel da Cachoeira",
-            "São Paulo de Olivença",
-            "São Sebastião do Uatumã",
-            "Silves",
-            "Tabatinga",
-            "Tapauá",
-            "Tefé",
-            "Tonantins",
-            "Uarini",
-            "Urucará",
-            "Urucurituba",
-            "Alto Alegre",
-            "Amajari",
-            "Boa Vista",
-            "Bonfim",
-            "Cantá",
-            "Caracaraí",
-            "Caroebe",
-            "Iracema",
-            "Mucajaí",
-            "Normandia",
-            "Pacaraima",
-            "Rorainópolis",
-            "São João da Baliza",
-            "São Luiz",
-            "Uiramutã",
-            "Abaetetuba",
-            "Abel Figueiredo",
-            "Acará",
-            "Afuá",
-            "Água Azul do Norte",
-            "Alenquer",
-            "Almeirim",
-            "Altamira",
-            "Anajás",
-            "Ananindeua",
-            "Anapu",
-            "Augusto Corrêa",
-            "Aurora do Pará",
-            "Aveiro",
-            "Bagre",
-            "Baião",
-            "Bannach",
-            "Barcarena",
-            "Belém",
-            "Belterra",
-            "Benevides",
-            "Bom Jesus do Tocantins",
-            "Bonito",
-            "Bragança",
-            "Brasil Novo",
-            "Brejo Grande do Araguaia",
-            "Breu Branco",
-            "Breves",
-            "Bujaru",
-            "Cachoeira do Arari",
-            "Cachoeira do Piriá",
-            "Cametá",
-            "Canaã dos Carajás",
-            "Capanema",
-            "Capitão Poço",
-            "Castanhal",
-            "Chaves",
-            "Colares",
-            "Conceição do Araguaia",
-            "Concórdia do Pará",
-            "Cumaru do Norte",
-            "Curionópolis",
-            "Curralinho",
-            "Curuá",
-            "Curuçá",
-            "Dom Eliseu",
-            "Eldorado dos Carajás",
-            "Faro",
-            "Floresta do Araguaia",
-            "Garrafão do Norte",
-            "Goianésia do Pará",
-            "Gurupá",
-            "Igarapé-Açu",
-            "Igarapé-Miri",
-            "Inhangapi",
-            "Ipixuna do Pará",
-            "Irituia",
-            "Itaituba",
-            "Itupiranga",
-            "Jacareacanga",
-            "Jacundá",
-            "Juruti",
-            "Limoeiro do Ajuru",
-            "Mãe do Rio",
-            "Magalhães Barata",
-            "Marabá",
-            "Maracanã",
-            "Marapanim",
-            "Marituba",
-            "Medicilândia",
-            "Melgaço",
-            "Mocajuba",
-            "Moju",
-            "Monte Alegre",
-            "Muaná",
-            "Nova Esperança do Piriá",
-            "Nova Ipixuna",
-            "Nova Timboteua",
-            "Novo Progresso",
-            "Novo Repartimento",
-            "Óbidos",
-            "Oeiras do Pará",
-            "Oriximiná",
-            "Ourém",
-            "Ourilândia do Norte",
-            "Pacajá",
-            "Palestina do Pará",
-            "Paragominas",
-            "Parauapebas",
-            "Pau D\'Arco",
-            "Peixe-Boi",
-            "Piçarra",
-            "Placas",
-            "Ponta de Pedras",
-            "Portel",
-            "Porto de Moz",
-            "Prainha",
-            "Primavera",
-            "Quatipuru",
-            "Redenção",
-            "Rio Maria",
-            "Rondon do Pará",
-            "Rurópolis",
-            "Salinópolis",
-            "Salvaterra",
-            "Santa Bárbara do Pará",
-            "Santa Cruz do Arari",
-            "Santa Isabel do Pará",
-            "Santa Luzia do Pará",
-            "Santa Maria das Barreiras",
-            "Santa Maria do Pará",
-            "Santana do Araguaia",
-            "Santarém",
-            "Santarém Novo",
-            "Santo Antônio do Tauá",
-            "São Caetano de Odivelas",
-            "São Domingos do Araguaia",
-            "São Domingos do Capim",
-            "São Félix do Xingu",
-            "São Francisco do Pará",
-            "São Geraldo do Araguaia",
-            "São João da Ponta",
-            "São João de Pirabas",
-            "São João do Araguaia",
-            "São Miguel do Guamá",
-            "São Sebastião da Boa Vista",
-            "Sapucaia",
-            "Senador José Porfírio",
-            "Soure",
-            "Tailândia",
-            "Terra Alta",
-            "Terra Santa",
-            "Tomé-Açu",
-            "Tracuateua",
-            "Trairão",
-            "Tucumã",
-            "Tucuruí",
-            "Ulianópolis",
-            "Uruará",
-            "Vigia",
-            "Viseu",
-            "Vitória do Xingu",
-            "Xinguara",
-            "Amapá",
-            "Calçoene",
-            "Cutias",
-            "Ferreira Gomes",
-            "Itaubal",
-            "Laranjal do Jari",
-            "Macapá",
-            "Mazagão",
-            "Oiapoque",
-            "Pedra Branca do Amapari",
-            "Porto Grande",
-            "Pracuúba",
-            "Santana",
-            "Serra do Navio",
-            "Tartarugalzinho",
-            "Vitória do Jari",
-            "Abreulândia",
-            "Aguiarnópolis",
-            "Aliança do Tocantins",
-            "Almas",
-            "Alvorada",
-            "Ananás",
-            "Angico",
-            "Aparecida do Rio Negro",
-            "Aragominas",
-            "Araguacema",
-            "Araguaçu",
-            "Araguaína",
-            "Araguanã",
-            "Araguatins",
-            "Arapoema",
-            "Arraias",
-            "Augustinópolis",
-            "Aurora do Tocantins",
-            "Axixá do Tocantins",
-            "Babaçulândia",
-            "Bandeirantes do Tocantins",
-            "Barra do Ouro",
-            "Barrolândia",
-            "Bernardo Sayão",
-            "Bom Jesus do Tocantins",
-            "Brasilândia do Tocantins",
-            "Brejinho de Nazaré",
-            "Buriti do Tocantins",
-            "Cachoeirinha",
-            "Campos Lindos",
-            "Cariri do Tocantins",
-            "Carmolândia",
-            "Carrasco Bonito",
-            "Caseara",
-            "Centenário",
-            "Chapada da Natividade",
-            "Chapada de Areia",
-            "Colinas do Tocantins",
-            "Colméia",
-            "Combinado",
-            "Conceição do Tocantins",
-            "Couto Magalhães",
-            "Cristalândia",
-            "Crixás do Tocantins",
-            "Darcinópolis",
-            "Dianópolis",
-            "Divinópolis do Tocantins",
-            "Dois Irmãos do Tocantins",
-            "Dueré",
-            "Esperantina",
-            "Fátima",
-            "Figueirópolis",
-            "Filadélfia",
-            "Formoso do Araguaia",
-            "Fortaleza do Tabocão",
-            "Goianorte",
-            "Goiatins",
-            "Guaraí",
-            "Gurupi",
-            "Ipueiras",
-            "Itacajá",
-            "Itaguatins",
-            "Itapiratins",
-            "Itaporã do Tocantins",
-            "Jaú do Tocantins",
-            "Juarina",
-            "Lagoa da Confusão",
-            "Lagoa do Tocantins",
-            "Lajeado",
-            "Lavandeira",
-            "Lizarda",
-            "Luzinópolis",
-            "Marianópolis do Tocantins",
-            "Mateiros",
-            "Maurilândia do Tocantins",
-            "Miracema do Tocantins",
-            "Miranorte",
-            "Monte do Carmo",
-            "Monte Santo do Tocantins",
-            "Muricilândia",
-            "Natividade",
-            "Nazaré",
-            "Nova Olinda",
-            "Nova Rosalândia",
-            "Novo Acordo",
-            "Novo Alegre",
-            "Novo Jardim",
-            "Oliveira de Fátima",
-            "Palmas",
-            "Palmeirante",
-            "Palmeiras do Tocantins",
-            "Palmeirópolis",
-            "Paraíso do Tocantins",
-            "Paranã",
-            "Pau D\'Arco",
-            "Pedro Afonso",
-            "Peixe",
-            "Pequizeiro",
-            "Pindorama do Tocantins",
-            "Piraquê",
-            "Pium",
-            "Ponte Alta do Bom Jesus",
-            "Ponte Alta do Tocantins",
-            "Porto Alegre do Tocantins",
-            "Porto Nacional",
-            "Praia Norte",
-            "Presidente Kennedy",
-            "Pugmil",
-            "Recursolândia",
-            "Riachinho",
-            "Rio da Conceição",
-            "Rio dos Bois",
-            "Rio Sono",
-            "Sampaio",
-            "Sandolândia",
-            "Santa Fé do Araguaia",
-            "Santa Maria do Tocantins",
-            "Santa Rita do Tocantins",
-            "Santa Rosa do Tocantins",
-            "Santa Tereza do Tocantins",
-            "Santa Terezinha do Tocantins",
-            "São Bento do Tocantins",
-            "São Félix do Tocantins",
-            "São Miguel do Tocantins",
-            "São Salvador do Tocantins",
-            "São Sebastião do Tocantins",
-            "São Valério",
-            "Silvanópolis",
-            "Sítio Novo do Tocantins",
-            "Sucupira",
-            "Taguatinga",
-            "Taipas do Tocantins",
-            "Talismã",
-            "Tocantínia",
-            "Tocantinópolis",
-            "Tupirama",
-            "Tupiratins",
-            "Wanderlândia",
-            "Xambioá",
-            "Açailândia",
-            "Afonso Cunha",
-            "Água Doce do Maranhão",
-            "Alcântara",
-            "Aldeias Altas",
-            "Altamira do Maranhão",
-            "Alto Alegre do Maranhão",
-            "Alto Alegre do Pindaré",
-            "Alto Parnaíba",
-            "Amapá do Maranhão",
-            "Amarante do Maranhão",
-            "Anajatuba",
-            "Anapurus",
-            "Apicum-Açu",
-            "Araguanã",
-            "Araioses",
-            "Arame",
-            "Arari",
-            "Axixá",
-            "Bacabal",
-            "Bacabeira",
-            "Bacuri",
-            "Bacurituba",
-            "Balsas",
-            "Barão de Grajaú",
-            "Barra do Corda",
-            "Barreirinhas",
-            "Bela Vista do Maranhão",
-            "Belágua",
-            "Benedito Leite",
-            "Bequimão",
-            "Bernardo do Mearim",
-            "Boa Vista do Gurupi",
-            "Bom Jardim",
-            "Bom Jesus das Selvas",
-            "Bom Lugar",
-            "Brejo",
-            "Brejo de Areia",
-            "Buriti",
-            "Buriti Bravo",
-            "Buriticupu",
-            "Buritirana",
-            "Cachoeira Grande",
-            "Cajapió",
-            "Cajari",
-            "Campestre do Maranhão",
-            "Cândido Mendes",
-            "Cantanhede",
-            "Capinzal do Norte",
-            "Carolina",
-            "Carutapera",
-            "Caxias",
-            "Cedral",
-            "Central do Maranhão",
-            "Centro do Guilherme",
-            "Centro Novo do Maranhão",
-            "Chapadinha",
-            "Cidelândia",
-            "Codó",
-            "Coelho Neto",
-            "Colinas",
-            "Conceição do Lago-Açu",
-            "Coroatá",
-            "Cururupu",
-            "Davinópolis",
-            "Dom Pedro",
-            "Duque Bacelar",
-            "Esperantinópolis",
-            "Estreito",
-            "Feira Nova do Maranhão",
-            "Fernando Falcão",
-            "Formosa da Serra Negra",
-            "Fortaleza dos Nogueiras",
-            "Fortuna",
-            "Godofredo Viana",
-            "Gonçalves Dias",
-            "Governador Archer",
-            "Governador Edison Lobão",
-            "Governador Eugênio Barros",
-            "Governador Luiz Rocha",
-            "Governador Newton Bello",
-            "Governador Nunes Freire",
-            "Graça Aranha",
-            "Grajaú",
-            "Guimarães",
-            "Humberto de Campos",
-            "Icatu",
-            "Igarapé do Meio",
-            "Igarapé Grande",
-            "Imperatriz",
-            "Itaipava do Grajaú",
-            "Itapecuru Mirim",
-            "Itinga do Maranhão",
-            "Jatobá",
-            "Jenipapo dos Vieiras",
-            "João Lisboa",
-            "Joselândia",
-            "Junco do Maranhão",
-            "Lago da Pedra",
-            "Lago do Junco",
-            "Lago dos Rodrigues",
-            "Lago Verde",
-            "Lagoa do Mato",
-            "Lagoa Grande do Maranhão",
-            "Lajeado Novo",
-            "Lima Campos",
-            "Loreto",
-            "Luís Domingues",
-            "Magalhães de Almeida",
-            "Maracaçumé",
-            "Marajá do Sena",
-            "Maranhãozinho",
-            "Mata Roma",
-            "Matinha",
-            "Matões",
-            "Matões do Norte",
-            "Milagres do Maranhão",
-            "Mirador",
-            "Miranda do Norte",
-            "Mirinzal",
-            "Monção",
-            "Montes Altos",
-            "Morros",
-            "Nina Rodrigues",
-            "Nova Colinas",
-            "Nova Iorque",
-            "Nova Olinda do Maranhão",
-            "Olho d\'Água das Cunhãs",
-            "Olinda Nova do Maranhão",
-            "Paço do Lumiar",
-            "Palmeirândia",
-            "Paraibano",
-            "Parnarama",
-            "Passagem Franca",
-            "Pastos Bons",
-            "Paulino Neves",
-            "Paulo Ramos",
-            "Pedreiras",
-            "Pedro do Rosário",
-            "Penalva",
-            "Peri Mirim",
-            "Peritoró",
-            "Pindaré-Mirim",
-            "Pinheiro",
-            "Pio XII",
-            "Pirapemas",
-            "Poção de Pedras",
-            "Porto Franco",
-            "Porto Rico do Maranhão",
-            "Presidente Dutra",
-            "Presidente Juscelino",
-            "Presidente Médici",
-            "Presidente Sarney",
-            "Presidente Vargas",
-            "Primeira Cruz",
-            "Raposa",
-            "Riachão",
-            "Ribamar Fiquene",
-            "Rosário",
-            "Sambaíba",
-            "Santa Filomena do Maranhão",
-            "Santa Helena",
-            "Santa Inês",
-            "Santa Luzia",
-            "Santa Luzia do Paruá",
-            "Santa Quitéria do Maranhão",
-            "Santa Rita",
-            "Santana do Maranhão",
-            "Santo Amaro do Maranhão",
-            "Santo Antônio dos Lopes",
-            "São Benedito do Rio Preto",
-            "São Bento",
-            "São Bernardo",
-            "São Domingos do Azeitão",
-            "São Domingos do Maranhão",
-            "São Félix de Balsas",
-            "São Francisco do Brejão",
-            "São Francisco do Maranhão",
-            "São João Batista",
-            "São João do Carú",
-            "São João do Paraíso",
-            "São João do Soter",
-            "São João dos Patos",
-            "São José de Ribamar",
-            "São José dos Basílios",
-            "São Luís",
-            "São Luís Gonzaga do Maranhão",
-            "São Mateus do Maranhão",
-            "São Pedro da Água Branca",
-            "São Pedro dos Crentes",
-            "São Raimundo das Mangabeiras",
-            "São Raimundo do Doca Bezerra",
-            "São Roberto",
-            "São Vicente Ferrer",
-            "Satubinha",
-            "Senador Alexandre Costa",
-            "Senador La Rocque",
-            "Serrano do Maranhão",
-            "Sítio Novo",
-            "Sucupira do Norte",
-            "Sucupira do Riachão",
-            "Tasso Fragoso",
-            "Timbiras",
-            "Timon",
-            "Trizidela do Vale",
-            "Tufilândia",
-            "Tuntum",
-            "Turiaçu",
-            "Turilândia",
-            "Tutóia",
-            "Urbano Santos",
-            "Vargem Grande",
-            "Viana",
-            "Vila Nova dos Martírios",
-            "Vitória do Mearim",
-            "Vitorino Freire",
-            "Zé Doca",
-            "Acauã",
-            "Agricolândia",
-            "Água Branca",
-            "Alagoinha do Piauí",
-            "Alegrete do Piauí",
-            "Alto Longá",
-            "Altos",
-            "Alvorada do Gurguéia",
-            "Amarante",
-            "Angical do Piauí",
-            "Anísio de Abreu",
-            "Antônio Almeida",
-            "Aroazes",
-            "Aroeiras do Itaim",
-            "Arraial",
-            "Assunção do Piauí",
-            "Avelino Lopes",
-            "Baixa Grande do Ribeiro",
-            "Barra D\'Alcântara",
-            "Barras",
-            "Barreiras do Piauí",
-            "Barro Duro",
-            "Batalha",
-            "Bela Vista do Piauí",
-            "Belém do Piauí",
-            "Beneditinos",
-            "Bertolínia",
-            "Betânia do Piauí",
-            "Boa Hora",
-            "Bocaina",
-            "Bom Jesus",
-            "Bom Princípio do Piauí",
-            "Bonfim do Piauí",
-            "Boqueirão do Piauí",
-            "Brasileira",
-            "Brejo do Piauí",
-            "Buriti dos Lopes",
-            "Buriti dos Montes",
-            "Cabeceiras do Piauí",
-            "Cajazeiras do Piauí",
-            "Cajueiro da Praia",
-            "Caldeirão Grande do Piauí",
-            "Campinas do Piauí",
-            "Campo Alegre do Fidalgo",
-            "Campo Grande do Piauí",
-            "Campo Largo do Piauí",
-            "Campo Maior",
-            "Canavieira",
-            "Canto do Buriti",
-            "Capitão de Campos",
-            "Capitão Gervásio Oliveira",
-            "Caracol",
-            "Caraúbas do Piauí",
-            "Caridade do Piauí",
-            "Castelo do Piauí",
-            "Caxingó",
-            "Cocal",
-            "Cocal de Telha",
-            "Cocal dos Alves",
-            "Coivaras",
-            "Colônia do Gurguéia",
-            "Colônia do Piauí",
-            "Conceição do Canindé",
-            "Coronel José Dias",
-            "Corrente",
-            "Cristalândia do Piauí",
-            "Cristino Castro",
-            "Curimatá",
-            "Currais",
-            "Curral Novo do Piauí",
-            "Curralinhos",
-            "Demerval Lobão",
-            "Dirceu Arcoverde",
-            "Dom Expedito Lopes",
-            "Dom Inocêncio",
-            "Domingos Mourão",
-            "Elesbão Veloso",
-            "Eliseu Martins",
-            "Esperantina",
-            "Fartura do Piauí",
-            "Flores do Piauí",
-            "Floresta do Piauí",
-            "Floriano",
-            "Francinópolis",
-            "Francisco Ayres",
-            "Francisco Macedo",
-            "Francisco Santos",
-            "Fronteiras",
-            "Geminiano",
-            "Gilbués",
-            "Guadalupe",
-            "Guaribas",
-            "Hugo Napoleão",
-            "Ilha Grande",
-            "Inhuma",
-            "Ipiranga do Piauí",
-            "Isaías Coelho",
-            "Itainópolis",
-            "Itaueira",
-            "Jacobina do Piauí",
-            "Jaicós",
-            "Jardim do Mulato",
-            "Jatobá do Piauí",
-            "Jerumenha",
-            "João Costa",
-            "Joaquim Pires",
-            "Joca Marques",
-            "José de Freitas",
-            "Juazeiro do Piauí",
-            "Júlio Borges",
-            "Jurema",
-            "Lagoa Alegre",
-            "Lagoa de São Francisco",
-            "Lagoa do Barro do Piauí",
-            "Lagoa do Piauí",
-            "Lagoa do Sítio",
-            "Lagoinha do Piauí",
-            "Landri Sales",
-            "Luís Correia",
-            "Luzilândia",
-            "Madeiro",
-            "Manoel Emídio",
-            "Marcolândia",
-            "Marcos Parente",
-            "Massapê do Piauí",
-            "Matias Olímpio",
-            "Miguel Alves",
-            "Miguel Leão",
-            "Milton Brandão",
-            "Monsenhor Gil",
-            "Monsenhor Hipólito",
-            "Monte Alegre do Piauí",
-            "Morro Cabeça no Tempo",
-            "Morro do Chapéu do Piauí",
-            "Murici dos Portelas",
-            "Nazaré do Piauí",
-            "Nazária ",
-            "Nossa Senhora de Nazaré",
-            "Nossa Senhora dos Remédios",
-            "Nova Santa Rita",
-            "Novo Oriente do Piauí",
-            "Novo Santo Antônio",
-            "Oeiras",
-            "Olho D\'Água do Piauí",
-            "Padre Marcos",
-            "Paes Landim",
-            "Pajeú do Piauí",
-            "Palmeira do Piauí",
-            "Palmeirais",
-            "Paquetá",
-            "Parnaguá",
-            "Parnaíba",
-            "Passagem Franca do Piauí",
-            "Patos do Piauí",
-            "Pau D\'Arco do Piauí",
-            "Paulistana",
-            "Pavussu",
-            "Pedro II",
-            "Pedro Laurentino",
-            "Picos",
-            "Pimenteiras",
-            "Pio IX",
-            "Piracuruca",
-            "Piripiri",
-            "Porto",
-            "Porto Alegre do Piauí",
-            "Prata do Piauí",
-            "Queimada Nova",
-            "Redenção do Gurguéia",
-            "Regeneração",
-            "Riacho Frio",
-            "Ribeira do Piauí",
-            "Ribeiro Gonçalves",
-            "Rio Grande do Piauí",
-            "Santa Cruz do Piauí",
-            "Santa Cruz dos Milagres",
-            "Santa Filomena",
-            "Santa Luz",
-            "Santa Rosa do Piauí",
-            "Santana do Piauí",
-            "Santo Antônio de Lisboa",
-            "Santo Antônio dos Milagres",
-            "Santo Inácio do Piauí",
-            "São Braz do Piauí",
-            "São Félix do Piauí",
-            "São Francisco de Assis do Piauí",
-            "São Francisco do Piauí",
-            "São Gonçalo do Gurguéia",
-            "São Gonçalo do Piauí",
-            "São João da Canabrava",
-            "São João da Fronteira",
-            "São João da Serra",
-            "São João da Varjota",
-            "São João do Arraial",
-            "São João do Piauí",
-            "São José do Divino",
-            "São José do Peixe",
-            "São José do Piauí",
-            "São Julião",
-            "São Lourenço do Piauí",
-            "São Luis do Piauí",
-            "São Miguel da Baixa Grande",
-            "São Miguel do Fidalgo",
-            "São Miguel do Tapuio",
-            "São Pedro do Piauí",
-            "São Raimundo Nonato",
-            "Sebastião Barros",
-            "Sebastião Leal",
-            "Sigefredo Pacheco",
-            "Simões",
-            "Simplício Mendes",
-            "Socorro do Piauí",
-            "Sussuapara",
-            "Tamboril do Piauí",
-            "Tanque do Piauí",
-            "Teresina",
-            "União",
-            "Uruçuí",
-            "Valença do Piauí",
-            "Várzea Branca",
-            "Várzea Grande",
-            "Vera Mendes",
-            "Vila Nova do Piauí",
-            "Wall Ferraz",
-            "Abaiara",
-            "Acarape",
-            "Acaraú",
-            "Acopiara",
-            "Aiuaba",
-            "Alcântaras",
-            "Altaneira",
-            "Alto Santo",
-            "Amontada",
-            "Antonina do Norte",
-            "Apuiarés",
-            "Aquiraz",
-            "Aracati",
-            "Aracoiaba",
-            "Ararendá",
-            "Araripe",
-            "Aratuba",
-            "Arneiroz",
-            "Assaré",
-            "Aurora",
-            "Baixio",
-            "Banabuiú",
-            "Barbalha",
-            "Barreira",
-            "Barro",
-            "Barroquinha",
-            "Baturité",
-            "Beberibe",
-            "Bela Cruz",
-            "Boa Viagem",
-            "Brejo Santo",
-            "Camocim",
-            "Campos Sales",
-            "Canindé",
-            "Capistrano",
-            "Caridade",
-            "Cariré",
-            "Caririaçu",
-            "Cariús",
-            "Carnaubal",
-            "Cascavel",
-            "Catarina",
-            "Catunda",
-            "Caucaia",
-            "Cedro",
-            "Chaval",
-            "Choró",
-            "Chorozinho",
-            "Coreaú",
-            "Crateús",
-            "Crato",
-            "Croatá",
-            "Cruz",
-            "Deputado Irapuan Pinheiro",
-            "Ererê",
-            "Eusébio",
-            "Farias Brito",
-            "Forquilha",
-            "Fortaleza",
-            "Fortim",
-            "Frecheirinha",
-            "General Sampaio",
-            "Graça",
-            "Granja",
-            "Granjeiro",
-            "Groaíras",
-            "Guaiúba",
-            "Guaraciaba do Norte",
-            "Guaramiranga",
-            "Hidrolândia",
-            "Horizonte",
-            "Ibaretama",
-            "Ibiapina",
-            "Ibicuitinga",
-            "Icapuí",
-            "Icó",
-            "Iguatu",
-            "Independência",
-            "Ipaporanga",
-            "Ipaumirim",
-            "Ipu",
-            "Ipueiras",
-            "Iracema",
-            "Irauçuba",
-            "Itaiçaba",
-            "Itaitinga",
-            "Itapagé",
-            "Itapipoca",
-            "Itapiúna",
-            "Itarema",
-            "Itatira",
-            "Jaguaretama",
-            "Jaguaribara",
-            "Jaguaribe",
-            "Jaguaruana",
-            "Jardim",
-            "Jati",
-            "Jijoca de Jericoacoara",
-            "Juazeiro do Norte",
-            "Jucás",
-            "Lavras da Mangabeira",
-            "Limoeiro do Norte",
-            "Madalena",
-            "Maracanaú",
-            "Maranguape",
-            "Marco",
-            "Martinópole",
-            "Massapê",
-            "Mauriti",
-            "Meruoca",
-            "Milagres",
-            "Milhã",
-            "Miraíma",
-            "Missão Velha",
-            "Mombaça",
-            "Monsenhor Tabosa",
-            "Morada Nova",
-            "Moraújo",
-            "Morrinhos",
-            "Mucambo",
-            "Mulungu",
-            "Nova Olinda",
-            "Nova Russas",
-            "Novo Oriente",
-            "Ocara",
-            "Orós",
-            "Pacajus",
-            "Pacatuba",
-            "Pacoti",
-            "Pacujá",
-            "Palhano",
-            "Palmácia",
-            "Paracuru",
-            "Paraipaba",
-            "Parambu",
-            "Paramoti",
-            "Pedra Branca",
-            "Penaforte",
-            "Pentecoste",
-            "Pereiro",
-            "Pindoretama",
-            "Piquet Carneiro",
-            "Pires Ferreira",
-            "Poranga",
-            "Porteiras",
-            "Potengi",
-            "Potiretama",
-            "Quiterianópolis",
-            "Quixadá",
-            "Quixelô",
-            "Quixeramobim",
-            "Quixeré",
-            "Redenção",
-            "Reriutaba",
-            "Russas",
-            "Saboeiro",
-            "Salitre",
-            "Santa Quitéria",
-            "Santana do Acaraú",
-            "Santana do Cariri",
-            "São Benedito",
-            "São Gonçalo do Amarante",
-            "São João do Jaguaribe",
-            "São Luís do Curu",
-            "Senador Pompeu",
-            "Senador Sá",
-            "Sobral",
-            "Solonópole",
-            "Tabuleiro do Norte",
-            "Tamboril",
-            "Tarrafas",
-            "Tauá",
-            "Tejuçuoca",
-            "Tianguá",
-            "Trairi",
-            "Tururu",
-            "Ubajara",
-            "Umari",
-            "Umirim",
-            "Uruburetama",
-            "Uruoca",
-            "Varjota",
-            "Várzea Alegre",
-            "Viçosa do Ceará",
-            "Acari",
-            "Açu",
-            "Afonso Bezerra",
-            "Água Nova",
-            "Alexandria",
-            "Almino Afonso",
-            "Alto do Rodrigues",
-            "Angicos",
-            "Antônio Martins",
-            "Apodi",
-            "Areia Branca",
-            "Arês",
-            "Augusto Severo",
-            "Baía Formosa",
-            "Baraúna",
-            "Barcelona",
-            "Bento Fernandes",
-            "Bodó",
-            "Bom Jesus",
-            "Brejinho",
-            "Caiçara do Norte",
-            "Caiçara do Rio do Vento",
-            "Caicó",
-            "Campo Redondo",
-            "Canguaretama",
-            "Caraúbas",
-            "Carnaúba dos Dantas",
-            "Carnaubais",
-            "Ceará-Mirim",
-            "Cerro Corá",
-            "Coronel Ezequiel",
-            "Coronel João Pessoa",
-            "Cruzeta",
-            "Currais Novos",
-            "Doutor Severiano",
-            "Encanto",
-            "Equador",
-            "Espírito Santo",
-            "Extremoz",
-            "Felipe Guerra",
-            "Fernando Pedroza",
-            "Florânia",
-            "Francisco Dantas",
-            "Frutuoso Gomes",
-            "Galinhos",
-            "Goianinha",
-            "Governador Dix-Sept Rosado",
-            "Grossos",
-            "Guamaré",
-            "Ielmo Marinho",
-            "Ipanguaçu",
-            "Ipueira",
-            "Itajá",
-            "Itaú",
-            "Jaçanã",
-            "Jandaíra",
-            "Janduís",
-            "Januário Cicco",
-            "Japi",
-            "Jardim de Angicos",
-            "Jardim de Piranhas",
-            "Jardim do Seridó",
-            "João Câmara",
-            "João Dias",
-            "José da Penha",
-            "Jucurutu",
-            "Jundiá",
-            "Lagoa d\'Anta",
-            "Lagoa de Pedras",
-            "Lagoa de Velhos",
-            "Lagoa Nova",
-            "Lagoa Salgada",
-            "Lajes",
-            "Lajes Pintadas",
-            "Lucrécia",
-            "Luís Gomes",
-            "Macaíba",
-            "Macau",
-            "Major Sales",
-            "Marcelino Vieira",
-            "Martins",
-            "Maxaranguape",
-            "Messias Targino",
-            "Montanhas",
-            "Monte Alegre",
-            "Monte das Gameleiras",
-            "Mossoró",
-            "Natal",
-            "Nísia Floresta",
-            "Nova Cruz",
-            "Olho-d\'Água do Borges",
-            "Ouro Branco",
-            "Paraná",
-            "Paraú",
-            "Parazinho",
-            "Parelhas",
-            "Parnamirim",
-            "Passa e Fica",
-            "Passagem",
-            "Patu",
-            "Pau dos Ferros",
-            "Pedra Grande",
-            "Pedra Preta",
-            "Pedro Avelino",
-            "Pedro Velho",
-            "Pendências",
-            "Pilões",
-            "Poço Branco",
-            "Portalegre",
-            "Porto do Mangue",
-            "Presidente Juscelino",
-            "Pureza",
-            "Rafael Fernandes",
-            "Rafael Godeiro",
-            "Riacho da Cruz",
-            "Riacho de Santana",
-            "Riachuelo",
-            "Rio do Fogo",
-            "Rodolfo Fernandes",
-            "Ruy Barbosa",
-            "Santa Cruz",
-            "Santa Maria",
-            "Santana do Matos",
-            "Santana do Seridó",
-            "Santo Antônio",
-            "São Bento do Norte",
-            "São Bento do Trairí",
-            "São Fernando",
-            "São Francisco do Oeste",
-            "São Gonçalo do Amarante",
-            "São João do Sabugi",
-            "São José de Mipibu",
-            "São José do Campestre",
-            "São José do Seridó",
-            "São Miguel",
-            "São Miguel do Gostoso",
-            "São Paulo do Potengi",
-            "São Pedro",
-            "São Rafael",
-            "São Tomé",
-            "São Vicente",
-            "Senador Elói de Souza",
-            "Senador Georgino Avelino",
-            "Serra de São Bento",
-            "Serra do Mel",
-            "Serra Negra do Norte",
-            "Serrinha",
-            "Serrinha dos Pintos",
-            "Severiano Melo",
-            "Sítio Novo",
-            "Taboleiro Grande",
-            "Taipu",
-            "Tangará",
-            "Tenente Ananias",
-            "Tenente Laurentino Cruz",
-            "Tibau",
-            "Tibau do Sul",
-            "Timbaúba dos Batistas",
-            "Touros",
-            "Triunfo Potiguar",
-            "Umarizal",
-            "Upanema",
-            "Várzea",
-            "Venha-Ver",
-            "Vera Cruz",
-            "Viçosa",
-            "Vila Flor",
-            "Água Branca",
-            "Aguiar",
-            "Alagoa Grande",
-            "Alagoa Nova",
-            "Alagoinha",
-            "Alcantil",
-            "Algodão de Jandaíra",
-            "Alhandra",
-            "Amparo",
-            "Aparecida",
-            "Araçagi",
-            "Arara",
-            "Araruna",
-            "Areia",
-            "Areia de Baraúnas",
-            "Areial",
-            "Aroeiras",
-            "Assunção",
-            "Baía da Traição",
-            "Bananeiras",
-            "Baraúna",
-            "Barra de Santa Rosa",
-            "Barra de Santana",
-            "Barra de São Miguel",
-            "Bayeux",
-            "Belém",
-            "Belém do Brejo do Cruz",
-            "Bernardino Batista",
-            "Boa Ventura",
-            "Boa Vista",
-            "Bom Jesus",
-            "Bom Sucesso",
-            "Bonito de Santa Fé",
-            "Boqueirão",
-            "Borborema",
-            "Brejo do Cruz",
-            "Brejo dos Santos",
-            "Caaporã",
-            "Cabaceiras",
-            "Cabedelo",
-            "Cachoeira dos Índios",
-            "Cacimba de Areia",
-            "Cacimba de Dentro",
-            "Cacimbas",
-            "Caiçara",
-            "Cajazeiras",
-            "Cajazeirinhas",
-            "Caldas Brandão",
-            "Camalaú",
-            "Campina Grande",
-            "Tacima",
-            "Capim",
-            "Caraúbas",
-            "Carrapateira",
-            "Casserengue",
-            "Catingueira",
-            "Catolé do Rocha",
-            "Caturité",
-            "Conceição",
-            "Condado",
-            "Conde",
-            "Congo",
-            "Coremas",
-            "Coxixola",
-            "Cruz do Espírito Santo",
-            "Cubati",
-            "Cuité",
-            "Cuité de Mamanguape",
-            "Cuitegi",
-            "Curral de Cima",
-            "Curral Velho",
-            "Damião",
-            "Desterro",
-            "Diamante",
-            "Dona Inês",
-            "Duas Estradas",
-            "Emas",
-            "Esperança",
-            "Fagundes",
-            "Frei Martinho",
-            "Gado Bravo",
-            "Guarabira",
-            "Gurinhém",
-            "Gurjão",
-            "Ibiara",
-            "Igaracy",
-            "Imaculada",
-            "Ingá",
-            "Itabaiana",
-            "Itaporanga",
-            "Itapororoca",
-            "Itatuba",
-            "Jacaraú",
-            "Jericó",
-            "João Pessoa",
-            "Juarez Távora",
-            "Juazeirinho",
-            "Junco do Seridó",
-            "Juripiranga",
-            "Juru",
-            "Lagoa",
-            "Lagoa de Dentro",
-            "Lagoa Seca",
-            "Lastro",
-            "Livramento",
-            "Logradouro",
-            "Lucena",
-            "Mãe d\'Água",
-            "Malta",
-            "Mamanguape",
-            "Manaíra",
-            "Marcação",
-            "Mari",
-            "Marizópolis",
-            "Massaranduba",
-            "Mataraca",
-            "Matinhas",
-            "Mato Grosso",
-            "Maturéia",
-            "Mogeiro",
-            "Montadas",
-            "Monte Horebe",
-            "Monteiro",
-            "Mulungu",
-            "Natuba",
-            "Nazarezinho",
-            "Nova Floresta",
-            "Nova Olinda",
-            "Nova Palmeira",
-            "Olho d\'Água",
-            "Olivedos",
-            "Ouro Velho",
-            "Parari",
-            "Passagem",
-            "Patos",
-            "Paulista",
-            "Pedra Branca",
-            "Pedra Lavrada",
-            "Pedras de Fogo",
-            "Pedro Régis",
-            "Piancó",
-            "Picuí",
-            "Pilar",
-            "Pilões",
-            "Pilõezinhos",
-            "Pirpirituba",
-            "Pitimbu",
-            "Pocinhos",
-            "Poço Dantas",
-            "Poço de José de Moura",
-            "Pombal",
-            "Prata",
-            "Princesa Isabel",
-            "Puxinanã",
-            "Queimadas",
-            "Quixabá",
-            "Remígio",
-            "Riachão",
-            "Riachão do Bacamarte",
-            "Riachão do Poço",
-            "Riacho de Santo Antônio",
-            "Riacho dos Cavalos",
-            "Rio Tinto",
-            "Salgadinho",
-            "Salgado de São Félix",
-            "Santa Cecília",
-            "Santa Cruz",
-            "Santa Helena",
-            "Santa Inês",
-            "Santa Luzia",
-            "Santa Rita",
-            "Santa Teresinha",
-            "Santana de Mangueira",
-            "Santana dos Garrotes",
-            "Joca Claudino",
-            "Santo André",
-            "São Bentinho",
-            "São Bento",
-            "São Domingos",
-            "São Domingos do Cariri",
-            "São Francisco",
-            "São João do Cariri",
-            "São João do Rio do Peixe",
-            "São João do Tigre",
-            "São José da Lagoa Tapada",
-            "São José de Caiana",
-            "São José de Espinharas",
-            "São José de Piranhas",
-            "São José de Princesa",
-            "São José do Bonfim",
-            "São José do Brejo do Cruz",
-            "São José do Sabugi",
-            "São José dos Cordeiros",
-            "São José dos Ramos",
-            "São Mamede",
-            "São Miguel de Taipu",
-            "São Sebastião de Lagoa de Roça",
-            "São Sebastião do Umbuzeiro",
-            "Sapé",
-            "Seridó",
-            "Serra Branca",
-            "Serra da Raiz",
-            "Serra Grande",
-            "Serra Redonda",
-            "Serraria",
-            "Sertãozinho",
-            "Sobrado",
-            "Solânea",
-            "Soledade",
-            "Sossêgo",
-            "Sousa",
-            "Sumé",
-            "Taperoá",
-            "Tavares",
-            "Teixeira",
-            "Tenório",
-            "Triunfo",
-            "Uiraúna",
-            "Umbuzeiro",
-            "Várzea",
-            "Vieirópolis",
-            "Vista Serrana",
-            "Zabelê",
-            "Abreu e Lima",
-            "Afogados da Ingazeira",
-            "Afrânio",
-            "Agrestina",
-            "Água Preta",
-            "Águas Belas",
-            "Alagoinha",
-            "Aliança",
-            "Altinho",
-            "Amaraji",
-            "Angelim",
-            "Araçoiaba",
-            "Araripina",
-            "Arcoverde",
-            "Barra de Guabiraba",
-            "Barreiros",
-            "Belém de Maria",
-            "Belém do São Francisco",
-            "Belo Jardim",
-            "Betânia",
-            "Bezerros",
-            "Bodocó",
-            "Bom Conselho",
-            "Bom Jardim",
-            "Bonito",
-            "Brejão",
-            "Brejinho",
-            "Brejo da Madre de Deus",
-            "Buenos Aires",
-            "Buíque",
-            "Cabo de Santo Agostinho",
-            "Cabrobó",
-            "Cachoeirinha",
-            "Caetés",
-            "Calçado",
-            "Calumbi",
-            "Camaragibe",
-            "Camocim de São Félix",
-            "Camutanga",
-            "Canhotinho",
-            "Capoeiras",
-            "Carnaíba",
-            "Carnaubeira da Penha",
-            "Carpina",
-            "Caruaru",
-            "Casinhas",
-            "Catende",
-            "Cedro",
-            "Chã de Alegria",
-            "Chã Grande",
-            "Condado",
-            "Correntes",
-            "Cortês",
-            "Cumaru",
-            "Cupira",
-            "Custódia",
-            "Dormentes",
-            "Escada",
-            "Exu",
-            "Feira Nova",
-            "Fernando de Noronha",
-            "Ferreiros",
-            "Flores",
-            "Floresta",
-            "Frei Miguelinho",
-            "Gameleira",
-            "Garanhuns",
-            "Glória do Goitá",
-            "Goiana",
-            "Granito",
-            "Gravatá",
-            "Iati",
-            "Ibimirim",
-            "Ibirajuba",
-            "Igarassu",
-            "Iguaraci",
-            "Ilha de Itamaracá",
-            "Inajá",
-            "Ingazeira",
-            "Ipojuca",
-            "Ipubi",
-            "Itacuruba",
-            "Itaíba",
-            "Itambé",
-            "Itapetim",
-            "Itapissuma",
-            "Itaquitinga",
-            "Jaboatão dos Guararapes",
-            "Jaqueira",
-            "Jataúba",
-            "Jatobá",
-            "João Alfredo",
-            "Joaquim Nabuco",
-            "Jucati",
-            "Jupi",
-            "Jurema",
-            "Lagoa do Carro",
-            "Lagoa de Itaenga",
-            "Lagoa do Ouro",
-            "Lagoa dos Gatos",
-            "Lagoa Grande",
-            "Lajedo",
-            "Limoeiro",
-            "Macaparana",
-            "Machados",
-            "Manari",
-            "Maraial",
-            "Mirandiba",
-            "Moreilândia",
-            "Moreno",
-            "Nazaré da Mata",
-            "Olinda",
-            "Orobó",
-            "Orocó",
-            "Ouricuri",
-            "Palmares",
-            "Palmeirina",
-            "Panelas",
-            "Paranatama",
-            "Parnamirim",
-            "Passira",
-            "Paudalho",
-            "Paulista",
-            "Pedra",
-            "Pesqueira",
-            "Petrolândia",
-            "Petrolina",
-            "Poção",
-            "Pombos",
-            "Primavera",
-            "Quipapá",
-            "Quixaba",
-            "Recife",
-            "Riacho das Almas",
-            "Ribeirão",
-            "Rio Formoso",
-            "Sairé",
-            "Salgadinho",
-            "Salgueiro",
-            "Saloá",
-            "Sanharó",
-            "Santa Cruz",
-            "Santa Cruz da Baixa Verde",
-            "Santa Cruz do Capibaribe",
-            "Santa Filomena",
-            "Santa Maria da Boa Vista",
-            "Santa Maria do Cambucá",
-            "Santa Terezinha",
-            "São Benedito do Sul",
-            "São Bento do Una",
-            "São Caitano",
-            "São João",
-            "São Joaquim do Monte",
-            "São José da Coroa Grande",
-            "São José do Belmonte",
-            "São José do Egito",
-            "São Lourenço da Mata",
-            "São Vicente Ferrer",
-            "Serra Talhada",
-            "Serrita",
-            "Sertânia",
-            "Sirinhaém",
-            "Solidão",
-            "Surubim",
-            "Tabira",
-            "Tacaimbó",
-            "Tacaratu",
-            "Tamandaré",
-            "Taquaritinga do Norte",
-            "Terezinha",
-            "Terra Nova",
-            "Timbaúba",
-            "Toritama",
-            "Tracunhaém",
-            "Trindade",
-            "Triunfo",
-            "Tupanatinga",
-            "Tuparetama",
-            "Venturosa",
-            "Verdejante",
-            "Vertente do Lério",
-            "Vertentes",
-            "Vicência",
-            "Vitória de Santo Antão",
-            "Xexéu",
-            "Água Branca",
-            "Anadia",
-            "Arapiraca",
-            "Atalaia",
-            "Barra de Santo Antônio",
-            "Barra de São Miguel",
-            "Batalha",
-            "Belém",
-            "Belo Monte",
-            "Boca da Mata",
-            "Branquinha",
-            "Cacimbinhas",
-            "Cajueiro",
-            "Campestre",
-            "Campo Alegre",
-            "Campo Grande",
-            "Canapi",
-            "Capela",
-            "Carneiros",
-            "Chã Preta",
-            "Coité do Nóia",
-            "Colônia Leopoldina",
-            "Coqueiro Seco",
-            "Coruripe",
-            "Craíbas",
-            "Delmiro Gouveia",
-            "Dois Riachos",
-            "Estrela de Alagoas",
-            "Feira Grande",
-            "Feliz Deserto",
-            "Flexeiras",
-            "Girau do Ponciano",
-            "Ibateguara",
-            "Igaci",
-            "Igreja Nova",
-            "Inhapi",
-            "Jacaré dos Homens",
-            "Jacuípe",
-            "Japaratinga",
-            "Jaramataia",
-            "Jequiá da Praia",
-            "Joaquim Gomes",
-            "Jundiá",
-            "Junqueiro",
-            "Lagoa da Canoa",
-            "Limoeiro de Anadia",
-            "Maceió",
-            "Major Isidoro",
-            "Mar Vermelho",
-            "Maragogi",
-            "Maravilha",
-            "Marechal Deodoro",
-            "Maribondo",
-            "Mata Grande",
-            "Matriz de Camaragibe",
-            "Messias",
-            "Minador do Negrão",
-            "Monteirópolis",
-            "Murici",
-            "Novo Lino",
-            "Olho d\'Água das Flores",
-            "Olho d\'Água do Casado",
-            "Olho d\'Água Grande",
-            "Olivença",
-            "Ouro Branco",
-            "Palestina",
-            "Palmeira dos Índios",
-            "Pão de Açúcar",
-            "Pariconha",
-            "Paripueira",
-            "Passo de Camaragibe",
-            "Paulo Jacinto",
-            "Penedo",
-            "Piaçabuçu",
-            "Pilar",
-            "Pindoba",
-            "Piranhas",
-            "Poço das Trincheiras",
-            "Porto Calvo",
-            "Porto de Pedras",
-            "Porto Real do Colégio",
-            "Quebrangulo",
-            "Rio Largo",
-            "Roteiro",
-            "Santa Luzia do Norte",
-            "Santana do Ipanema",
-            "Santana do Mundaú",
-            "São Brás",
-            "São José da Laje",
-            "São José da Tapera",
-            "São Luís do Quitunde",
-            "São Miguel dos Campos",
-            "São Miguel dos Milagres",
-            "São Sebastião",
-            "Satuba",
-            "Senador Rui Palmeira",
-            "Tanque d\'Arca",
-            "Taquarana",
-            "Teotônio Vilela",
-            "Traipu",
-            "União dos Palmares",
-            "Viçosa",
-            "Amparo de São Francisco",
-            "Aquidabã",
-            "Aracaju",
-            "Arauá",
-            "Areia Branca",
-            "Barra dos Coqueiros",
-            "Boquim",
-            "Brejo Grande",
-            "Campo do Brito",
-            "Canhoba",
-            "Canindé de São Francisco",
-            "Capela",
-            "Carira",
-            "Carmópolis",
-            "Cedro de São João",
-            "Cristinápolis",
-            "Cumbe",
-            "Divina Pastora",
-            "Estância",
-            "Feira Nova",
-            "Frei Paulo",
-            "Gararu",
-            "General Maynard",
-            "Gracho Cardoso",
-            "Ilha das Flores",
-            "Indiaroba",
-            "Itabaiana",
-            "Itabaianinha",
-            "Itabi",
-            "Itaporanga d\'Ajuda",
-            "Japaratuba",
-            "Japoatã",
-            "Lagarto",
-            "Laranjeiras",
-            "Macambira",
-            "Malhada dos Bois",
-            "Malhador",
-            "Maruim",
-            "Moita Bonita",
-            "Monte Alegre de Sergipe",
-            "Muribeca",
-            "Neópolis",
-            "Nossa Senhora Aparecida",
-            "Nossa Senhora da Glória",
-            "Nossa Senhora das Dores",
-            "Nossa Senhora de Lourdes",
-            "Nossa Senhora do Socorro",
-            "Pacatuba",
-            "Pedra Mole",
-            "Pedrinhas",
-            "Pinhão",
-            "Pirambu",
-            "Poço Redondo",
-            "Poço Verde",
-            "Porto da Folha",
-            "Propriá",
-            "Riachão do Dantas",
-            "Riachuelo",
-            "Ribeirópolis",
-            "Rosário do Catete",
-            "Salgado",
-            "Santa Luzia do Itanhy",
-            "Santa Rosa de Lima",
-            "Santana do São Francisco",
-            "Santo Amaro das Brotas",
-            "São Cristóvão",
-            "São Domingos",
-            "São Francisco",
-            "São Miguel do Aleixo",
-            "Simão Dias",
-            "Siriri",
-            "Telha",
-            "Tobias Barreto",
-            "Tomar do Geru",
-            "Umbaúba",
-            "Abaíra",
-            "Abaré",
-            "Acajutiba",
-            "Adustina",
-            "Água Fria",
-            "Aiquara",
-            "Alagoinhas",
-            "Alcobaça",
-            "Almadina",
-            "Amargosa",
-            "Amélia Rodrigues",
-            "América Dourada",
-            "Anagé",
-            "Andaraí",
-            "Andorinha",
-            "Angical",
-            "Anguera",
-            "Antas",
-            "Antônio Cardoso",
-            "Antônio Gonçalves",
-            "Aporá",
-            "Apuarema",
-            "Araças",
-            "Aracatu",
-            "Araci",
-            "Aramari",
-            "Arataca",
-            "Aratuípe",
-            "Aurelino Leal",
-            "Baianópolis",
-            "Baixa Grande",
-            "Banzaê",
-            "Barra",
-            "Barra da Estiva",
-            "Barra do Choça",
-            "Barra do Mendes",
-            "Barra do Rocha",
-            "Barreiras",
-            "Barro Alto",
-            "Barro Preto",
-            "Barrocas",
-            "Belmonte",
-            "Belo Campo",
-            "Biritinga",
-            "Boa Nova",
-            "Boa Vista do Tupim",
-            "Bom Jesus da Lapa",
-            "Bom Jesus da Serra",
-            "Boninal",
-            "Bonito",
-            "Boquira",
-            "Botuporã",
-            "Brejões",
-            "Brejolândia",
-            "Brotas de Macaúbas",
-            "Brumado",
-            "Buerarema",
-            "Buritirama",
-            "Caatiba",
-            "Cabaceiras do Paraguaçu",
-            "Cachoeira",
-            "Caculé",
-            "Caém",
-            "Caetanos",
-            "Caetité",
-            "Cafarnaum",
-            "Cairu",
-            "Caldeirão Grande",
-            "Camacan",
-            "Camaçari",
-            "Camamu",
-            "Campo Alegre de Lourdes",
-            "Campo Formoso",
-            "Canápolis",
-            "Canarana",
-            "Canavieiras",
-            "Candeal",
-            "Candeias",
-            "Candiba",
-            "Cândido Sales",
-            "Cansanção",
-            "Canudos",
-            "Capela do Alto Alegre",
-            "Capim Grosso",
-            "Caraíbas",
-            "Caravelas",
-            "Cardeal da Silva",
-            "Carinhanha",
-            "Casa Nova",
-            "Castro Alves",
-            "Catolândia",
-            "Catu",
-            "Caturama",
-            "Central",
-            "Chorrochó",
-            "Cícero Dantas",
-            "Cipó",
-            "Coaraci",
-            "Cocos",
-            "Conceição da Feira",
-            "Conceição do Almeida",
-            "Conceição do Coité",
-            "Conceição do Jacuípe",
-            "Conde",
-            "Condeúba",
-            "Contendas do Sincorá",
-            "Coração de Maria",
-            "Cordeiros",
-            "Coribe",
-            "Coronel João Sá",
-            "Correntina",
-            "Cotegipe",
-            "Cravolândia",
-            "Crisópolis",
-            "Cristópolis",
-            "Cruz das Almas",
-            "Curaçá",
-            "Dário Meira",
-            "Dias d\'Ávila",
-            "Dom Basílio",
-            "Dom Macedo Costa",
-            "Elísio Medrado",
-            "Encruzilhada",
-            "Entre Rios",
-            "Érico Cardoso",
-            "Esplanada",
-            "Euclides da Cunha",
-            "Eunápolis",
-            "Fátima",
-            "Feira da Mata",
-            "Feira de Santana",
-            "Filadélfia",
-            "Firmino Alves",
-            "Floresta Azul",
-            "Formosa do Rio Preto",
-            "Gandu",
-            "Gavião",
-            "Gentio do Ouro",
-            "Glória",
-            "Gongogi",
-            "Governador Mangabeira",
-            "Guajeru",
-            "Guanambi",
-            "Guaratinga",
-            "Heliópolis",
-            "Iaçu",
-            "Ibiassucê",
-            "Ibicaraí",
-            "Ibicoara",
-            "Ibicuí",
-            "Ibipeba",
-            "Ibipitanga",
-            "Ibiquera",
-            "Ibirapitanga",
-            "Ibirapuã",
-            "Ibirataia",
-            "Ibitiara",
-            "Ibititá",
-            "Ibotirama",
-            "Ichu",
-            "Igaporã",
-            "Igrapiúna",
-            "Iguaí",
-            "Ilhéus",
-            "Inhambupe",
-            "Ipecaetá",
-            "Ipiaú",
-            "Ipirá",
-            "Ipupiara",
-            "Irajuba",
-            "Iramaia",
-            "Iraquara",
-            "Irará",
-            "Irecê",
-            "Itabela",
-            "Itaberaba",
-            "Itabuna",
-            "Itacaré",
-            "Itaeté",
-            "Itagi",
-            "Itagibá",
-            "Itagimirim",
-            "Itaguaçu da Bahia",
-            "Itaju do Colônia",
-            "Itajuípe",
-            "Itamaraju",
-            "Itamari",
-            "Itambé",
-            "Itanagra",
-            "Itanhém",
-            "Itaparica",
-            "Itapé",
-            "Itapebi",
-            "Itapetinga",
-            "Itapicuru",
-            "Itapitanga",
-            "Itaquara",
-            "Itarantim",
-            "Itatim",
-            "Itiruçu",
-            "Itiúba",
-            "Itororó",
-            "Ituaçu",
-            "Ituberá",
-            "Iuiú",
-            "Jaborandi",
-            "Jacaraci",
-            "Jacobina",
-            "Jaguaquara",
-            "Jaguarari",
-            "Jaguaripe",
-            "Jandaíra",
-            "Jequié",
-            "Jeremoabo",
-            "Jiquiriçá",
-            "Jitaúna",
-            "João Dourado",
-            "Juazeiro",
-            "Jucuruçu",
-            "Jussara",
-            "Jussari",
-            "Jussiape",
-            "Lafaiete Coutinho",
-            "Lagoa Real",
-            "Laje",
-            "Lajedão",
-            "Lajedinho",
-            "Lajedo do Tabocal",
-            "Lamarão",
-            "Lapão",
-            "Lauro de Freitas",
-            "Lençóis",
-            "Licínio de Almeida",
-            "Livramento de Nossa Senhora",
-            "Luís Eduardo Magalhães",
-            "Macajuba",
-            "Macarani",
-            "Macaúbas",
-            "Macururé",
-            "Madre de Deus",
-            "Maetinga",
-            "Maiquinique",
-            "Mairi",
-            "Malhada",
-            "Malhada de Pedras",
-            "Manoel Vitorino",
-            "Mansidão",
-            "Maracás",
-            "Maragogipe",
-            "Maraú",
-            "Marcionílio Souza",
-            "Mascote",
-            "Mata de São João",
-            "Matina",
-            "Medeiros Neto",
-            "Miguel Calmon",
-            "Milagres",
-            "Mirangaba",
-            "Mirante",
-            "Monte Santo",
-            "Morpará",
-            "Morro do Chapéu",
-            "Mortugaba",
-            "Mucugê",
-            "Mucuri",
-            "Mulungu do Morro",
-            "Mundo Novo",
-            "Muniz Ferreira",
-            "Muquém de São Francisco",
-            "Muritiba",
-            "Mutuípe",
-            "Nazaré",
-            "Nilo Peçanha",
-            "Nordestina",
-            "Nova Canaã",
-            "Nova Fátima",
-            "Nova Ibiá",
-            "Nova Itarana",
-            "Nova Redenção",
-            "Nova Soure",
-            "Nova Viçosa",
-            "Novo Horizonte",
-            "Novo Triunfo",
-            "Olindina",
-            "Oliveira dos Brejinhos",
-            "Ouriçangas",
-            "Ourolândia",
-            "Palmas de Monte Alto",
-            "Palmeiras",
-            "Paramirim",
-            "Paratinga",
-            "Paripiranga",
-            "Pau Brasil",
-            "Paulo Afonso",
-            "Pé de Serra",
-            "Pedrão",
-            "Pedro Alexandre",
-            "Piatã",
-            "Pilão Arcado",
-            "Pindaí",
-            "Pindobaçu",
-            "Pintadas",
-            "Piraí do Norte",
-            "Piripá",
-            "Piritiba",
-            "Planaltino",
-            "Planalto",
-            "Poções",
-            "Pojuca",
-            "Ponto Novo",
-            "Porto Seguro",
-            "Potiraguá",
-            "Prado",
-            "Presidente Dutra",
-            "Presidente Jânio Quadros",
-            "Presidente Tancredo Neves",
-            "Queimadas",
-            "Quijingue",
-            "Quixabeira",
-            "Rafael Jambeiro",
-            "Remanso",
-            "Retirolândia",
-            "Riachão das Neves",
-            "Riachão do Jacuípe",
-            "Riacho de Santana",
-            "Ribeira do Amparo",
-            "Ribeira do Pombal",
-            "Ribeirão do Largo",
-            "Rio de Contas",
-            "Rio do Antônio",
-            "Rio do Pires",
-            "Rio Real",
-            "Rodelas",
-            "Ruy Barbosa",
-            "Salinas da Margarida",
-            "Salvador",
-            "Santa Bárbara",
-            "Santa Brígida",
-            "Santa Cruz Cabrália",
-            "Santa Cruz da Vitória",
-            "Santa Inês",
-            "Santa Luzia",
-            "Santa Maria da Vitória",
-            "Santa Rita de Cássia",
-            "Santa Teresinha",
-            "Santaluz",
-            "Santana",
-            "Santanópolis",
-            "Santo Amaro",
-            "Santo Antônio de Jesus",
-            "Santo Estêvão",
-            "São Desidério",
-            "São Domingos",
-            "São Felipe",
-            "São Félix",
-            "São Félix do Coribe",
-            "São Francisco do Conde",
-            "São Gabriel",
-            "São Gonçalo dos Campos",
-            "São José da Vitória",
-            "São José do Jacuípe",
-            "São Miguel das Matas",
-            "São Sebastião do Passé",
-            "Sapeaçu",
-            "Sátiro Dias",
-            "Saubara",
-            "Saúde",
-            "Seabra",
-            "Sebastião Laranjeiras",
-            "Senhor do Bonfim",
-            "Sento Sé",
-            "Serra do Ramalho",
-            "Serra Dourada",
-            "Serra Preta",
-            "Serrinha",
-            "Serrolândia",
-            "Simões Filho",
-            "Sítio do Mato",
-            "Sítio do Quinto",
-            "Sobradinho",
-            "Souto Soares",
-            "Tabocas do Brejo Velho",
-            "Tanhaçu",
-            "Tanque Novo",
-            "Tanquinho",
-            "Taperoá",
-            "Tapiramutá",
-            "Teixeira de Freitas",
-            "Teodoro Sampaio",
-            "Teofilândia",
-            "Teolândia",
-            "Terra Nova",
-            "Tremedal",
-            "Tucano",
-            "Uauá",
-            "Ubaíra",
-            "Ubaitaba",
-            "Ubatã",
-            "Uibaí",
-            "Umburanas",
-            "Una",
-            "Urandi",
-            "Uruçuca",
-            "Utinga",
-            "Valença",
-            "Valente",
-            "Várzea da Roça",
-            "Várzea do Poço",
-            "Várzea Nova",
-            "Varzedo",
-            "Vera Cruz",
-            "Vereda",
-            "Vitória da Conquista",
-            "Wagner",
-            "Wanderley",
-            "Wenceslau Guimarães",
-            "Xique-Xique",
-            "Abadia dos Dourados",
-            "Abaeté",
-            "Abre Campo",
-            "Acaiaca",
-            "Açucena",
-            "Água Boa",
-            "Água Comprida",
-            "Aguanil",
-            "Águas Formosas",
-            "Águas Vermelhas",
-            "Aimorés",
-            "Aiuruoca",
-            "Alagoa",
-            "Albertina",
-            "Além Paraíba",
-            "Alfenas",
-            "Alfredo Vasconcelos",
-            "Almenara",
-            "Alpercata",
-            "Alpinópolis",
-            "Alterosa",
-            "Alto Caparaó",
-            "Alto Jequitibá",
-            "Alto Rio Doce",
-            "Alvarenga",
-            "Alvinópolis",
-            "Alvorada de Minas",
-            "Amparo do Serra",
-            "Andradas",
-            "Andrelândia",
-            "Angelândia",
-            "Antônio Carlos",
-            "Antônio Dias",
-            "Antônio Prado de Minas",
-            "Araçaí",
-            "Aracitaba",
-            "Araçuaí",
-            "Araguari",
-            "Arantina",
-            "Araponga",
-            "Araporã",
-            "Arapuá",
-            "Araújos",
-            "Araxá",
-            "Arceburgo",
-            "Arcos",
-            "Areado",
-            "Argirita",
-            "Aricanduva",
-            "Arinos",
-            "Astolfo Dutra",
-            "Ataléia",
-            "Augusto de Lima",
-            "Baependi",
-            "Baldim",
-            "Bambuí",
-            "Bandeira",
-            "Bandeira do Sul",
-            "Barão de Cocais",
-            "Barão de Monte Alto",
-            "Barbacena",
-            "Barra Longa",
-            "Barroso",
-            "Bela Vista de Minas",
-            "Belmiro Braga",
-            "Belo Horizonte",
-            "Belo Oriente",
-            "Belo Vale",
-            "Berilo",
-            "Berizal",
-            "Bertópolis",
-            "Betim",
-            "Bias Fortes",
-            "Bicas",
-            "Biquinhas",
-            "Boa Esperança",
-            "Bocaina de Minas",
-            "Bocaiúva",
-            "Bom Despacho",
-            "Bom Jardim de Minas",
-            "Bom Jesus da Penha",
-            "Bom Jesus do Amparo",
-            "Bom Jesus do Galho",
-            "Bom Repouso",
-            "Bom Sucesso",
-            "Bonfim",
-            "Bonfinópolis de Minas",
-            "Bonito de Minas",
-            "Borda da Mata",
-            "Botelhos",
-            "Botumirim",
-            "Brás Pires",
-            "Brasilândia de Minas",
-            "Brasília de Minas",
-            "Brasópolis",
-            "Braúnas",
-            "Brumadinho",
-            "Bueno Brandão",
-            "Buenópolis",
-            "Bugre",
-            "Buritis",
-            "Buritizeiro",
-            "Cabeceira Grande",
-            "Cabo Verde",
-            "Cachoeira da Prata",
-            "Cachoeira de Minas",
-            "Cachoeira de Pajeú",
-            "Cachoeira Dourada",
-            "Caetanópolis",
-            "Caeté",
-            "Caiana",
-            "Cajuri",
-            "Caldas",
-            "Camacho",
-            "Camanducaia",
-            "Cambuí",
-            "Cambuquira",
-            "Campanário",
-            "Campanha",
-            "Campestre",
-            "Campina Verde",
-            "Campo Azul",
-            "Campo Belo",
-            "Campo do Meio",
-            "Campo Florido",
-            "Campos Altos",
-            "Campos Gerais",
-            "Cana Verde",
-            "Canaã",
-            "Canápolis",
-            "Candeias",
-            "Cantagalo",
-            "Caparaó",
-            "Capela Nova",
-            "Capelinha",
-            "Capetinga",
-            "Capim Branco",
-            "Capinópolis",
-            "Capitão Andrade",
-            "Capitão Enéas",
-            "Capitólio",
-            "Caputira",
-            "Caraí",
-            "Caranaíba",
-            "Carandaí",
-            "Carangola",
-            "Caratinga",
-            "Carbonita",
-            "Careaçu",
-            "Carlos Chagas",
-            "Carmésia",
-            "Carmo da Cachoeira",
-            "Carmo da Mata",
-            "Carmo de Minas",
-            "Carmo do Cajuru",
-            "Carmo do Paranaíba",
-            "Carmo do Rio Claro",
-            "Carmópolis de Minas",
-            "Carneirinho",
-            "Carrancas",
-            "Carvalhópolis",
-            "Carvalhos",
-            "Casa Grande",
-            "Cascalho Rico",
-            "Cássia",
-            "Cataguases",
-            "Catas Altas",
-            "Catas Altas da Noruega"});
-            this.comboBox9.Location = new System.Drawing.Point(722, 158);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(321, 24);
-            this.comboBox9.TabIndex = 159;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
-            "Acre",
-            "Alagoas",
-            "Amapá",
-            "Amazonas",
-            "Bahia",
-            "Ceará",
-            "Distrito Federal",
-            "Espírito Santo",
-            "Goiás",
-            "Maranhão",
-            "Mato Grosso",
-            "Mato Grosso do Sul",
-            "Minas Gerais",
-            "Pará",
-            "Paraíba",
-            "Paraná",
-            "Pernambuco",
-            "Piauí",
-            "Rio de Janeiro",
-            "Rio Grande do Norte",
-            "Rio Grande do Sul",
-            "Rondônia",
-            "Roraima",
-            "Santa Catarina",
-            "São Paulo",
-            "Sergipe",
-            "Tocantins"});
-            this.comboBox10.Location = new System.Drawing.Point(241, 155);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(121, 24);
-            this.comboBox10.TabIndex = 158;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(654, 163);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(55, 16);
-            this.label20.TabIndex = 157;
-            this.label20.Text = "Cidade:";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(353, 116);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(110, 16);
-            this.label21.TabIndex = 156;
-            this.label21.Text = "Telefone Celular:";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(145, 116);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(93, 16);
-            this.label22.TabIndex = 155;
-            this.label22.Text = "Telefone Fixo:";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(654, 116);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(45, 16);
-            this.label23.TabIndex = 154;
-            this.label23.Text = "Email:";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(158, 73);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(75, 16);
-            this.label24.TabIndex = 153;
-            this.label24.Text = "Identidade:";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(411, 27);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(48, 16);
-            this.label25.TabIndex = 152;
-            this.label25.Text = "Nome:";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(170, 24);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(65, 16);
-            this.label26.TabIndex = 151;
-            this.label26.Text = "Matricula:";
-            // 
-            // textBox11
-            // 
-            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(241, 113);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(109, 22);
-            this.textBox11.TabIndex = 150;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(722, 113);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(321, 22);
-            this.textBox12.TabIndex = 149;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(241, 73);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(109, 22);
-            this.textBox13.TabIndex = 148;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(462, 26);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(572, 22);
-            this.textBox14.TabIndex = 147;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(241, 21);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(100, 22);
-            this.textBox16.TabIndex = 146;
             // 
             // panel1
             // 
@@ -5972,40 +3162,2812 @@
             // 
             this.calculadoraToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("calculadoraToolStripMenuItem.Image")));
             this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.calculadoraToolStripMenuItem.Text = "Calculadora";
             // 
             // capturaDeTelaToolStripMenuItem
             // 
             this.capturaDeTelaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("capturaDeTelaToolStripMenuItem.Image")));
             this.capturaDeTelaToolStripMenuItem.Name = "capturaDeTelaToolStripMenuItem";
-            this.capturaDeTelaToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.capturaDeTelaToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.capturaDeTelaToolStripMenuItem.Text = "Captura de Tela";
             // 
             // notasAdesivasToolStripMenuItem
             // 
             this.notasAdesivasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("notasAdesivasToolStripMenuItem.Image")));
             this.notasAdesivasToolStripMenuItem.Name = "notasAdesivasToolStripMenuItem";
-            this.notasAdesivasToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.notasAdesivasToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.notasAdesivasToolStripMenuItem.Text = "Notas Adesivas";
             // 
-            // txbCep
+            // maskedTextBox5
             // 
-            this.txbCep.Location = new System.Drawing.Point(240, 231);
-            this.txbCep.Name = "txbCep";
-            this.txbCep.Size = new System.Drawing.Size(100, 20);
-            this.txbCep.TabIndex = 146;
-            this.txbCep.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txbCep_KeyUp);
+            this.maskedTextBox5.Location = new System.Drawing.Point(242, 65);
+            this.maskedTextBox5.Mask = "00,000-000";
+            this.maskedTextBox5.Name = "maskedTextBox5";
+            this.maskedTextBox5.Size = new System.Drawing.Size(117, 20);
+            this.maskedTextBox5.TabIndex = 217;
             // 
-            // txbEndereco
+            // maskedTextBox6
             // 
-            this.txbEndereco.Location = new System.Drawing.Point(465, 239);
-            this.txbEndereco.Name = "txbEndereco";
-            this.txbEndereco.Size = new System.Drawing.Size(343, 46);
-            this.txbEndereco.TabIndex = 147;
-            this.txbEndereco.Text = "";
+            this.maskedTextBox6.Location = new System.Drawing.Point(474, 65);
+            this.maskedTextBox6.Mask = "000,000,000-00";
+            this.maskedTextBox6.Name = "maskedTextBox6";
+            this.maskedTextBox6.Size = new System.Drawing.Size(169, 20);
+            this.maskedTextBox6.TabIndex = 216;
             // 
-            // frmCadastroProfessor
+            // maskedTextBox7
+            // 
+            this.maskedTextBox7.Location = new System.Drawing.Point(474, 105);
+            this.maskedTextBox7.Mask = "(00)000-0000";
+            this.maskedTextBox7.Name = "maskedTextBox7";
+            this.maskedTextBox7.Size = new System.Drawing.Size(169, 20);
+            this.maskedTextBox7.TabIndex = 215;
+            // 
+            // maskedTextBox8
+            // 
+            this.maskedTextBox8.Location = new System.Drawing.Point(240, 104);
+            this.maskedTextBox8.Mask = "(00)0000-0000";
+            this.maskedTextBox8.Name = "maskedTextBox8";
+            this.maskedTextBox8.Size = new System.Drawing.Size(119, 20);
+            this.maskedTextBox8.TabIndex = 214;
+            // 
+            // maskedTextBox9
+            // 
+            this.maskedTextBox9.Location = new System.Drawing.Point(241, 143);
+            this.maskedTextBox9.Mask = "00000-000";
+            this.maskedTextBox9.Name = "maskedTextBox9";
+            this.maskedTextBox9.Size = new System.Drawing.Size(118, 20);
+            this.maskedTextBox9.TabIndex = 213;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(981, 191);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(73, 20);
+            this.textBox1.TabIndex = 212;
+            // 
+            // lblEdtProfComplemento
+            // 
+            this.lblEdtProfComplemento.AutoSize = true;
+            this.lblEdtProfComplemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfComplemento.Location = new System.Drawing.Point(886, 193);
+            this.lblEdtProfComplemento.Name = "lblEdtProfComplemento";
+            this.lblEdtProfComplemento.Size = new System.Drawing.Size(95, 16);
+            this.lblEdtProfComplemento.TabIndex = 211;
+            this.lblEdtProfComplemento.Text = "Complemento:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(473, 187);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(71, 22);
+            this.textBox2.TabIndex = 210;
+            // 
+            // lblEdtProfNumero
+            // 
+            this.lblEdtProfNumero.AutoSize = true;
+            this.lblEdtProfNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfNumero.Location = new System.Drawing.Point(408, 189);
+            this.lblEdtProfNumero.Name = "lblEdtProfNumero";
+            this.lblEdtProfNumero.Size = new System.Drawing.Size(59, 16);
+            this.lblEdtProfNumero.TabIndex = 209;
+            this.lblEdtProfNumero.Text = "Número:";
+            // 
+            // lblEdtProfLogradouro
+            // 
+            this.lblEdtProfLogradouro.AutoSize = true;
+            this.lblEdtProfLogradouro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfLogradouro.Location = new System.Drawing.Point(158, 189);
+            this.lblEdtProfLogradouro.Name = "lblEdtProfLogradouro";
+            this.lblEdtProfLogradouro.Size = new System.Drawing.Size(81, 16);
+            this.lblEdtProfLogradouro.TabIndex = 208;
+            this.lblEdtProfLogradouro.Text = "Logradouro:";
+            // 
+            // lblEdtProfBairro
+            // 
+            this.lblEdtProfBairro.AutoSize = true;
+            this.lblEdtProfBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfBairro.Location = new System.Drawing.Point(680, 192);
+            this.lblEdtProfBairro.Name = "lblEdtProfBairro";
+            this.lblEdtProfBairro.Size = new System.Drawing.Size(47, 16);
+            this.lblEdtProfBairro.TabIndex = 207;
+            this.lblEdtProfBairro.Text = "Bairro:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Enabled = false;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(733, 189);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(147, 22);
+            this.textBox3.TabIndex = 206;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Enabled = false;
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(240, 186);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(119, 22);
+            this.textBox4.TabIndex = 205;
+            // 
+            // lblEdtProfCep
+            // 
+            this.lblEdtProfCep.AutoSize = true;
+            this.lblEdtProfCep.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfCep.Location = new System.Drawing.Point(197, 144);
+            this.lblEdtProfCep.Name = "lblEdtProfCep";
+            this.lblEdtProfCep.Size = new System.Drawing.Size(38, 16);
+            this.lblEdtProfCep.TabIndex = 204;
+            this.lblEdtProfCep.Text = "CEP:";
+            // 
+            // lblEdtProfUF
+            // 
+            this.lblEdtProfUF.AutoSize = true;
+            this.lblEdtProfUF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfUF.Location = new System.Drawing.Point(442, 144);
+            this.lblEdtProfUF.Name = "lblEdtProfUF";
+            this.lblEdtProfUF.Size = new System.Drawing.Size(29, 16);
+            this.lblEdtProfUF.TabIndex = 203;
+            this.lblEdtProfUF.Text = "UF:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Enabled = false;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Alta Floresta D\'Oeste",
+            "Alto Alegre dos Parecis",
+            "Alto Paraíso",
+            "Alvorada D\'Oeste",
+            "Ariquemes",
+            "Buritis",
+            "Cabixi",
+            "Cacaulândia",
+            "Cacoal",
+            "Campo Novo de Rondônia",
+            "Candeias do Jamari",
+            "Castanheiras",
+            "Cerejeiras",
+            "Chupinguaia",
+            "Colorado do Oeste",
+            "Corumbiara",
+            "Costa Marques",
+            "Cujubim",
+            "Espigão D\'Oeste",
+            "Governador Jorge Teixeira",
+            "Guajará-Mirim",
+            "Itapuã do Oeste",
+            "Jaru",
+            "Ji-Paraná",
+            "Machadinho D\'Oeste",
+            "Ministro Andreazza",
+            "Mirante da Serra",
+            "Monte Negro",
+            "Nova Brasilândia D\'Oeste",
+            "Nova Mamoré",
+            "Nova União",
+            "Novo Horizonte do Oeste",
+            "Ouro Preto do Oeste",
+            "Parecis",
+            "Pimenta Bueno",
+            "Pimenteiras do Oeste",
+            "Porto Velho",
+            "Presidente Médici",
+            "Primavera de Rondônia",
+            "Rio Crespo",
+            "Rolim de Moura",
+            "Santa Luzia D\'Oeste",
+            "São Felipe D\'Oeste",
+            "São Francisco do Guaporé",
+            "São Miguel do Guaporé",
+            "Seringueiras",
+            "Teixeirópolis",
+            "Theobroma",
+            "Urupá",
+            "Vale do Anari",
+            "Vale do Paraíso",
+            "Vilhena",
+            "Acrelândia",
+            "Assis Brasil",
+            "Brasiléia",
+            "Bujari",
+            "Capixaba",
+            "Cruzeiro do Sul",
+            "Epitaciolândia",
+            "Feijó",
+            "Jordão",
+            "Mâncio Lima",
+            "Manoel Urbano",
+            "Marechal Thaumaturgo",
+            "Plácido de Castro",
+            "Porto Acre",
+            "Porto Walter",
+            "Rio Branco",
+            "Rodrigues Alves",
+            "Santa Rosa do Purus",
+            "Sena Madureira",
+            "Senador Guiomard",
+            "Tarauacá",
+            "Xapuri",
+            "Alvarães",
+            "Amaturá",
+            "Anamã",
+            "Anori",
+            "Apuí",
+            "Atalaia do Norte",
+            "Autazes",
+            "Barcelos",
+            "Barreirinha",
+            "Benjamin Constant",
+            "Beruri",
+            "Boa Vista do Ramos",
+            "Boca do Acre",
+            "Borba",
+            "Caapiranga",
+            "Canutama",
+            "Carauari",
+            "Careiro",
+            "Careiro da Várzea",
+            "Coari",
+            "Codajás",
+            "Eirunepé",
+            "Envira",
+            "Fonte Boa",
+            "Guajará",
+            "Humaitá",
+            "Ipixuna",
+            "Iranduba",
+            "Itacoatiara",
+            "Itamarati",
+            "Itapiranga",
+            "Japurá",
+            "Juruá",
+            "Jutaí",
+            "Lábrea",
+            "Manacapuru",
+            "Manaquiri",
+            "Manaus",
+            "Manicoré",
+            "Maraã",
+            "Maués",
+            "Nhamundá",
+            "Nova Olinda do Norte",
+            "Novo Airão",
+            "Novo Aripuanã",
+            "Parintins",
+            "Pauini",
+            "Presidente Figueiredo",
+            "Rio Preto da Eva",
+            "Santa Isabel do Rio Negro",
+            "Santo Antônio do Içá",
+            "São Gabriel da Cachoeira",
+            "São Paulo de Olivença",
+            "São Sebastião do Uatumã",
+            "Silves",
+            "Tabatinga",
+            "Tapauá",
+            "Tefé",
+            "Tonantins",
+            "Uarini",
+            "Urucará",
+            "Urucurituba",
+            "Alto Alegre",
+            "Amajari",
+            "Boa Vista",
+            "Bonfim",
+            "Cantá",
+            "Caracaraí",
+            "Caroebe",
+            "Iracema",
+            "Mucajaí",
+            "Normandia",
+            "Pacaraima",
+            "Rorainópolis",
+            "São João da Baliza",
+            "São Luiz",
+            "Uiramutã",
+            "Abaetetuba",
+            "Abel Figueiredo",
+            "Acará",
+            "Afuá",
+            "Água Azul do Norte",
+            "Alenquer",
+            "Almeirim",
+            "Altamira",
+            "Anajás",
+            "Ananindeua",
+            "Anapu",
+            "Augusto Corrêa",
+            "Aurora do Pará",
+            "Aveiro",
+            "Bagre",
+            "Baião",
+            "Bannach",
+            "Barcarena",
+            "Belém",
+            "Belterra",
+            "Benevides",
+            "Bom Jesus do Tocantins",
+            "Bonito",
+            "Bragança",
+            "Brasil Novo",
+            "Brejo Grande do Araguaia",
+            "Breu Branco",
+            "Breves",
+            "Bujaru",
+            "Cachoeira do Arari",
+            "Cachoeira do Piriá",
+            "Cametá",
+            "Canaã dos Carajás",
+            "Capanema",
+            "Capitão Poço",
+            "Castanhal",
+            "Chaves",
+            "Colares",
+            "Conceição do Araguaia",
+            "Concórdia do Pará",
+            "Cumaru do Norte",
+            "Curionópolis",
+            "Curralinho",
+            "Curuá",
+            "Curuçá",
+            "Dom Eliseu",
+            "Eldorado dos Carajás",
+            "Faro",
+            "Floresta do Araguaia",
+            "Garrafão do Norte",
+            "Goianésia do Pará",
+            "Gurupá",
+            "Igarapé-Açu",
+            "Igarapé-Miri",
+            "Inhangapi",
+            "Ipixuna do Pará",
+            "Irituia",
+            "Itaituba",
+            "Itupiranga",
+            "Jacareacanga",
+            "Jacundá",
+            "Juruti",
+            "Limoeiro do Ajuru",
+            "Mãe do Rio",
+            "Magalhães Barata",
+            "Marabá",
+            "Maracanã",
+            "Marapanim",
+            "Marituba",
+            "Medicilândia",
+            "Melgaço",
+            "Mocajuba",
+            "Moju",
+            "Monte Alegre",
+            "Muaná",
+            "Nova Esperança do Piriá",
+            "Nova Ipixuna",
+            "Nova Timboteua",
+            "Novo Progresso",
+            "Novo Repartimento",
+            "Óbidos",
+            "Oeiras do Pará",
+            "Oriximiná",
+            "Ourém",
+            "Ourilândia do Norte",
+            "Pacajá",
+            "Palestina do Pará",
+            "Paragominas",
+            "Parauapebas",
+            "Pau D\'Arco",
+            "Peixe-Boi",
+            "Piçarra",
+            "Placas",
+            "Ponta de Pedras",
+            "Portel",
+            "Porto de Moz",
+            "Prainha",
+            "Primavera",
+            "Quatipuru",
+            "Redenção",
+            "Rio Maria",
+            "Rondon do Pará",
+            "Rurópolis",
+            "Salinópolis",
+            "Salvaterra",
+            "Santa Bárbara do Pará",
+            "Santa Cruz do Arari",
+            "Santa Isabel do Pará",
+            "Santa Luzia do Pará",
+            "Santa Maria das Barreiras",
+            "Santa Maria do Pará",
+            "Santana do Araguaia",
+            "Santarém",
+            "Santarém Novo",
+            "Santo Antônio do Tauá",
+            "São Caetano de Odivelas",
+            "São Domingos do Araguaia",
+            "São Domingos do Capim",
+            "São Félix do Xingu",
+            "São Francisco do Pará",
+            "São Geraldo do Araguaia",
+            "São João da Ponta",
+            "São João de Pirabas",
+            "São João do Araguaia",
+            "São Miguel do Guamá",
+            "São Sebastião da Boa Vista",
+            "Sapucaia",
+            "Senador José Porfírio",
+            "Soure",
+            "Tailândia",
+            "Terra Alta",
+            "Terra Santa",
+            "Tomé-Açu",
+            "Tracuateua",
+            "Trairão",
+            "Tucumã",
+            "Tucuruí",
+            "Ulianópolis",
+            "Uruará",
+            "Vigia",
+            "Viseu",
+            "Vitória do Xingu",
+            "Xinguara",
+            "Amapá",
+            "Calçoene",
+            "Cutias",
+            "Ferreira Gomes",
+            "Itaubal",
+            "Laranjal do Jari",
+            "Macapá",
+            "Mazagão",
+            "Oiapoque",
+            "Pedra Branca do Amapari",
+            "Porto Grande",
+            "Pracuúba",
+            "Santana",
+            "Serra do Navio",
+            "Tartarugalzinho",
+            "Vitória do Jari",
+            "Abreulândia",
+            "Aguiarnópolis",
+            "Aliança do Tocantins",
+            "Almas",
+            "Alvorada",
+            "Ananás",
+            "Angico",
+            "Aparecida do Rio Negro",
+            "Aragominas",
+            "Araguacema",
+            "Araguaçu",
+            "Araguaína",
+            "Araguanã",
+            "Araguatins",
+            "Arapoema",
+            "Arraias",
+            "Augustinópolis",
+            "Aurora do Tocantins",
+            "Axixá do Tocantins",
+            "Babaçulândia",
+            "Bandeirantes do Tocantins",
+            "Barra do Ouro",
+            "Barrolândia",
+            "Bernardo Sayão",
+            "Bom Jesus do Tocantins",
+            "Brasilândia do Tocantins",
+            "Brejinho de Nazaré",
+            "Buriti do Tocantins",
+            "Cachoeirinha",
+            "Campos Lindos",
+            "Cariri do Tocantins",
+            "Carmolândia",
+            "Carrasco Bonito",
+            "Caseara",
+            "Centenário",
+            "Chapada da Natividade",
+            "Chapada de Areia",
+            "Colinas do Tocantins",
+            "Colméia",
+            "Combinado",
+            "Conceição do Tocantins",
+            "Couto Magalhães",
+            "Cristalândia",
+            "Crixás do Tocantins",
+            "Darcinópolis",
+            "Dianópolis",
+            "Divinópolis do Tocantins",
+            "Dois Irmãos do Tocantins",
+            "Dueré",
+            "Esperantina",
+            "Fátima",
+            "Figueirópolis",
+            "Filadélfia",
+            "Formoso do Araguaia",
+            "Fortaleza do Tabocão",
+            "Goianorte",
+            "Goiatins",
+            "Guaraí",
+            "Gurupi",
+            "Ipueiras",
+            "Itacajá",
+            "Itaguatins",
+            "Itapiratins",
+            "Itaporã do Tocantins",
+            "Jaú do Tocantins",
+            "Juarina",
+            "Lagoa da Confusão",
+            "Lagoa do Tocantins",
+            "Lajeado",
+            "Lavandeira",
+            "Lizarda",
+            "Luzinópolis",
+            "Marianópolis do Tocantins",
+            "Mateiros",
+            "Maurilândia do Tocantins",
+            "Miracema do Tocantins",
+            "Miranorte",
+            "Monte do Carmo",
+            "Monte Santo do Tocantins",
+            "Muricilândia",
+            "Natividade",
+            "Nazaré",
+            "Nova Olinda",
+            "Nova Rosalândia",
+            "Novo Acordo",
+            "Novo Alegre",
+            "Novo Jardim",
+            "Oliveira de Fátima",
+            "Palmas",
+            "Palmeirante",
+            "Palmeiras do Tocantins",
+            "Palmeirópolis",
+            "Paraíso do Tocantins",
+            "Paranã",
+            "Pau D\'Arco",
+            "Pedro Afonso",
+            "Peixe",
+            "Pequizeiro",
+            "Pindorama do Tocantins",
+            "Piraquê",
+            "Pium",
+            "Ponte Alta do Bom Jesus",
+            "Ponte Alta do Tocantins",
+            "Porto Alegre do Tocantins",
+            "Porto Nacional",
+            "Praia Norte",
+            "Presidente Kennedy",
+            "Pugmil",
+            "Recursolândia",
+            "Riachinho",
+            "Rio da Conceição",
+            "Rio dos Bois",
+            "Rio Sono",
+            "Sampaio",
+            "Sandolândia",
+            "Santa Fé do Araguaia",
+            "Santa Maria do Tocantins",
+            "Santa Rita do Tocantins",
+            "Santa Rosa do Tocantins",
+            "Santa Tereza do Tocantins",
+            "Santa Terezinha do Tocantins",
+            "São Bento do Tocantins",
+            "São Félix do Tocantins",
+            "São Miguel do Tocantins",
+            "São Salvador do Tocantins",
+            "São Sebastião do Tocantins",
+            "São Valério",
+            "Silvanópolis",
+            "Sítio Novo do Tocantins",
+            "Sucupira",
+            "Taguatinga",
+            "Taipas do Tocantins",
+            "Talismã",
+            "Tocantínia",
+            "Tocantinópolis",
+            "Tupirama",
+            "Tupiratins",
+            "Wanderlândia",
+            "Xambioá",
+            "Açailândia",
+            "Afonso Cunha",
+            "Água Doce do Maranhão",
+            "Alcântara",
+            "Aldeias Altas",
+            "Altamira do Maranhão",
+            "Alto Alegre do Maranhão",
+            "Alto Alegre do Pindaré",
+            "Alto Parnaíba",
+            "Amapá do Maranhão",
+            "Amarante do Maranhão",
+            "Anajatuba",
+            "Anapurus",
+            "Apicum-Açu",
+            "Araguanã",
+            "Araioses",
+            "Arame",
+            "Arari",
+            "Axixá",
+            "Bacabal",
+            "Bacabeira",
+            "Bacuri",
+            "Bacurituba",
+            "Balsas",
+            "Barão de Grajaú",
+            "Barra do Corda",
+            "Barreirinhas",
+            "Bela Vista do Maranhão",
+            "Belágua",
+            "Benedito Leite",
+            "Bequimão",
+            "Bernardo do Mearim",
+            "Boa Vista do Gurupi",
+            "Bom Jardim",
+            "Bom Jesus das Selvas",
+            "Bom Lugar",
+            "Brejo",
+            "Brejo de Areia",
+            "Buriti",
+            "Buriti Bravo",
+            "Buriticupu",
+            "Buritirana",
+            "Cachoeira Grande",
+            "Cajapió",
+            "Cajari",
+            "Campestre do Maranhão",
+            "Cândido Mendes",
+            "Cantanhede",
+            "Capinzal do Norte",
+            "Carolina",
+            "Carutapera",
+            "Caxias",
+            "Cedral",
+            "Central do Maranhão",
+            "Centro do Guilherme",
+            "Centro Novo do Maranhão",
+            "Chapadinha",
+            "Cidelândia",
+            "Codó",
+            "Coelho Neto",
+            "Colinas",
+            "Conceição do Lago-Açu",
+            "Coroatá",
+            "Cururupu",
+            "Davinópolis",
+            "Dom Pedro",
+            "Duque Bacelar",
+            "Esperantinópolis",
+            "Estreito",
+            "Feira Nova do Maranhão",
+            "Fernando Falcão",
+            "Formosa da Serra Negra",
+            "Fortaleza dos Nogueiras",
+            "Fortuna",
+            "Godofredo Viana",
+            "Gonçalves Dias",
+            "Governador Archer",
+            "Governador Edison Lobão",
+            "Governador Eugênio Barros",
+            "Governador Luiz Rocha",
+            "Governador Newton Bello",
+            "Governador Nunes Freire",
+            "Graça Aranha",
+            "Grajaú",
+            "Guimarães",
+            "Humberto de Campos",
+            "Icatu",
+            "Igarapé do Meio",
+            "Igarapé Grande",
+            "Imperatriz",
+            "Itaipava do Grajaú",
+            "Itapecuru Mirim",
+            "Itinga do Maranhão",
+            "Jatobá",
+            "Jenipapo dos Vieiras",
+            "João Lisboa",
+            "Joselândia",
+            "Junco do Maranhão",
+            "Lago da Pedra",
+            "Lago do Junco",
+            "Lago dos Rodrigues",
+            "Lago Verde",
+            "Lagoa do Mato",
+            "Lagoa Grande do Maranhão",
+            "Lajeado Novo",
+            "Lima Campos",
+            "Loreto",
+            "Luís Domingues",
+            "Magalhães de Almeida",
+            "Maracaçumé",
+            "Marajá do Sena",
+            "Maranhãozinho",
+            "Mata Roma",
+            "Matinha",
+            "Matões",
+            "Matões do Norte",
+            "Milagres do Maranhão",
+            "Mirador",
+            "Miranda do Norte",
+            "Mirinzal",
+            "Monção",
+            "Montes Altos",
+            "Morros",
+            "Nina Rodrigues",
+            "Nova Colinas",
+            "Nova Iorque",
+            "Nova Olinda do Maranhão",
+            "Olho d\'Água das Cunhãs",
+            "Olinda Nova do Maranhão",
+            "Paço do Lumiar",
+            "Palmeirândia",
+            "Paraibano",
+            "Parnarama",
+            "Passagem Franca",
+            "Pastos Bons",
+            "Paulino Neves",
+            "Paulo Ramos",
+            "Pedreiras",
+            "Pedro do Rosário",
+            "Penalva",
+            "Peri Mirim",
+            "Peritoró",
+            "Pindaré-Mirim",
+            "Pinheiro",
+            "Pio XII",
+            "Pirapemas",
+            "Poção de Pedras",
+            "Porto Franco",
+            "Porto Rico do Maranhão",
+            "Presidente Dutra",
+            "Presidente Juscelino",
+            "Presidente Médici",
+            "Presidente Sarney",
+            "Presidente Vargas",
+            "Primeira Cruz",
+            "Raposa",
+            "Riachão",
+            "Ribamar Fiquene",
+            "Rosário",
+            "Sambaíba",
+            "Santa Filomena do Maranhão",
+            "Santa Helena",
+            "Santa Inês",
+            "Santa Luzia",
+            "Santa Luzia do Paruá",
+            "Santa Quitéria do Maranhão",
+            "Santa Rita",
+            "Santana do Maranhão",
+            "Santo Amaro do Maranhão",
+            "Santo Antônio dos Lopes",
+            "São Benedito do Rio Preto",
+            "São Bento",
+            "São Bernardo",
+            "São Domingos do Azeitão",
+            "São Domingos do Maranhão",
+            "São Félix de Balsas",
+            "São Francisco do Brejão",
+            "São Francisco do Maranhão",
+            "São João Batista",
+            "São João do Carú",
+            "São João do Paraíso",
+            "São João do Soter",
+            "São João dos Patos",
+            "São José de Ribamar",
+            "São José dos Basílios",
+            "São Luís",
+            "São Luís Gonzaga do Maranhão",
+            "São Mateus do Maranhão",
+            "São Pedro da Água Branca",
+            "São Pedro dos Crentes",
+            "São Raimundo das Mangabeiras",
+            "São Raimundo do Doca Bezerra",
+            "São Roberto",
+            "São Vicente Ferrer",
+            "Satubinha",
+            "Senador Alexandre Costa",
+            "Senador La Rocque",
+            "Serrano do Maranhão",
+            "Sítio Novo",
+            "Sucupira do Norte",
+            "Sucupira do Riachão",
+            "Tasso Fragoso",
+            "Timbiras",
+            "Timon",
+            "Trizidela do Vale",
+            "Tufilândia",
+            "Tuntum",
+            "Turiaçu",
+            "Turilândia",
+            "Tutóia",
+            "Urbano Santos",
+            "Vargem Grande",
+            "Viana",
+            "Vila Nova dos Martírios",
+            "Vitória do Mearim",
+            "Vitorino Freire",
+            "Zé Doca",
+            "Acauã",
+            "Agricolândia",
+            "Água Branca",
+            "Alagoinha do Piauí",
+            "Alegrete do Piauí",
+            "Alto Longá",
+            "Altos",
+            "Alvorada do Gurguéia",
+            "Amarante",
+            "Angical do Piauí",
+            "Anísio de Abreu",
+            "Antônio Almeida",
+            "Aroazes",
+            "Aroeiras do Itaim",
+            "Arraial",
+            "Assunção do Piauí",
+            "Avelino Lopes",
+            "Baixa Grande do Ribeiro",
+            "Barra D\'Alcântara",
+            "Barras",
+            "Barreiras do Piauí",
+            "Barro Duro",
+            "Batalha",
+            "Bela Vista do Piauí",
+            "Belém do Piauí",
+            "Beneditinos",
+            "Bertolínia",
+            "Betânia do Piauí",
+            "Boa Hora",
+            "Bocaina",
+            "Bom Jesus",
+            "Bom Princípio do Piauí",
+            "Bonfim do Piauí",
+            "Boqueirão do Piauí",
+            "Brasileira",
+            "Brejo do Piauí",
+            "Buriti dos Lopes",
+            "Buriti dos Montes",
+            "Cabeceiras do Piauí",
+            "Cajazeiras do Piauí",
+            "Cajueiro da Praia",
+            "Caldeirão Grande do Piauí",
+            "Campinas do Piauí",
+            "Campo Alegre do Fidalgo",
+            "Campo Grande do Piauí",
+            "Campo Largo do Piauí",
+            "Campo Maior",
+            "Canavieira",
+            "Canto do Buriti",
+            "Capitão de Campos",
+            "Capitão Gervásio Oliveira",
+            "Caracol",
+            "Caraúbas do Piauí",
+            "Caridade do Piauí",
+            "Castelo do Piauí",
+            "Caxingó",
+            "Cocal",
+            "Cocal de Telha",
+            "Cocal dos Alves",
+            "Coivaras",
+            "Colônia do Gurguéia",
+            "Colônia do Piauí",
+            "Conceição do Canindé",
+            "Coronel José Dias",
+            "Corrente",
+            "Cristalândia do Piauí",
+            "Cristino Castro",
+            "Curimatá",
+            "Currais",
+            "Curral Novo do Piauí",
+            "Curralinhos",
+            "Demerval Lobão",
+            "Dirceu Arcoverde",
+            "Dom Expedito Lopes",
+            "Dom Inocêncio",
+            "Domingos Mourão",
+            "Elesbão Veloso",
+            "Eliseu Martins",
+            "Esperantina",
+            "Fartura do Piauí",
+            "Flores do Piauí",
+            "Floresta do Piauí",
+            "Floriano",
+            "Francinópolis",
+            "Francisco Ayres",
+            "Francisco Macedo",
+            "Francisco Santos",
+            "Fronteiras",
+            "Geminiano",
+            "Gilbués",
+            "Guadalupe",
+            "Guaribas",
+            "Hugo Napoleão",
+            "Ilha Grande",
+            "Inhuma",
+            "Ipiranga do Piauí",
+            "Isaías Coelho",
+            "Itainópolis",
+            "Itaueira",
+            "Jacobina do Piauí",
+            "Jaicós",
+            "Jardim do Mulato",
+            "Jatobá do Piauí",
+            "Jerumenha",
+            "João Costa",
+            "Joaquim Pires",
+            "Joca Marques",
+            "José de Freitas",
+            "Juazeiro do Piauí",
+            "Júlio Borges",
+            "Jurema",
+            "Lagoa Alegre",
+            "Lagoa de São Francisco",
+            "Lagoa do Barro do Piauí",
+            "Lagoa do Piauí",
+            "Lagoa do Sítio",
+            "Lagoinha do Piauí",
+            "Landri Sales",
+            "Luís Correia",
+            "Luzilândia",
+            "Madeiro",
+            "Manoel Emídio",
+            "Marcolândia",
+            "Marcos Parente",
+            "Massapê do Piauí",
+            "Matias Olímpio",
+            "Miguel Alves",
+            "Miguel Leão",
+            "Milton Brandão",
+            "Monsenhor Gil",
+            "Monsenhor Hipólito",
+            "Monte Alegre do Piauí",
+            "Morro Cabeça no Tempo",
+            "Morro do Chapéu do Piauí",
+            "Murici dos Portelas",
+            "Nazaré do Piauí",
+            "Nazária ",
+            "Nossa Senhora de Nazaré",
+            "Nossa Senhora dos Remédios",
+            "Nova Santa Rita",
+            "Novo Oriente do Piauí",
+            "Novo Santo Antônio",
+            "Oeiras",
+            "Olho D\'Água do Piauí",
+            "Padre Marcos",
+            "Paes Landim",
+            "Pajeú do Piauí",
+            "Palmeira do Piauí",
+            "Palmeirais",
+            "Paquetá",
+            "Parnaguá",
+            "Parnaíba",
+            "Passagem Franca do Piauí",
+            "Patos do Piauí",
+            "Pau D\'Arco do Piauí",
+            "Paulistana",
+            "Pavussu",
+            "Pedro II",
+            "Pedro Laurentino",
+            "Picos",
+            "Pimenteiras",
+            "Pio IX",
+            "Piracuruca",
+            "Piripiri",
+            "Porto",
+            "Porto Alegre do Piauí",
+            "Prata do Piauí",
+            "Queimada Nova",
+            "Redenção do Gurguéia",
+            "Regeneração",
+            "Riacho Frio",
+            "Ribeira do Piauí",
+            "Ribeiro Gonçalves",
+            "Rio Grande do Piauí",
+            "Santa Cruz do Piauí",
+            "Santa Cruz dos Milagres",
+            "Santa Filomena",
+            "Santa Luz",
+            "Santa Rosa do Piauí",
+            "Santana do Piauí",
+            "Santo Antônio de Lisboa",
+            "Santo Antônio dos Milagres",
+            "Santo Inácio do Piauí",
+            "São Braz do Piauí",
+            "São Félix do Piauí",
+            "São Francisco de Assis do Piauí",
+            "São Francisco do Piauí",
+            "São Gonçalo do Gurguéia",
+            "São Gonçalo do Piauí",
+            "São João da Canabrava",
+            "São João da Fronteira",
+            "São João da Serra",
+            "São João da Varjota",
+            "São João do Arraial",
+            "São João do Piauí",
+            "São José do Divino",
+            "São José do Peixe",
+            "São José do Piauí",
+            "São Julião",
+            "São Lourenço do Piauí",
+            "São Luis do Piauí",
+            "São Miguel da Baixa Grande",
+            "São Miguel do Fidalgo",
+            "São Miguel do Tapuio",
+            "São Pedro do Piauí",
+            "São Raimundo Nonato",
+            "Sebastião Barros",
+            "Sebastião Leal",
+            "Sigefredo Pacheco",
+            "Simões",
+            "Simplício Mendes",
+            "Socorro do Piauí",
+            "Sussuapara",
+            "Tamboril do Piauí",
+            "Tanque do Piauí",
+            "Teresina",
+            "União",
+            "Uruçuí",
+            "Valença do Piauí",
+            "Várzea Branca",
+            "Várzea Grande",
+            "Vera Mendes",
+            "Vila Nova do Piauí",
+            "Wall Ferraz",
+            "Abaiara",
+            "Acarape",
+            "Acaraú",
+            "Acopiara",
+            "Aiuaba",
+            "Alcântaras",
+            "Altaneira",
+            "Alto Santo",
+            "Amontada",
+            "Antonina do Norte",
+            "Apuiarés",
+            "Aquiraz",
+            "Aracati",
+            "Aracoiaba",
+            "Ararendá",
+            "Araripe",
+            "Aratuba",
+            "Arneiroz",
+            "Assaré",
+            "Aurora",
+            "Baixio",
+            "Banabuiú",
+            "Barbalha",
+            "Barreira",
+            "Barro",
+            "Barroquinha",
+            "Baturité",
+            "Beberibe",
+            "Bela Cruz",
+            "Boa Viagem",
+            "Brejo Santo",
+            "Camocim",
+            "Campos Sales",
+            "Canindé",
+            "Capistrano",
+            "Caridade",
+            "Cariré",
+            "Caririaçu",
+            "Cariús",
+            "Carnaubal",
+            "Cascavel",
+            "Catarina",
+            "Catunda",
+            "Caucaia",
+            "Cedro",
+            "Chaval",
+            "Choró",
+            "Chorozinho",
+            "Coreaú",
+            "Crateús",
+            "Crato",
+            "Croatá",
+            "Cruz",
+            "Deputado Irapuan Pinheiro",
+            "Ererê",
+            "Eusébio",
+            "Farias Brito",
+            "Forquilha",
+            "Fortaleza",
+            "Fortim",
+            "Frecheirinha",
+            "General Sampaio",
+            "Graça",
+            "Granja",
+            "Granjeiro",
+            "Groaíras",
+            "Guaiúba",
+            "Guaraciaba do Norte",
+            "Guaramiranga",
+            "Hidrolândia",
+            "Horizonte",
+            "Ibaretama",
+            "Ibiapina",
+            "Ibicuitinga",
+            "Icapuí",
+            "Icó",
+            "Iguatu",
+            "Independência",
+            "Ipaporanga",
+            "Ipaumirim",
+            "Ipu",
+            "Ipueiras",
+            "Iracema",
+            "Irauçuba",
+            "Itaiçaba",
+            "Itaitinga",
+            "Itapagé",
+            "Itapipoca",
+            "Itapiúna",
+            "Itarema",
+            "Itatira",
+            "Jaguaretama",
+            "Jaguaribara",
+            "Jaguaribe",
+            "Jaguaruana",
+            "Jardim",
+            "Jati",
+            "Jijoca de Jericoacoara",
+            "Juazeiro do Norte",
+            "Jucás",
+            "Lavras da Mangabeira",
+            "Limoeiro do Norte",
+            "Madalena",
+            "Maracanaú",
+            "Maranguape",
+            "Marco",
+            "Martinópole",
+            "Massapê",
+            "Mauriti",
+            "Meruoca",
+            "Milagres",
+            "Milhã",
+            "Miraíma",
+            "Missão Velha",
+            "Mombaça",
+            "Monsenhor Tabosa",
+            "Morada Nova",
+            "Moraújo",
+            "Morrinhos",
+            "Mucambo",
+            "Mulungu",
+            "Nova Olinda",
+            "Nova Russas",
+            "Novo Oriente",
+            "Ocara",
+            "Orós",
+            "Pacajus",
+            "Pacatuba",
+            "Pacoti",
+            "Pacujá",
+            "Palhano",
+            "Palmácia",
+            "Paracuru",
+            "Paraipaba",
+            "Parambu",
+            "Paramoti",
+            "Pedra Branca",
+            "Penaforte",
+            "Pentecoste",
+            "Pereiro",
+            "Pindoretama",
+            "Piquet Carneiro",
+            "Pires Ferreira",
+            "Poranga",
+            "Porteiras",
+            "Potengi",
+            "Potiretama",
+            "Quiterianópolis",
+            "Quixadá",
+            "Quixelô",
+            "Quixeramobim",
+            "Quixeré",
+            "Redenção",
+            "Reriutaba",
+            "Russas",
+            "Saboeiro",
+            "Salitre",
+            "Santa Quitéria",
+            "Santana do Acaraú",
+            "Santana do Cariri",
+            "São Benedito",
+            "São Gonçalo do Amarante",
+            "São João do Jaguaribe",
+            "São Luís do Curu",
+            "Senador Pompeu",
+            "Senador Sá",
+            "Sobral",
+            "Solonópole",
+            "Tabuleiro do Norte",
+            "Tamboril",
+            "Tarrafas",
+            "Tauá",
+            "Tejuçuoca",
+            "Tianguá",
+            "Trairi",
+            "Tururu",
+            "Ubajara",
+            "Umari",
+            "Umirim",
+            "Uruburetama",
+            "Uruoca",
+            "Varjota",
+            "Várzea Alegre",
+            "Viçosa do Ceará",
+            "Acari",
+            "Açu",
+            "Afonso Bezerra",
+            "Água Nova",
+            "Alexandria",
+            "Almino Afonso",
+            "Alto do Rodrigues",
+            "Angicos",
+            "Antônio Martins",
+            "Apodi",
+            "Areia Branca",
+            "Arês",
+            "Augusto Severo",
+            "Baía Formosa",
+            "Baraúna",
+            "Barcelona",
+            "Bento Fernandes",
+            "Bodó",
+            "Bom Jesus",
+            "Brejinho",
+            "Caiçara do Norte",
+            "Caiçara do Rio do Vento",
+            "Caicó",
+            "Campo Redondo",
+            "Canguaretama",
+            "Caraúbas",
+            "Carnaúba dos Dantas",
+            "Carnaubais",
+            "Ceará-Mirim",
+            "Cerro Corá",
+            "Coronel Ezequiel",
+            "Coronel João Pessoa",
+            "Cruzeta",
+            "Currais Novos",
+            "Doutor Severiano",
+            "Encanto",
+            "Equador",
+            "Espírito Santo",
+            "Extremoz",
+            "Felipe Guerra",
+            "Fernando Pedroza",
+            "Florânia",
+            "Francisco Dantas",
+            "Frutuoso Gomes",
+            "Galinhos",
+            "Goianinha",
+            "Governador Dix-Sept Rosado",
+            "Grossos",
+            "Guamaré",
+            "Ielmo Marinho",
+            "Ipanguaçu",
+            "Ipueira",
+            "Itajá",
+            "Itaú",
+            "Jaçanã",
+            "Jandaíra",
+            "Janduís",
+            "Januário Cicco",
+            "Japi",
+            "Jardim de Angicos",
+            "Jardim de Piranhas",
+            "Jardim do Seridó",
+            "João Câmara",
+            "João Dias",
+            "José da Penha",
+            "Jucurutu",
+            "Jundiá",
+            "Lagoa d\'Anta",
+            "Lagoa de Pedras",
+            "Lagoa de Velhos",
+            "Lagoa Nova",
+            "Lagoa Salgada",
+            "Lajes",
+            "Lajes Pintadas",
+            "Lucrécia",
+            "Luís Gomes",
+            "Macaíba",
+            "Macau",
+            "Major Sales",
+            "Marcelino Vieira",
+            "Martins",
+            "Maxaranguape",
+            "Messias Targino",
+            "Montanhas",
+            "Monte Alegre",
+            "Monte das Gameleiras",
+            "Mossoró",
+            "Natal",
+            "Nísia Floresta",
+            "Nova Cruz",
+            "Olho-d\'Água do Borges",
+            "Ouro Branco",
+            "Paraná",
+            "Paraú",
+            "Parazinho",
+            "Parelhas",
+            "Parnamirim",
+            "Passa e Fica",
+            "Passagem",
+            "Patu",
+            "Pau dos Ferros",
+            "Pedra Grande",
+            "Pedra Preta",
+            "Pedro Avelino",
+            "Pedro Velho",
+            "Pendências",
+            "Pilões",
+            "Poço Branco",
+            "Portalegre",
+            "Porto do Mangue",
+            "Presidente Juscelino",
+            "Pureza",
+            "Rafael Fernandes",
+            "Rafael Godeiro",
+            "Riacho da Cruz",
+            "Riacho de Santana",
+            "Riachuelo",
+            "Rio do Fogo",
+            "Rodolfo Fernandes",
+            "Ruy Barbosa",
+            "Santa Cruz",
+            "Santa Maria",
+            "Santana do Matos",
+            "Santana do Seridó",
+            "Santo Antônio",
+            "São Bento do Norte",
+            "São Bento do Trairí",
+            "São Fernando",
+            "São Francisco do Oeste",
+            "São Gonçalo do Amarante",
+            "São João do Sabugi",
+            "São José de Mipibu",
+            "São José do Campestre",
+            "São José do Seridó",
+            "São Miguel",
+            "São Miguel do Gostoso",
+            "São Paulo do Potengi",
+            "São Pedro",
+            "São Rafael",
+            "São Tomé",
+            "São Vicente",
+            "Senador Elói de Souza",
+            "Senador Georgino Avelino",
+            "Serra de São Bento",
+            "Serra do Mel",
+            "Serra Negra do Norte",
+            "Serrinha",
+            "Serrinha dos Pintos",
+            "Severiano Melo",
+            "Sítio Novo",
+            "Taboleiro Grande",
+            "Taipu",
+            "Tangará",
+            "Tenente Ananias",
+            "Tenente Laurentino Cruz",
+            "Tibau",
+            "Tibau do Sul",
+            "Timbaúba dos Batistas",
+            "Touros",
+            "Triunfo Potiguar",
+            "Umarizal",
+            "Upanema",
+            "Várzea",
+            "Venha-Ver",
+            "Vera Cruz",
+            "Viçosa",
+            "Vila Flor",
+            "Água Branca",
+            "Aguiar",
+            "Alagoa Grande",
+            "Alagoa Nova",
+            "Alagoinha",
+            "Alcantil",
+            "Algodão de Jandaíra",
+            "Alhandra",
+            "Amparo",
+            "Aparecida",
+            "Araçagi",
+            "Arara",
+            "Araruna",
+            "Areia",
+            "Areia de Baraúnas",
+            "Areial",
+            "Aroeiras",
+            "Assunção",
+            "Baía da Traição",
+            "Bananeiras",
+            "Baraúna",
+            "Barra de Santa Rosa",
+            "Barra de Santana",
+            "Barra de São Miguel",
+            "Bayeux",
+            "Belém",
+            "Belém do Brejo do Cruz",
+            "Bernardino Batista",
+            "Boa Ventura",
+            "Boa Vista",
+            "Bom Jesus",
+            "Bom Sucesso",
+            "Bonito de Santa Fé",
+            "Boqueirão",
+            "Borborema",
+            "Brejo do Cruz",
+            "Brejo dos Santos",
+            "Caaporã",
+            "Cabaceiras",
+            "Cabedelo",
+            "Cachoeira dos Índios",
+            "Cacimba de Areia",
+            "Cacimba de Dentro",
+            "Cacimbas",
+            "Caiçara",
+            "Cajazeiras",
+            "Cajazeirinhas",
+            "Caldas Brandão",
+            "Camalaú",
+            "Campina Grande",
+            "Tacima",
+            "Capim",
+            "Caraúbas",
+            "Carrapateira",
+            "Casserengue",
+            "Catingueira",
+            "Catolé do Rocha",
+            "Caturité",
+            "Conceição",
+            "Condado",
+            "Conde",
+            "Congo",
+            "Coremas",
+            "Coxixola",
+            "Cruz do Espírito Santo",
+            "Cubati",
+            "Cuité",
+            "Cuité de Mamanguape",
+            "Cuitegi",
+            "Curral de Cima",
+            "Curral Velho",
+            "Damião",
+            "Desterro",
+            "Diamante",
+            "Dona Inês",
+            "Duas Estradas",
+            "Emas",
+            "Esperança",
+            "Fagundes",
+            "Frei Martinho",
+            "Gado Bravo",
+            "Guarabira",
+            "Gurinhém",
+            "Gurjão",
+            "Ibiara",
+            "Igaracy",
+            "Imaculada",
+            "Ingá",
+            "Itabaiana",
+            "Itaporanga",
+            "Itapororoca",
+            "Itatuba",
+            "Jacaraú",
+            "Jericó",
+            "João Pessoa",
+            "Juarez Távora",
+            "Juazeirinho",
+            "Junco do Seridó",
+            "Juripiranga",
+            "Juru",
+            "Lagoa",
+            "Lagoa de Dentro",
+            "Lagoa Seca",
+            "Lastro",
+            "Livramento",
+            "Logradouro",
+            "Lucena",
+            "Mãe d\'Água",
+            "Malta",
+            "Mamanguape",
+            "Manaíra",
+            "Marcação",
+            "Mari",
+            "Marizópolis",
+            "Massaranduba",
+            "Mataraca",
+            "Matinhas",
+            "Mato Grosso",
+            "Maturéia",
+            "Mogeiro",
+            "Montadas",
+            "Monte Horebe",
+            "Monteiro",
+            "Mulungu",
+            "Natuba",
+            "Nazarezinho",
+            "Nova Floresta",
+            "Nova Olinda",
+            "Nova Palmeira",
+            "Olho d\'Água",
+            "Olivedos",
+            "Ouro Velho",
+            "Parari",
+            "Passagem",
+            "Patos",
+            "Paulista",
+            "Pedra Branca",
+            "Pedra Lavrada",
+            "Pedras de Fogo",
+            "Pedro Régis",
+            "Piancó",
+            "Picuí",
+            "Pilar",
+            "Pilões",
+            "Pilõezinhos",
+            "Pirpirituba",
+            "Pitimbu",
+            "Pocinhos",
+            "Poço Dantas",
+            "Poço de José de Moura",
+            "Pombal",
+            "Prata",
+            "Princesa Isabel",
+            "Puxinanã",
+            "Queimadas",
+            "Quixabá",
+            "Remígio",
+            "Riachão",
+            "Riachão do Bacamarte",
+            "Riachão do Poço",
+            "Riacho de Santo Antônio",
+            "Riacho dos Cavalos",
+            "Rio Tinto",
+            "Salgadinho",
+            "Salgado de São Félix",
+            "Santa Cecília",
+            "Santa Cruz",
+            "Santa Helena",
+            "Santa Inês",
+            "Santa Luzia",
+            "Santa Rita",
+            "Santa Teresinha",
+            "Santana de Mangueira",
+            "Santana dos Garrotes",
+            "Joca Claudino",
+            "Santo André",
+            "São Bentinho",
+            "São Bento",
+            "São Domingos",
+            "São Domingos do Cariri",
+            "São Francisco",
+            "São João do Cariri",
+            "São João do Rio do Peixe",
+            "São João do Tigre",
+            "São José da Lagoa Tapada",
+            "São José de Caiana",
+            "São José de Espinharas",
+            "São José de Piranhas",
+            "São José de Princesa",
+            "São José do Bonfim",
+            "São José do Brejo do Cruz",
+            "São José do Sabugi",
+            "São José dos Cordeiros",
+            "São José dos Ramos",
+            "São Mamede",
+            "São Miguel de Taipu",
+            "São Sebastião de Lagoa de Roça",
+            "São Sebastião do Umbuzeiro",
+            "Sapé",
+            "Seridó",
+            "Serra Branca",
+            "Serra da Raiz",
+            "Serra Grande",
+            "Serra Redonda",
+            "Serraria",
+            "Sertãozinho",
+            "Sobrado",
+            "Solânea",
+            "Soledade",
+            "Sossêgo",
+            "Sousa",
+            "Sumé",
+            "Taperoá",
+            "Tavares",
+            "Teixeira",
+            "Tenório",
+            "Triunfo",
+            "Uiraúna",
+            "Umbuzeiro",
+            "Várzea",
+            "Vieirópolis",
+            "Vista Serrana",
+            "Zabelê",
+            "Abreu e Lima",
+            "Afogados da Ingazeira",
+            "Afrânio",
+            "Agrestina",
+            "Água Preta",
+            "Águas Belas",
+            "Alagoinha",
+            "Aliança",
+            "Altinho",
+            "Amaraji",
+            "Angelim",
+            "Araçoiaba",
+            "Araripina",
+            "Arcoverde",
+            "Barra de Guabiraba",
+            "Barreiros",
+            "Belém de Maria",
+            "Belém do São Francisco",
+            "Belo Jardim",
+            "Betânia",
+            "Bezerros",
+            "Bodocó",
+            "Bom Conselho",
+            "Bom Jardim",
+            "Bonito",
+            "Brejão",
+            "Brejinho",
+            "Brejo da Madre de Deus",
+            "Buenos Aires",
+            "Buíque",
+            "Cabo de Santo Agostinho",
+            "Cabrobó",
+            "Cachoeirinha",
+            "Caetés",
+            "Calçado",
+            "Calumbi",
+            "Camaragibe",
+            "Camocim de São Félix",
+            "Camutanga",
+            "Canhotinho",
+            "Capoeiras",
+            "Carnaíba",
+            "Carnaubeira da Penha",
+            "Carpina",
+            "Caruaru",
+            "Casinhas",
+            "Catende",
+            "Cedro",
+            "Chã de Alegria",
+            "Chã Grande",
+            "Condado",
+            "Correntes",
+            "Cortês",
+            "Cumaru",
+            "Cupira",
+            "Custódia",
+            "Dormentes",
+            "Escada",
+            "Exu",
+            "Feira Nova",
+            "Fernando de Noronha",
+            "Ferreiros",
+            "Flores",
+            "Floresta",
+            "Frei Miguelinho",
+            "Gameleira",
+            "Garanhuns",
+            "Glória do Goitá",
+            "Goiana",
+            "Granito",
+            "Gravatá",
+            "Iati",
+            "Ibimirim",
+            "Ibirajuba",
+            "Igarassu",
+            "Iguaraci",
+            "Ilha de Itamaracá",
+            "Inajá",
+            "Ingazeira",
+            "Ipojuca",
+            "Ipubi",
+            "Itacuruba",
+            "Itaíba",
+            "Itambé",
+            "Itapetim",
+            "Itapissuma",
+            "Itaquitinga",
+            "Jaboatão dos Guararapes",
+            "Jaqueira",
+            "Jataúba",
+            "Jatobá",
+            "João Alfredo",
+            "Joaquim Nabuco",
+            "Jucati",
+            "Jupi",
+            "Jurema",
+            "Lagoa do Carro",
+            "Lagoa de Itaenga",
+            "Lagoa do Ouro",
+            "Lagoa dos Gatos",
+            "Lagoa Grande",
+            "Lajedo",
+            "Limoeiro",
+            "Macaparana",
+            "Machados",
+            "Manari",
+            "Maraial",
+            "Mirandiba",
+            "Moreilândia",
+            "Moreno",
+            "Nazaré da Mata",
+            "Olinda",
+            "Orobó",
+            "Orocó",
+            "Ouricuri",
+            "Palmares",
+            "Palmeirina",
+            "Panelas",
+            "Paranatama",
+            "Parnamirim",
+            "Passira",
+            "Paudalho",
+            "Paulista",
+            "Pedra",
+            "Pesqueira",
+            "Petrolândia",
+            "Petrolina",
+            "Poção",
+            "Pombos",
+            "Primavera",
+            "Quipapá",
+            "Quixaba",
+            "Recife",
+            "Riacho das Almas",
+            "Ribeirão",
+            "Rio Formoso",
+            "Sairé",
+            "Salgadinho",
+            "Salgueiro",
+            "Saloá",
+            "Sanharó",
+            "Santa Cruz",
+            "Santa Cruz da Baixa Verde",
+            "Santa Cruz do Capibaribe",
+            "Santa Filomena",
+            "Santa Maria da Boa Vista",
+            "Santa Maria do Cambucá",
+            "Santa Terezinha",
+            "São Benedito do Sul",
+            "São Bento do Una",
+            "São Caitano",
+            "São João",
+            "São Joaquim do Monte",
+            "São José da Coroa Grande",
+            "São José do Belmonte",
+            "São José do Egito",
+            "São Lourenço da Mata",
+            "São Vicente Ferrer",
+            "Serra Talhada",
+            "Serrita",
+            "Sertânia",
+            "Sirinhaém",
+            "Solidão",
+            "Surubim",
+            "Tabira",
+            "Tacaimbó",
+            "Tacaratu",
+            "Tamandaré",
+            "Taquaritinga do Norte",
+            "Terezinha",
+            "Terra Nova",
+            "Timbaúba",
+            "Toritama",
+            "Tracunhaém",
+            "Trindade",
+            "Triunfo",
+            "Tupanatinga",
+            "Tuparetama",
+            "Venturosa",
+            "Verdejante",
+            "Vertente do Lério",
+            "Vertentes",
+            "Vicência",
+            "Vitória de Santo Antão",
+            "Xexéu",
+            "Água Branca",
+            "Anadia",
+            "Arapiraca",
+            "Atalaia",
+            "Barra de Santo Antônio",
+            "Barra de São Miguel",
+            "Batalha",
+            "Belém",
+            "Belo Monte",
+            "Boca da Mata",
+            "Branquinha",
+            "Cacimbinhas",
+            "Cajueiro",
+            "Campestre",
+            "Campo Alegre",
+            "Campo Grande",
+            "Canapi",
+            "Capela",
+            "Carneiros",
+            "Chã Preta",
+            "Coité do Nóia",
+            "Colônia Leopoldina",
+            "Coqueiro Seco",
+            "Coruripe",
+            "Craíbas",
+            "Delmiro Gouveia",
+            "Dois Riachos",
+            "Estrela de Alagoas",
+            "Feira Grande",
+            "Feliz Deserto",
+            "Flexeiras",
+            "Girau do Ponciano",
+            "Ibateguara",
+            "Igaci",
+            "Igreja Nova",
+            "Inhapi",
+            "Jacaré dos Homens",
+            "Jacuípe",
+            "Japaratinga",
+            "Jaramataia",
+            "Jequiá da Praia",
+            "Joaquim Gomes",
+            "Jundiá",
+            "Junqueiro",
+            "Lagoa da Canoa",
+            "Limoeiro de Anadia",
+            "Maceió",
+            "Major Isidoro",
+            "Mar Vermelho",
+            "Maragogi",
+            "Maravilha",
+            "Marechal Deodoro",
+            "Maribondo",
+            "Mata Grande",
+            "Matriz de Camaragibe",
+            "Messias",
+            "Minador do Negrão",
+            "Monteirópolis",
+            "Murici",
+            "Novo Lino",
+            "Olho d\'Água das Flores",
+            "Olho d\'Água do Casado",
+            "Olho d\'Água Grande",
+            "Olivença",
+            "Ouro Branco",
+            "Palestina",
+            "Palmeira dos Índios",
+            "Pão de Açúcar",
+            "Pariconha",
+            "Paripueira",
+            "Passo de Camaragibe",
+            "Paulo Jacinto",
+            "Penedo",
+            "Piaçabuçu",
+            "Pilar",
+            "Pindoba",
+            "Piranhas",
+            "Poço das Trincheiras",
+            "Porto Calvo",
+            "Porto de Pedras",
+            "Porto Real do Colégio",
+            "Quebrangulo",
+            "Rio Largo",
+            "Roteiro",
+            "Santa Luzia do Norte",
+            "Santana do Ipanema",
+            "Santana do Mundaú",
+            "São Brás",
+            "São José da Laje",
+            "São José da Tapera",
+            "São Luís do Quitunde",
+            "São Miguel dos Campos",
+            "São Miguel dos Milagres",
+            "São Sebastião",
+            "Satuba",
+            "Senador Rui Palmeira",
+            "Tanque d\'Arca",
+            "Taquarana",
+            "Teotônio Vilela",
+            "Traipu",
+            "União dos Palmares",
+            "Viçosa",
+            "Amparo de São Francisco",
+            "Aquidabã",
+            "Aracaju",
+            "Arauá",
+            "Areia Branca",
+            "Barra dos Coqueiros",
+            "Boquim",
+            "Brejo Grande",
+            "Campo do Brito",
+            "Canhoba",
+            "Canindé de São Francisco",
+            "Capela",
+            "Carira",
+            "Carmópolis",
+            "Cedro de São João",
+            "Cristinápolis",
+            "Cumbe",
+            "Divina Pastora",
+            "Estância",
+            "Feira Nova",
+            "Frei Paulo",
+            "Gararu",
+            "General Maynard",
+            "Gracho Cardoso",
+            "Ilha das Flores",
+            "Indiaroba",
+            "Itabaiana",
+            "Itabaianinha",
+            "Itabi",
+            "Itaporanga d\'Ajuda",
+            "Japaratuba",
+            "Japoatã",
+            "Lagarto",
+            "Laranjeiras",
+            "Macambira",
+            "Malhada dos Bois",
+            "Malhador",
+            "Maruim",
+            "Moita Bonita",
+            "Monte Alegre de Sergipe",
+            "Muribeca",
+            "Neópolis",
+            "Nossa Senhora Aparecida",
+            "Nossa Senhora da Glória",
+            "Nossa Senhora das Dores",
+            "Nossa Senhora de Lourdes",
+            "Nossa Senhora do Socorro",
+            "Pacatuba",
+            "Pedra Mole",
+            "Pedrinhas",
+            "Pinhão",
+            "Pirambu",
+            "Poço Redondo",
+            "Poço Verde",
+            "Porto da Folha",
+            "Propriá",
+            "Riachão do Dantas",
+            "Riachuelo",
+            "Ribeirópolis",
+            "Rosário do Catete",
+            "Salgado",
+            "Santa Luzia do Itanhy",
+            "Santa Rosa de Lima",
+            "Santana do São Francisco",
+            "Santo Amaro das Brotas",
+            "São Cristóvão",
+            "São Domingos",
+            "São Francisco",
+            "São Miguel do Aleixo",
+            "Simão Dias",
+            "Siriri",
+            "Telha",
+            "Tobias Barreto",
+            "Tomar do Geru",
+            "Umbaúba",
+            "Abaíra",
+            "Abaré",
+            "Acajutiba",
+            "Adustina",
+            "Água Fria",
+            "Aiquara",
+            "Alagoinhas",
+            "Alcobaça",
+            "Almadina",
+            "Amargosa",
+            "Amélia Rodrigues",
+            "América Dourada",
+            "Anagé",
+            "Andaraí",
+            "Andorinha",
+            "Angical",
+            "Anguera",
+            "Antas",
+            "Antônio Cardoso",
+            "Antônio Gonçalves",
+            "Aporá",
+            "Apuarema",
+            "Araças",
+            "Aracatu",
+            "Araci",
+            "Aramari",
+            "Arataca",
+            "Aratuípe",
+            "Aurelino Leal",
+            "Baianópolis",
+            "Baixa Grande",
+            "Banzaê",
+            "Barra",
+            "Barra da Estiva",
+            "Barra do Choça",
+            "Barra do Mendes",
+            "Barra do Rocha",
+            "Barreiras",
+            "Barro Alto",
+            "Barro Preto",
+            "Barrocas",
+            "Belmonte",
+            "Belo Campo",
+            "Biritinga",
+            "Boa Nova",
+            "Boa Vista do Tupim",
+            "Bom Jesus da Lapa",
+            "Bom Jesus da Serra",
+            "Boninal",
+            "Bonito",
+            "Boquira",
+            "Botuporã",
+            "Brejões",
+            "Brejolândia",
+            "Brotas de Macaúbas",
+            "Brumado",
+            "Buerarema",
+            "Buritirama",
+            "Caatiba",
+            "Cabaceiras do Paraguaçu",
+            "Cachoeira",
+            "Caculé",
+            "Caém",
+            "Caetanos",
+            "Caetité",
+            "Cafarnaum",
+            "Cairu",
+            "Caldeirão Grande",
+            "Camacan",
+            "Camaçari",
+            "Camamu",
+            "Campo Alegre de Lourdes",
+            "Campo Formoso",
+            "Canápolis",
+            "Canarana",
+            "Canavieiras",
+            "Candeal",
+            "Candeias",
+            "Candiba",
+            "Cândido Sales",
+            "Cansanção",
+            "Canudos",
+            "Capela do Alto Alegre",
+            "Capim Grosso",
+            "Caraíbas",
+            "Caravelas",
+            "Cardeal da Silva",
+            "Carinhanha",
+            "Casa Nova",
+            "Castro Alves",
+            "Catolândia",
+            "Catu",
+            "Caturama",
+            "Central",
+            "Chorrochó",
+            "Cícero Dantas",
+            "Cipó",
+            "Coaraci",
+            "Cocos",
+            "Conceição da Feira",
+            "Conceição do Almeida",
+            "Conceição do Coité",
+            "Conceição do Jacuípe",
+            "Conde",
+            "Condeúba",
+            "Contendas do Sincorá",
+            "Coração de Maria",
+            "Cordeiros",
+            "Coribe",
+            "Coronel João Sá",
+            "Correntina",
+            "Cotegipe",
+            "Cravolândia",
+            "Crisópolis",
+            "Cristópolis",
+            "Cruz das Almas",
+            "Curaçá",
+            "Dário Meira",
+            "Dias d\'Ávila",
+            "Dom Basílio",
+            "Dom Macedo Costa",
+            "Elísio Medrado",
+            "Encruzilhada",
+            "Entre Rios",
+            "Érico Cardoso",
+            "Esplanada",
+            "Euclides da Cunha",
+            "Eunápolis",
+            "Fátima",
+            "Feira da Mata",
+            "Feira de Santana",
+            "Filadélfia",
+            "Firmino Alves",
+            "Floresta Azul",
+            "Formosa do Rio Preto",
+            "Gandu",
+            "Gavião",
+            "Gentio do Ouro",
+            "Glória",
+            "Gongogi",
+            "Governador Mangabeira",
+            "Guajeru",
+            "Guanambi",
+            "Guaratinga",
+            "Heliópolis",
+            "Iaçu",
+            "Ibiassucê",
+            "Ibicaraí",
+            "Ibicoara",
+            "Ibicuí",
+            "Ibipeba",
+            "Ibipitanga",
+            "Ibiquera",
+            "Ibirapitanga",
+            "Ibirapuã",
+            "Ibirataia",
+            "Ibitiara",
+            "Ibititá",
+            "Ibotirama",
+            "Ichu",
+            "Igaporã",
+            "Igrapiúna",
+            "Iguaí",
+            "Ilhéus",
+            "Inhambupe",
+            "Ipecaetá",
+            "Ipiaú",
+            "Ipirá",
+            "Ipupiara",
+            "Irajuba",
+            "Iramaia",
+            "Iraquara",
+            "Irará",
+            "Irecê",
+            "Itabela",
+            "Itaberaba",
+            "Itabuna",
+            "Itacaré",
+            "Itaeté",
+            "Itagi",
+            "Itagibá",
+            "Itagimirim",
+            "Itaguaçu da Bahia",
+            "Itaju do Colônia",
+            "Itajuípe",
+            "Itamaraju",
+            "Itamari",
+            "Itambé",
+            "Itanagra",
+            "Itanhém",
+            "Itaparica",
+            "Itapé",
+            "Itapebi",
+            "Itapetinga",
+            "Itapicuru",
+            "Itapitanga",
+            "Itaquara",
+            "Itarantim",
+            "Itatim",
+            "Itiruçu",
+            "Itiúba",
+            "Itororó",
+            "Ituaçu",
+            "Ituberá",
+            "Iuiú",
+            "Jaborandi",
+            "Jacaraci",
+            "Jacobina",
+            "Jaguaquara",
+            "Jaguarari",
+            "Jaguaripe",
+            "Jandaíra",
+            "Jequié",
+            "Jeremoabo",
+            "Jiquiriçá",
+            "Jitaúna",
+            "João Dourado",
+            "Juazeiro",
+            "Jucuruçu",
+            "Jussara",
+            "Jussari",
+            "Jussiape",
+            "Lafaiete Coutinho",
+            "Lagoa Real",
+            "Laje",
+            "Lajedão",
+            "Lajedinho",
+            "Lajedo do Tabocal",
+            "Lamarão",
+            "Lapão",
+            "Lauro de Freitas",
+            "Lençóis",
+            "Licínio de Almeida",
+            "Livramento de Nossa Senhora",
+            "Luís Eduardo Magalhães",
+            "Macajuba",
+            "Macarani",
+            "Macaúbas",
+            "Macururé",
+            "Madre de Deus",
+            "Maetinga",
+            "Maiquinique",
+            "Mairi",
+            "Malhada",
+            "Malhada de Pedras",
+            "Manoel Vitorino",
+            "Mansidão",
+            "Maracás",
+            "Maragogipe",
+            "Maraú",
+            "Marcionílio Souza",
+            "Mascote",
+            "Mata de São João",
+            "Matina",
+            "Medeiros Neto",
+            "Miguel Calmon",
+            "Milagres",
+            "Mirangaba",
+            "Mirante",
+            "Monte Santo",
+            "Morpará",
+            "Morro do Chapéu",
+            "Mortugaba",
+            "Mucugê",
+            "Mucuri",
+            "Mulungu do Morro",
+            "Mundo Novo",
+            "Muniz Ferreira",
+            "Muquém de São Francisco",
+            "Muritiba",
+            "Mutuípe",
+            "Nazaré",
+            "Nilo Peçanha",
+            "Nordestina",
+            "Nova Canaã",
+            "Nova Fátima",
+            "Nova Ibiá",
+            "Nova Itarana",
+            "Nova Redenção",
+            "Nova Soure",
+            "Nova Viçosa",
+            "Novo Horizonte",
+            "Novo Triunfo",
+            "Olindina",
+            "Oliveira dos Brejinhos",
+            "Ouriçangas",
+            "Ourolândia",
+            "Palmas de Monte Alto",
+            "Palmeiras",
+            "Paramirim",
+            "Paratinga",
+            "Paripiranga",
+            "Pau Brasil",
+            "Paulo Afonso",
+            "Pé de Serra",
+            "Pedrão",
+            "Pedro Alexandre",
+            "Piatã",
+            "Pilão Arcado",
+            "Pindaí",
+            "Pindobaçu",
+            "Pintadas",
+            "Piraí do Norte",
+            "Piripá",
+            "Piritiba",
+            "Planaltino",
+            "Planalto",
+            "Poções",
+            "Pojuca",
+            "Ponto Novo",
+            "Porto Seguro",
+            "Potiraguá",
+            "Prado",
+            "Presidente Dutra",
+            "Presidente Jânio Quadros",
+            "Presidente Tancredo Neves",
+            "Queimadas",
+            "Quijingue",
+            "Quixabeira",
+            "Rafael Jambeiro",
+            "Remanso",
+            "Retirolândia",
+            "Riachão das Neves",
+            "Riachão do Jacuípe",
+            "Riacho de Santana",
+            "Ribeira do Amparo",
+            "Ribeira do Pombal",
+            "Ribeirão do Largo",
+            "Rio de Contas",
+            "Rio do Antônio",
+            "Rio do Pires",
+            "Rio Real",
+            "Rodelas",
+            "Ruy Barbosa",
+            "Salinas da Margarida",
+            "Salvador",
+            "Santa Bárbara",
+            "Santa Brígida",
+            "Santa Cruz Cabrália",
+            "Santa Cruz da Vitória",
+            "Santa Inês",
+            "Santa Luzia",
+            "Santa Maria da Vitória",
+            "Santa Rita de Cássia",
+            "Santa Teresinha",
+            "Santaluz",
+            "Santana",
+            "Santanópolis",
+            "Santo Amaro",
+            "Santo Antônio de Jesus",
+            "Santo Estêvão",
+            "São Desidério",
+            "São Domingos",
+            "São Felipe",
+            "São Félix",
+            "São Félix do Coribe",
+            "São Francisco do Conde",
+            "São Gabriel",
+            "São Gonçalo dos Campos",
+            "São José da Vitória",
+            "São José do Jacuípe",
+            "São Miguel das Matas",
+            "São Sebastião do Passé",
+            "Sapeaçu",
+            "Sátiro Dias",
+            "Saubara",
+            "Saúde",
+            "Seabra",
+            "Sebastião Laranjeiras",
+            "Senhor do Bonfim",
+            "Sento Sé",
+            "Serra do Ramalho",
+            "Serra Dourada",
+            "Serra Preta",
+            "Serrinha",
+            "Serrolândia",
+            "Simões Filho",
+            "Sítio do Mato",
+            "Sítio do Quinto",
+            "Sobradinho",
+            "Souto Soares",
+            "Tabocas do Brejo Velho",
+            "Tanhaçu",
+            "Tanque Novo",
+            "Tanquinho",
+            "Taperoá",
+            "Tapiramutá",
+            "Teixeira de Freitas",
+            "Teodoro Sampaio",
+            "Teofilândia",
+            "Teolândia",
+            "Terra Nova",
+            "Tremedal",
+            "Tucano",
+            "Uauá",
+            "Ubaíra",
+            "Ubaitaba",
+            "Ubatã",
+            "Uibaí",
+            "Umburanas",
+            "Una",
+            "Urandi",
+            "Uruçuca",
+            "Utinga",
+            "Valença",
+            "Valente",
+            "Várzea da Roça",
+            "Várzea do Poço",
+            "Várzea Nova",
+            "Varzedo",
+            "Vera Cruz",
+            "Vereda",
+            "Vitória da Conquista",
+            "Wagner",
+            "Wanderley",
+            "Wenceslau Guimarães",
+            "Xique-Xique",
+            "Abadia dos Dourados",
+            "Abaeté",
+            "Abre Campo",
+            "Acaiaca",
+            "Açucena",
+            "Água Boa",
+            "Água Comprida",
+            "Aguanil",
+            "Águas Formosas",
+            "Águas Vermelhas",
+            "Aimorés",
+            "Aiuruoca",
+            "Alagoa",
+            "Albertina",
+            "Além Paraíba",
+            "Alfenas",
+            "Alfredo Vasconcelos",
+            "Almenara",
+            "Alpercata",
+            "Alpinópolis",
+            "Alterosa",
+            "Alto Caparaó",
+            "Alto Jequitibá",
+            "Alto Rio Doce",
+            "Alvarenga",
+            "Alvinópolis",
+            "Alvorada de Minas",
+            "Amparo do Serra",
+            "Andradas",
+            "Andrelândia",
+            "Angelândia",
+            "Antônio Carlos",
+            "Antônio Dias",
+            "Antônio Prado de Minas",
+            "Araçaí",
+            "Aracitaba",
+            "Araçuaí",
+            "Araguari",
+            "Arantina",
+            "Araponga",
+            "Araporã",
+            "Arapuá",
+            "Araújos",
+            "Araxá",
+            "Arceburgo",
+            "Arcos",
+            "Areado",
+            "Argirita",
+            "Aricanduva",
+            "Arinos",
+            "Astolfo Dutra",
+            "Ataléia",
+            "Augusto de Lima",
+            "Baependi",
+            "Baldim",
+            "Bambuí",
+            "Bandeira",
+            "Bandeira do Sul",
+            "Barão de Cocais",
+            "Barão de Monte Alto",
+            "Barbacena",
+            "Barra Longa",
+            "Barroso",
+            "Bela Vista de Minas",
+            "Belmiro Braga",
+            "Belo Horizonte",
+            "Belo Oriente",
+            "Belo Vale",
+            "Berilo",
+            "Berizal",
+            "Bertópolis",
+            "Betim",
+            "Bias Fortes",
+            "Bicas",
+            "Biquinhas",
+            "Boa Esperança",
+            "Bocaina de Minas",
+            "Bocaiúva",
+            "Bom Despacho",
+            "Bom Jardim de Minas",
+            "Bom Jesus da Penha",
+            "Bom Jesus do Amparo",
+            "Bom Jesus do Galho",
+            "Bom Repouso",
+            "Bom Sucesso",
+            "Bonfim",
+            "Bonfinópolis de Minas",
+            "Bonito de Minas",
+            "Borda da Mata",
+            "Botelhos",
+            "Botumirim",
+            "Brás Pires",
+            "Brasilândia de Minas",
+            "Brasília de Minas",
+            "Brasópolis",
+            "Braúnas",
+            "Brumadinho",
+            "Bueno Brandão",
+            "Buenópolis",
+            "Bugre",
+            "Buritis",
+            "Buritizeiro",
+            "Cabeceira Grande",
+            "Cabo Verde",
+            "Cachoeira da Prata",
+            "Cachoeira de Minas",
+            "Cachoeira de Pajeú",
+            "Cachoeira Dourada",
+            "Caetanópolis",
+            "Caeté",
+            "Caiana",
+            "Cajuri",
+            "Caldas",
+            "Camacho",
+            "Camanducaia",
+            "Cambuí",
+            "Cambuquira",
+            "Campanário",
+            "Campanha",
+            "Campestre",
+            "Campina Verde",
+            "Campo Azul",
+            "Campo Belo",
+            "Campo do Meio",
+            "Campo Florido",
+            "Campos Altos",
+            "Campos Gerais",
+            "Cana Verde",
+            "Canaã",
+            "Canápolis",
+            "Candeias",
+            "Cantagalo",
+            "Caparaó",
+            "Capela Nova",
+            "Capelinha",
+            "Capetinga",
+            "Capim Branco",
+            "Capinópolis",
+            "Capitão Andrade",
+            "Capitão Enéas",
+            "Capitólio",
+            "Caputira",
+            "Caraí",
+            "Caranaíba",
+            "Carandaí",
+            "Carangola",
+            "Caratinga",
+            "Carbonita",
+            "Careaçu",
+            "Carlos Chagas",
+            "Carmésia",
+            "Carmo da Cachoeira",
+            "Carmo da Mata",
+            "Carmo de Minas",
+            "Carmo do Cajuru",
+            "Carmo do Paranaíba",
+            "Carmo do Rio Claro",
+            "Carmópolis de Minas",
+            "Carneirinho",
+            "Carrancas",
+            "Carvalhópolis",
+            "Carvalhos",
+            "Casa Grande",
+            "Cascalho Rico",
+            "Cássia",
+            "Cataguases",
+            "Catas Altas",
+            "Catas Altas da Noruega"});
+            this.comboBox1.Location = new System.Drawing.Point(734, 144);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(320, 24);
+            this.comboBox1.TabIndex = 202;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Enabled = false;
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Acre",
+            "Alagoas",
+            "Amapá",
+            "Amazonas",
+            "Bahia",
+            "Ceará",
+            "Distrito Federal",
+            "Espírito Santo",
+            "Goiás",
+            "Maranhão",
+            "Mato Grosso",
+            "Mato Grosso do Sul",
+            "Minas Gerais",
+            "Pará",
+            "Paraíba",
+            "Paraná",
+            "Pernambuco",
+            "Piauí",
+            "Rio de Janeiro",
+            "Rio Grande do Norte",
+            "Rio Grande do Sul",
+            "Rondônia",
+            "Roraima",
+            "Santa Catarina",
+            "São Paulo",
+            "Sergipe",
+            "Tocantins"});
+            this.comboBox2.Location = new System.Drawing.Point(474, 141);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(169, 24);
+            this.comboBox2.TabIndex = 201;
+            // 
+            // lblEdtProfCidade
+            // 
+            this.lblEdtProfCidade.AutoSize = true;
+            this.lblEdtProfCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfCidade.Location = new System.Drawing.Point(676, 149);
+            this.lblEdtProfCidade.Name = "lblEdtProfCidade";
+            this.lblEdtProfCidade.Size = new System.Drawing.Size(55, 16);
+            this.lblEdtProfCidade.TabIndex = 200;
+            this.lblEdtProfCidade.Text = "Cidade:";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(731, 235);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(57, 20);
+            this.textBox5.TabIndex = 199;
+            // 
+            // lblEdtProfAnoLetivo
+            // 
+            this.lblEdtProfAnoLetivo.AutoSize = true;
+            this.lblEdtProfAnoLetivo.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdtProfAnoLetivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfAnoLetivo.Location = new System.Drawing.Point(655, 239);
+            this.lblEdtProfAnoLetivo.Name = "lblEdtProfAnoLetivo";
+            this.lblEdtProfAnoLetivo.Size = new System.Drawing.Size(70, 16);
+            this.lblEdtProfAnoLetivo.TabIndex = 198;
+            this.lblEdtProfAnoLetivo.Text = "Ano letivo:";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Masculino",
+            "Feminino"});
+            this.comboBox3.Location = new System.Drawing.Point(733, 59);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(177, 21);
+            this.comboBox3.TabIndex = 197;
+            // 
+            // lblEdtProfSexo
+            // 
+            this.lblEdtProfSexo.AutoSize = true;
+            this.lblEdtProfSexo.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdtProfSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfSexo.Location = new System.Drawing.Point(686, 62);
+            this.lblEdtProfSexo.Name = "lblEdtProfSexo";
+            this.lblEdtProfSexo.Size = new System.Drawing.Size(42, 16);
+            this.lblEdtProfSexo.TabIndex = 196;
+            this.lblEdtProfSexo.Text = "Sexo:";
+            // 
+            // lblEdtProfFormacao
+            // 
+            this.lblEdtProfFormacao.AutoSize = true;
+            this.lblEdtProfFormacao.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdtProfFormacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfFormacao.Location = new System.Drawing.Point(391, 239);
+            this.lblEdtProfFormacao.Name = "lblEdtProfFormacao";
+            this.lblEdtProfFormacao.Size = new System.Drawing.Size(73, 16);
+            this.lblEdtProfFormacao.TabIndex = 195;
+            this.lblEdtProfFormacao.Text = "Formação:";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker2.Location = new System.Drawing.Point(240, 236);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(119, 22);
+            this.dateTimePicker2.TabIndex = 194;
+            // 
+            // lblEdtProfData
+            // 
+            this.lblEdtProfData.AutoSize = true;
+            this.lblEdtProfData.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdtProfData.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfData.Location = new System.Drawing.Point(120, 239);
+            this.lblEdtProfData.Name = "lblEdtProfData";
+            this.lblEdtProfData.Size = new System.Drawing.Size(112, 16);
+            this.lblEdtProfData.TabIndex = 193;
+            this.lblEdtProfData.Text = "Data de inclusão:";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "1º grau  ",
+            "2º grau",
+            "3º grau"});
+            this.comboBox4.Location = new System.Drawing.Point(465, 236);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(171, 24);
+            this.comboBox4.TabIndex = 192;
+            // 
+            // lblEdtProfCPF
+            // 
+            this.lblEdtProfCPF.AutoSize = true;
+            this.lblEdtProfCPF.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdtProfCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfCPF.Location = new System.Drawing.Point(430, 65);
+            this.lblEdtProfCPF.Name = "lblEdtProfCPF";
+            this.lblEdtProfCPF.Size = new System.Drawing.Size(37, 16);
+            this.lblEdtProfCPF.TabIndex = 191;
+            this.lblEdtProfCPF.Text = "CPF:";
+            // 
+            // lblEdtProfTelCel
+            // 
+            this.lblEdtProfTelCel.AutoSize = true;
+            this.lblEdtProfTelCel.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdtProfTelCel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfTelCel.Location = new System.Drawing.Point(365, 105);
+            this.lblEdtProfTelCel.Name = "lblEdtProfTelCel";
+            this.lblEdtProfTelCel.Size = new System.Drawing.Size(110, 16);
+            this.lblEdtProfTelCel.TabIndex = 190;
+            this.lblEdtProfTelCel.Text = "Telefone Celular:";
+            // 
+            // lblEdtProfTelFixo
+            // 
+            this.lblEdtProfTelFixo.AutoSize = true;
+            this.lblEdtProfTelFixo.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdtProfTelFixo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfTelFixo.Location = new System.Drawing.Point(146, 105);
+            this.lblEdtProfTelFixo.Name = "lblEdtProfTelFixo";
+            this.lblEdtProfTelFixo.Size = new System.Drawing.Size(93, 16);
+            this.lblEdtProfTelFixo.TabIndex = 189;
+            this.lblEdtProfTelFixo.Text = "Telefone Fixo:";
+            // 
+            // lblEdtProfEmail
+            // 
+            this.lblEdtProfEmail.AutoSize = true;
+            this.lblEdtProfEmail.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdtProfEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfEmail.Location = new System.Drawing.Point(686, 108);
+            this.lblEdtProfEmail.Name = "lblEdtProfEmail";
+            this.lblEdtProfEmail.Size = new System.Drawing.Size(45, 16);
+            this.lblEdtProfEmail.TabIndex = 188;
+            this.lblEdtProfEmail.Text = "Email:";
+            // 
+            // lblEdtProfIdentidade
+            // 
+            this.lblEdtProfIdentidade.AutoSize = true;
+            this.lblEdtProfIdentidade.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdtProfIdentidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfIdentidade.Location = new System.Drawing.Point(160, 65);
+            this.lblEdtProfIdentidade.Name = "lblEdtProfIdentidade";
+            this.lblEdtProfIdentidade.Size = new System.Drawing.Size(75, 16);
+            this.lblEdtProfIdentidade.TabIndex = 187;
+            this.lblEdtProfIdentidade.Text = "Identidade:";
+            // 
+            // lblEdtProfNome
+            // 
+            this.lblEdtProfNome.AutoSize = true;
+            this.lblEdtProfNome.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdtProfNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfNome.Location = new System.Drawing.Point(423, 24);
+            this.lblEdtProfNome.Name = "lblEdtProfNome";
+            this.lblEdtProfNome.Size = new System.Drawing.Size(48, 16);
+            this.lblEdtProfNome.TabIndex = 186;
+            this.lblEdtProfNome.Text = "Nome:";
+            // 
+            // lblEdtProfMatricula
+            // 
+            this.lblEdtProfMatricula.AutoSize = true;
+            this.lblEdtProfMatricula.BackColor = System.Drawing.Color.Transparent;
+            this.lblEdtProfMatricula.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdtProfMatricula.Location = new System.Drawing.Point(167, 24);
+            this.lblEdtProfMatricula.Name = "lblEdtProfMatricula";
+            this.lblEdtProfMatricula.Size = new System.Drawing.Size(65, 16);
+            this.lblEdtProfMatricula.TabIndex = 185;
+            this.lblEdtProfMatricula.Text = "Matricula:";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(733, 105);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(321, 22);
+            this.textBox6.TabIndex = 184;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(474, 21);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(572, 22);
+            this.textBox7.TabIndex = 183;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(241, 21);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(118, 22);
+            this.textBox8.TabIndex = 182;
+            // 
+            // txtCadProfessorMatriculaCEP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -6013,19 +5975,17 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tbcCadastroProfessor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "frmCadastroProfessor";
+            this.Name = "txtCadProfessorMatriculaCEP";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro Professor";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.tbcCadastroProfessor.ResumeLayout(false);
             this.tbcCasdastroProfessor.ResumeLayout(false);
             this.tbcCasdastroProfessor.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCadastroAluno)).EndInit();
-            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PicCadAluno)).EndInit();
             this.tbcEditarCadastroProfessor.ResumeLayout(false);
             this.tbcEditarCadastroProfessor.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PicEdtProf)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -6038,80 +5998,30 @@
 
         private System.Windows.Forms.TabControl tbcCadastroProfessor;
         private System.Windows.Forms.TabPage tbcCasdastroProfessor;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.Label lblAnoLetivo;
+        private System.Windows.Forms.TextBox txtCadProfAnoLetivo;
+        private System.Windows.Forms.Label lblCadProfAnoLetivo;
         private System.Windows.Forms.ComboBox cmbSexo;
-        private System.Windows.Forms.Label lblSexo;
-        private System.Windows.Forms.PictureBox picCadastroAluno;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label txtCadProfessorSexo;
+        private System.Windows.Forms.PictureBox PicCadAluno;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnAdicionarFoto;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox cmbCidade;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblNome;
-        private System.Windows.Forms.Label lblMatricula;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lblCadProfFormacao;
+        private System.Windows.Forms.DateTimePicker dateTimePicker;
+        private System.Windows.Forms.Label lblCadProfDataInclusao;
+        private System.Windows.Forms.ComboBox cmbProfFormacao;
+        private System.Windows.Forms.Label txtCadProfessorCPF;
+        private System.Windows.Forms.Label txtCadProfessorTelCelular;
+        private System.Windows.Forms.Label txtCadProfessorTelFixo;
+        private System.Windows.Forms.Label txtCadProfessorEmail;
+        private System.Windows.Forms.Label txtCadProfessorIdentidade;
+        private System.Windows.Forms.Label txtCadProfessorNome;
+        private System.Windows.Forms.Label lblCadProfMatricula;
+        private System.Windows.Forms.TextBox txtCadProfEmail;
+        private System.Windows.Forms.TextBox txtCadProfNome;
+        private System.Windows.Forms.TextBox txtCadProfMatricula;
         private System.Windows.Forms.TabPage tbcEditarCadastroProfessor;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.PictureBox PicEdtProf;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem menuPrincipalToolStripMenuItem;
@@ -6121,7 +6031,61 @@
         private System.Windows.Forms.ToolStripMenuItem calculadoraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem capturaDeTelaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem notasAdesivasToolStripMenuItem;
-        private System.Windows.Forms.TextBox txbCep;
-        private System.Windows.Forms.RichTextBox txbEndereco;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.MaskedTextBox txtCadProfCep;
+        private System.Windows.Forms.TextBox txtCadProfComplemento;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.TextBox txtCadProfNumero;
+        private System.Windows.Forms.Label lblCadProfNumero;
+        private System.Windows.Forms.Label txtCadProfessorLogradouro;
+        private System.Windows.Forms.Label lblCadProfBairro;
+        private System.Windows.Forms.TextBox txtCadProfBairro;
+        private System.Windows.Forms.TextBox txbCadProfLogradouro;
+        private System.Windows.Forms.Label lblCadProfCEP;
+        private System.Windows.Forms.Label txtCadProfessorCep;
+        private System.Windows.Forms.ComboBox cmbCadProfCidade;
+        private System.Windows.Forms.ComboBox cmbCadProfUF;
+        private System.Windows.Forms.Label txtCadProfessorCidade;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox5;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox6;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox7;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox8;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox9;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblEdtProfComplemento;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lblEdtProfNumero;
+        private System.Windows.Forms.Label lblEdtProfLogradouro;
+        private System.Windows.Forms.Label lblEdtProfBairro;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label lblEdtProfCep;
+        private System.Windows.Forms.Label lblEdtProfUF;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label lblEdtProfCidade;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label lblEdtProfAnoLetivo;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label lblEdtProfSexo;
+        private System.Windows.Forms.Label lblEdtProfFormacao;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label lblEdtProfData;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label lblEdtProfCPF;
+        private System.Windows.Forms.Label lblEdtProfTelCel;
+        private System.Windows.Forms.Label lblEdtProfTelFixo;
+        private System.Windows.Forms.Label lblEdtProfEmail;
+        private System.Windows.Forms.Label lblEdtProfIdentidade;
+        private System.Windows.Forms.Label lblEdtProfNome;
+        private System.Windows.Forms.Label lblEdtProfMatricula;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
     }
 }

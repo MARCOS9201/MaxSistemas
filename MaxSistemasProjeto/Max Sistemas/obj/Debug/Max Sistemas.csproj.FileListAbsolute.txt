@@ -109,22 +109,29 @@ C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\M
 C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Properties.Resources.resources
 C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaPrincipal.resources
 C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csproj.GenerateResource.Cache
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe.config
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.exe
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.pdb
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.pdb
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csprojResolveAssemblyReference.cache
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Boletim_Escolar.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroAluno.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroFrequência.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroMatéria.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroProfessor.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.FrmCadastroPerfil.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaMatéria.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaProfessor.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaAluno.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaLogin.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Properties.Resources.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaPrincipal.resources
-C:\Users\diego\Desktop\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csproj.GenerateResource.Cache
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.pdb
+C:\Users\Rosa\Documents\Prointer Pitagoras\Max Sistemas\Max Sistemas\bin\Debug\MySql.Data.dll
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe.config
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.exe
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.pdb
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.pdb
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\bin\Debug\MySql.Data.dll
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csprojResolveAssemblyReference.cache
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Boletim_Escolar.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroAluno.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroFrequência.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmCadastroMatéria.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.FrmCadastroPerfil.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaProfessor.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaAluno.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaLogin.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.Properties.Resources.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmTelaPrincipal.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.csproj.GenerateResource.Cache
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.txtCadProfessorMatriculaCEP.resources
+C:\Users\Rosa\Documents\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max_Sistemas.frmPesquisaMateria.resources
+E:\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\bin\Debug\Max Sistemas.exe.config
+E:\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.exe
+E:\Prointer Pitagoras (Alfa 2.0)\Max Sistemas\Max Sistemas\obj\Debug\Max Sistemas.pdb

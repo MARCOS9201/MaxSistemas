@@ -1,6 +1,4 @@
-﻿using Max_Sistemas.regras_de_negocio;
-using Max_Sistemas.servicos.persistencia;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Max_Sistemas
 {
-    public partial class frmCadastroProfessor : Form
+    public partial class txtCadProfessorMatriculaCEP : Form
     {
-        public frmCadastroProfessor(int aba = 0)
+        public txtCadProfessorMatriculaCEP(int aba = 0)
         {
             InitializeComponent();
             tbcCadastroProfessor.SelectTab(aba);
@@ -32,16 +30,6 @@ namespace Max_Sistemas
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void txbCep_KeyUp(object sender, KeyEventArgs e)
-        {
-            EnderecoDAO enderecoDAO = new EnderecoDAO();
-
-            Endereco end = new Endereco();
-
-            end = enderecoDAO.selecionarPorCep(txbCep.Text);
-            txbEndereco.Text = end.Cep + "-" + end.Logradouro + "-" + end.Municipio;
         }
     }
 }

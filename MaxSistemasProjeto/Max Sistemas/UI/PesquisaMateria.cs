@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Max_Sistemas
 {
-    public partial class frmPesquisaMatéria : Form
+    public partial class frmPesquisaMateria : Form
     {
-        public frmPesquisaMatéria()
+        public frmPesquisaMateria()
         {
             InitializeComponent();
         }

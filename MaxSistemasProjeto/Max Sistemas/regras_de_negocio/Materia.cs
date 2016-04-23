@@ -12,17 +12,6 @@ namespace Max_Sistemas.regras_de_negocio
         private string nome;
         private Professor professor;
         private double cargaHoraria;
-        private DateTime dataCadastro;
-        public Materia()
-        {
-            professor = new Professor();
-            professor.IdProfessor = 1;
-        }
-        public DateTime DataCadastro
-        {
-            get { return dataCadastro; }
-            set { dataCadastro = value; }
-        }
 
         public int IdMateria
         {

@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTelaPrincipal));
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.dateTimePickerPrincipal = new System.Windows.Forms.DateTimePicker();
+            this.PanMenu = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.controleDeAcessoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripControleAcesso = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.cadastroNovoPerfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.logoffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripLogoff = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripSair = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroAlunoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoCadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarCadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,35 +61,35 @@
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ferramentaDeCapturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notasAdesivasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
+            this.PicLogoPrincipal = new System.Windows.Forms.PictureBox();
+            this.PanMenu.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicLogoPrincipal)).BeginInit();
             this.SuspendLayout();
             // 
-            // dateTimePicker1
+            // dateTimePickerPrincipal
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(1085, 1);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(278, 22);
-            this.dateTimePicker1.TabIndex = 1;
+            this.dateTimePickerPrincipal.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerPrincipal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerPrincipal.Location = new System.Drawing.Point(1085, 1);
+            this.dateTimePickerPrincipal.Name = "dateTimePickerPrincipal";
+            this.dateTimePickerPrincipal.Size = new System.Drawing.Size(278, 22);
+            this.dateTimePickerPrincipal.TabIndex = 1;
             // 
-            // panel1
+            // PanMenu
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel1.Controls.Add(this.dateTimePicker1);
-            this.panel1.Controls.Add(this.menuStrip1);
-            this.panel1.Location = new System.Drawing.Point(-1, -1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1379, 30);
-            this.panel1.TabIndex = 0;
+            this.PanMenu.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.PanMenu.Controls.Add(this.dateTimePickerPrincipal);
+            this.PanMenu.Controls.Add(this.menuStrip1);
+            this.PanMenu.Location = new System.Drawing.Point(-1, -1);
+            this.PanMenu.Name = "PanMenu";
+            this.PanMenu.Size = new System.Drawing.Size(1379, 30);
+            this.PanMenu.TabIndex = 0;
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.controleDeAcessoToolStripMenuItem,
+            this.ToolStripControleAcesso,
             this.cadastroAlunoToolStripMenuItem,
             this.cadastroProfessorToolStripMenuItem,
             this.cadastroMatériaToolStripMenuItem,
@@ -104,18 +104,18 @@
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
-            // controleDeAcessoToolStripMenuItem
+            // ToolStripControleAcesso
             // 
-            this.controleDeAcessoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToolStripControleAcesso.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripSeparator2,
             this.cadastroNovoPerfilToolStripMenuItem,
             this.menuPrincipalToolStripMenuItem,
             this.toolStripSeparator1,
-            this.logoffToolStripMenuItem,
-            this.sairToolStripMenuItem});
-            this.controleDeAcessoToolStripMenuItem.Name = "controleDeAcessoToolStripMenuItem";
-            this.controleDeAcessoToolStripMenuItem.Size = new System.Drawing.Size(121, 20);
-            this.controleDeAcessoToolStripMenuItem.Text = "Controle de Acesso";
+            this.ToolStripLogoff,
+            this.ToolStripSair});
+            this.ToolStripControleAcesso.Name = "ToolStripControleAcesso";
+            this.ToolStripControleAcesso.Size = new System.Drawing.Size(121, 20);
+            this.ToolStripControleAcesso.Text = "Controle de Acesso";
             // 
             // toolStripSeparator2
             // 
@@ -128,7 +128,7 @@
             this.cadastroNovoPerfilToolStripMenuItem.Name = "cadastroNovoPerfilToolStripMenuItem";
             this.cadastroNovoPerfilToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
             this.cadastroNovoPerfilToolStripMenuItem.Text = "Cadastro Novo Perfil";
-            this.cadastroNovoPerfilToolStripMenuItem.Click += new System.EventHandler(this.cadastroNovoPerfilToolStripMenuItem_Click);
+            this.cadastroNovoPerfilToolStripMenuItem.Click += new System.EventHandler(this.ToolStripCadastroPerfil);
             // 
             // menuPrincipalToolStripMenuItem
             // 
@@ -142,22 +142,22 @@
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(180, 6);
             // 
-            // logoffToolStripMenuItem
+            // ToolStripLogoff
             // 
-            this.logoffToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("logoffToolStripMenuItem.Image")));
-            this.logoffToolStripMenuItem.Name = "logoffToolStripMenuItem";
-            this.logoffToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.logoffToolStripMenuItem.Text = "Logoff";
-            this.logoffToolStripMenuItem.Click += new System.EventHandler(this.logoffToolStripMenuItem_Click);
+            this.ToolStripLogoff.Image = ((System.Drawing.Image)(resources.GetObject("ToolStripLogoff.Image")));
+            this.ToolStripLogoff.Name = "ToolStripLogoff";
+            this.ToolStripLogoff.Size = new System.Drawing.Size(183, 22);
+            this.ToolStripLogoff.Text = "Logoff";
+            this.ToolStripLogoff.Click += new System.EventHandler(this.ToolStripLogoff_Click);
             // 
-            // sairToolStripMenuItem
+            // ToolStripSair
             // 
-            this.sairToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sairToolStripMenuItem.Image")));
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            this.ToolStripSair.Image = ((System.Drawing.Image)(resources.GetObject("ToolStripSair.Image")));
+            this.ToolStripSair.Name = "ToolStripSair";
+            this.ToolStripSair.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
+            this.ToolStripSair.Size = new System.Drawing.Size(183, 22);
+            this.ToolStripSair.Text = "Sair";
+            this.ToolStripSair.Click += new System.EventHandler(this.ToolStripSair_Click);
             // 
             // cadastroAlunoToolStripMenuItem
             // 
@@ -349,16 +349,16 @@
             this.notasAdesivasToolStripMenuItem.Text = "Notas Adesivas";
             this.notasAdesivasToolStripMenuItem.Click += new System.EventHandler(this.notasAdesivasToolStripMenuItem_Click);
             // 
-            // pictureBox1
+            // PicLogoPrincipal
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(338, 208);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(652, 273);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.PicLogoPrincipal.BackColor = System.Drawing.Color.Transparent;
+            this.PicLogoPrincipal.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PicLogoPrincipal.BackgroundImage")));
+            this.PicLogoPrincipal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PicLogoPrincipal.Location = new System.Drawing.Point(338, 208);
+            this.PicLogoPrincipal.Name = "PicLogoPrincipal";
+            this.PicLogoPrincipal.Size = new System.Drawing.Size(652, 273);
+            this.PicLogoPrincipal.TabIndex = 1;
+            this.PicLogoPrincipal.TabStop = false;
             // 
             // frmTelaPrincipal
             // 
@@ -367,32 +367,31 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1362, 733);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.PicLogoPrincipal);
+            this.Controls.Add(this.PanMenu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmTelaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Max Sistemas SR School - Menu Principal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frmTelaPrincipal_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.PanMenu.ResumeLayout(false);
+            this.PanMenu.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicLogoPrincipal)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.DateTimePicker dateTimePickerPrincipal;
+        private System.Windows.Forms.Panel PanMenu;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem controleDeAcessoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripControleAcesso;
         private System.Windows.Forms.ToolStripMenuItem menuPrincipalToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripSair;
         private System.Windows.Forms.ToolStripMenuItem cadastroAlunoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem novoCadastroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editarCadastroToolStripMenuItem;
@@ -410,7 +409,7 @@
         private System.Windows.Forms.ToolStripMenuItem professorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem matériaToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox PicLogoPrincipal;
         private System.Windows.Forms.ToolStripMenuItem cadastroNovoPerfilToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem relatórioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem boletimEscolarToolStripMenuItem;
@@ -418,6 +417,6 @@
         private System.Windows.Forms.ToolStripMenuItem calculadoraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem notasAdesivasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ferramentaDeCapturaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem logoffToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripLogoff;
     }
 }
